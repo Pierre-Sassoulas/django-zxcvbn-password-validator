@@ -1,0 +1,62 @@
+# django_zxcvbn_password_validator's french traduction
+# This file is distributed under the MIT license.
+# Pierre SASSOULAS <pierre.sassoulas@gmail.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 17:31+0200\n"
+"PO-Revision-Date: 2018-06-15 17:27+0000\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:21
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:21
+msgid "Your password is too guessable :"
+msgstr "Votre mot de passe est trop facile à deviner :"
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:22
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:22
+#, python-brace-format
+msgid "It would take an offline attacker {offline_time} to guess it."
+msgstr "Le definer prendrait seulement {offline_time} à un hacker hors ligne."
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:25
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:25
+#, python-brace-format
+msgid "Warning : {warn}."
+msgstr "Attention : {warn}."
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:27
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:27
+#, python-brace-format
+msgid "What you can do : {advice}."
+msgstr "Ce que vous pouvez faire : {advice}."
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:32
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:32
+msgid "Our password strength estimator is inspired by password crackers."
+msgstr "Notre estimateur de force de mot de passe est inspiré par les cracker."
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:33
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:33
+msgid " We do not force you to use an arbitraty number of lower, upper,"
+msgstr "Nous ne vous forçons pas à utiliser un nombre arbitraire de miniscules, majuscules,"
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:34
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:34
+msgid " numbers, symbols characters... but if we're able to crack your "
+msgstr "nombres et symboles... mais si nous sommes capables de cracker votre"
+
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:35
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:35
+msgid " password too easily you need to find another one."
+msgstr "mot de passe facilement, vous devez en trouver un autre."

@@ -5,3 +5,5 @@
 build/
 django_zxcvbn_password_validator.egg-info/
 dist/
+*.mo
+db.sqlite3
