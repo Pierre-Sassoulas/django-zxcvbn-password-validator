@@ -1,6 +1,6 @@
 # django-zxcvbn-password-validator
 
-This is a custom password validator based on zxcvbn-python for easy use in Django projects.
+A password validator for django, based on zxcvbn-python and available with pip.
 
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 
@@ -8,7 +8,7 @@ This is a custom password validator based on zxcvbn-python for easy use in Djang
 
 Add it to your requirements and get it with pip.
 
-	django-zxcvbn-password-validator==1.0.0
+	django-zxcvbn-password-validator==1.0.2
 
 Then everything happens in your settings file.
 
@@ -28,9 +28,10 @@ Modify `AUTH_PASSWORD_VALIDATORS` :
 		...
 	]
 
-You could choose to use zxcvbn alone but I personally still use  Django's `UserAttributeSimilarityValidator`.
+You could choose to use zxcvbn alone, but I personally still use Django's `UserAttributeSimilarityValidator`.
 
-Finally set the `PASSWORD_MINIMAL_STRENGH` to your liking :
+Finally set the `PASSWORD_MINIMAL_STRENGH` to your liking, every password scoring
+lower than this number will be rejected :
 
 	# 0 too guessable: risky password. (guesses < 10^3)
 	# 1 very guessable: protection from throttled online attacks. (guesses < 10^6)
