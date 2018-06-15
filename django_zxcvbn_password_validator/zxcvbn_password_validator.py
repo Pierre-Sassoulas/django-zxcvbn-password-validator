@@ -13,18 +13,18 @@ class ZxcvbnPasswordValidator(object):
         results = zxcvbn(password, user_inputs=user.__dict__)
         password_strengh = results["score"]
         if password_strengh < settings.PASSWORD_MINIMAL_STRENGH:
-            comment = "{} ".format(_("Your password too guessable."))
             crack_time = results["crack_times_display"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
             warn = results["feedback"]["warning"]
             advice = results["feedback"]["suggestions"]
-            comment += "{} ".format(_("It would take an attacker"))
-            comment += f" {offline_time} "
-            comment += "{} ".format(_("to guess it at 10 000 tries per second."))
+            comment = "{} {}".format(
+                _(f'Your password is too guessable :'),
+                _(f'It would take an offline attacker {offline_time} to guess it.'),
+            )
             if warn:
-                comment += "{} ".format(_(f" Warning : {warn}."))
+                comment += " {}".format(_(f'Warning : {warn}.'))
             if advice:
-                comment += "{} ".format(_(f" What you can do : {advice}"))
+                comment += " {}".format(_(f'What you can do : {advice}.'))
             raise ValidationError(comment)
 
     def get_help_text(self):
