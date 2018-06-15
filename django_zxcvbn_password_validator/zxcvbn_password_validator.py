@@ -28,9 +28,21 @@ class ZxcvbnPasswordValidator(object):
             raise ValidationError(comment)
 
     def get_help_text(self):
-        return "{}{}{}{}".format(
-            _("Our password strength estimator is inspired by password crackers."),
-            _(" We do not force you to use an arbitraty number of lower, upper,"),
-            _(" numbers, symbols characters... but if we're able to crack your "),
-            _(" password too easily you need to find another one.")
+        expectations = _("We expect")
+        hardness = {
+            0: _("a password that is not one of the 1000 most used worldwide."),
+            1: _("a password that cannot be guessed by slow online attacks."),
+            2: _("a password that cannot be guessed by fast online attacks."),
+            3: _("a password that could not be guessed if a lone engineer hacked into our database."),
+            4: _("a password that could not be guessed if a large organisation hacked into our database."),
+        }
+        expectations += " {}".format(hardness.get(
+            settings.PASSWORD_MINIMAL_STRENGH,
+            _("our developpers to change the value for 'PASSWORD_MINIMAL_STRENGH' to something valid ASAP, sorry :)")
+        ))
+        return "{}{}{} {}".format(
+            _(" There is no specific rule for a great password,"),
+            _(" however if your password is too easy to guess"),
+            _(", we will tell you how to make a better one."),
+            expectations
         )
