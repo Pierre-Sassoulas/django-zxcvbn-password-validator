@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_zxcvbn_password_validator',
 ]
 
 MIDDLEWARE = [
@@ -84,18 +85,18 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
+# 0 too guessable: risky password. (guesses < 10^3)
+# 1 very guessable: protection from throttled online attacks. (guesses < 10^6)
+# 2 somewhat guessable: protection from unthrottled online attacks. (guesses < 10^8)
+# 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
+# 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
+PASSWORD_MINIMAL_STRENGH = 3
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django_zxcvbn_password_validator.ZxcvbnPasswordValidator',
     },
 ]
 
