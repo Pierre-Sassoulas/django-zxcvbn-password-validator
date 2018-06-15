@@ -2,9 +2,15 @@
 
 This is a custom password validator based on zxcvbn-python for easy use in Django project.
 
+[![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
+
 # How to use
 
-Everything happens in your settings file.
+Add it to your requirements and get it with pip.
+
+	django-zxcvbn-password-validator==1.0.0
+
+Then everything happens in your settings file.
 
 Add `'django_zxcvbn_password_validator'` in the `INSTALLED_APPS` :
 
