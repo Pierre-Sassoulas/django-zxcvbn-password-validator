@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 19:01+0200\n"
-"PO-Revision-Date: 2018-06-15 18:14+0000\n"
+"POT-Creation-Date: 2018-06-15 19:16+0200\n"
+"PO-Revision-Date: 2018-06-15 19:14+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -66,13 +66,13 @@ msgid "our developpers to change the value for 'PASSWORD_MINIMAL_STRENGH' to som
 msgstr "ce que nos développeurs change rapidement la valeur de \"'PASSWORD_MINIMAL_STRENGH'\" par une valeur valid aussi vite que possible, désolé :)"
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:53
-msgid " There is no specific rule for a great password,"
+msgid "There is no specific rule for a great password,"
 msgstr "Il n'y a pas de règle absolu pour un bon mot de passe,"
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:54
-msgid " however if your password is too easy to guess"
-msgstr "cependant si votre mot de passe est trop facile à deviner"
+msgid "however if your password is too easy to guess,"
+msgstr "cependant si votre mot de passe est trop facile à deviner,"
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:55
-msgid ", we will tell you how to make a better one."
-msgstr ", nous vous dirons comment l'améliorer."
+msgid "we will tell you how to make a better one."
+msgstr "nous vous dirons comment l'améliorer."

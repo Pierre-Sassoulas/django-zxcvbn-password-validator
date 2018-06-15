@@ -49,9 +49,9 @@ class ZxcvbnPasswordValidator(object):
             self.password_minimal_strengh,
             _("our developpers to change the value for 'PASSWORD_MINIMAL_STRENGH' to something valid ASAP, sorry :)")
         ))
-        return "{}{}{} {}".format(
-            _(" There is no specific rule for a great password,"),
-            _(" however if your password is too easy to guess"),
-            _(", we will tell you how to make a better one."),
+        return "{} {} {} {}".format(
+            _("There is no specific rule for a great password,"),
+            _("however if your password is too easy to guess,"),
+            _("we will tell you how to make a better one."),
             expectations
         )
