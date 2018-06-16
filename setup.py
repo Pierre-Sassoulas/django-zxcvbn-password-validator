@@ -12,7 +12,7 @@ setup(
     include_package_data=True,
     install_requires=['django', 'zxcvbn-python'],
     license='MIT License',
-    description='A password validator for django, based on zxcvbn-python and available with pip.',
+    description='A password validator for django, based on zxcvbn-python.',
     long_description=open(os.path.join(ROOT, 'README.md')).read(),
     url='https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator',
     author='Pierre Sassoulas',
