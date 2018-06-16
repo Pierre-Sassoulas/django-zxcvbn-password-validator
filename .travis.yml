@@ -1,7 +1,7 @@
 language: python
 python:
   - "3.6"
-
+    
 install: pip install -r requirements.txt
-script: python manage.py test
+script: python manage.py compilemessages;python manage.py test
 after_success: ./coverage.sh;coveralls
