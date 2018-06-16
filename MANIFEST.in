@@ -3,3 +3,4 @@ include README.md
 recursive-include django_zxcvbn_password_validator *.py
 recursive-include locale *.po *.mo
 prune example
+prune translation_project

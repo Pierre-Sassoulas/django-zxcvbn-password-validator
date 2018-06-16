@@ -41,3 +41,7 @@ every password scoring lower than this number will be rejected :
 	# 2 somewhat guessable: protection from unthrottled online attacks. (guesses < 10^8)
 	# 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 	# 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
+
+# Reminder 
+
+If you want to use this with another language than english, you need to use `compilemessages` first.
