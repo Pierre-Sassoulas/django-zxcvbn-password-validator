@@ -24,6 +24,16 @@ class ZxcvbnPasswordValidator(object):
             raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
+
+        def add_list_of_advices(header, comment, advices):
+            comment += f"\n{header}\n"
+            if isinstance(advices, str):
+                return f"{comment}- {advices}"
+            for advice in advices:
+                comment += f"- {advice}\n"
+                comment = comment[:-len("\n")]
+            return comment
+
         user_imputs = []
         if user:
             for value in user.__dict__.values():
@@ -33,16 +43,16 @@ class ZxcvbnPasswordValidator(object):
         if password_strengh < self.password_minimal_strengh:
             crack_time = results["crack_times_display"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
-            warn = results["feedback"]["warning"]
-            advice = results["feedback"]["suggestions"]
+            warnings = results["feedback"]["warning"]
+            advices = results["feedback"]["suggestions"]
             comment = "{} {}".format(
                 _(f'Your password is too guessable :'),
                 _(f'It would take an offline attacker {offline_time} to guess it.'),
             )
-            if warn:
-                comment += " {}".format(_(f'Warning : {warn}.'))
-            if advice:
-                comment += " {}".format(_(f'What you can do : {advice}.'))
+            if warnings:
+                comment = add_list_of_advices(_('Warning :'), comment, warnings)
+            if advices:
+                comment = add_list_of_advices(_(f'What you can do :'), comment, advices)
             raise ValidationError(comment)
 
     def get_help_text(self):
