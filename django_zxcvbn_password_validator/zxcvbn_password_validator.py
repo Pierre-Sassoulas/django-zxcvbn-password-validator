@@ -24,9 +24,10 @@ class ZxcvbnPasswordValidator(object):
             raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
-        user_imputs = None
+        user_imputs = []
         if user:
-            user_imputs = user.__dict__
+            for value in user.__dict__.values():
+                user_imputs.append(value)
         results = zxcvbn(password, user_inputs=user_imputs)
         password_strengh = results["score"]
         if password_strengh < self.password_minimal_strengh:
