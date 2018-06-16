@@ -18,6 +18,9 @@ class ZxcvbnPasswordValidator(object):
         if int(self.password_minimal_strengh) != self.password_minimal_strengh:
             error_msg += f" (not a {self.password_minimal_strengh.__class__.__name__})"
             raise ImproperlyConfigured(error_msg)
+        if self.password_minimal_strengh < 0 or self.password_minimal_strengh > 4:
+            error_msg += f" ({self.password_minimal_strengh} is not in [0,4])"
+            raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
         results = zxcvbn(password, user_inputs=user.__dict__)
@@ -46,10 +49,7 @@ class ZxcvbnPasswordValidator(object):
             3: _("a password that could not be guessed if a lone engineer hacked into our database."),
             4: _("a password that could not be guessed if a large organisation hacked into our database."),
         }
-        expectations += " {}".format(hardness.get(
-            self.password_minimal_strengh,
-            _("our developpers to change the value for 'PASSWORD_MINIMAL_STRENGH' to something valid ASAP, sorry :)")
-        ))
+        expectations += " {}".format(hardness.get(self.password_minimal_strengh))
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),
