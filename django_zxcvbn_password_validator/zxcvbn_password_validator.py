@@ -5,6 +5,7 @@ from zxcvbn import zxcvbn
 
 DEFAULT_MINIMAL_STRENGH = 2
 
+
 class ZxcvbnPasswordValidator(object):
 
     def __init__(self, min_length=1):
@@ -23,7 +24,10 @@ class ZxcvbnPasswordValidator(object):
             raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
-        results = zxcvbn(password, user_inputs=user.__dict__)
+        user_imputs = None
+        if user:
+            user_imputs = user.__dict__
+        results = zxcvbn(password, user_inputs=user_imputs)
         password_strengh = results["score"]
         if password_strengh < self.password_minimal_strengh:
             crack_time = results["crack_times_display"]
