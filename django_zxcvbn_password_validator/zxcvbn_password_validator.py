@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.core.exceptions import ValidationError, ImproperlyConfigured
+from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
 
@@ -65,7 +65,7 @@ class ZxcvbnPasswordValidator(object):
             1: _("by your familly or friends."),
             2: _("by attackers online."),
             3: _("without access to our database."),
-            4: _("without a dedicated team and an access to our database."),
+            4: _("without a dedicated team and an access to our database.")
         }
         expectations += " {}".format(hardness.get(self.password_minimal_strengh))
         return "{} {} {} {}".format(

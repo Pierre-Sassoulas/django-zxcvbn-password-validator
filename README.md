@@ -10,7 +10,7 @@ A password validator for django, based on zxcvbn-python and available with pip.
 
 Add it to your requirements and get it with pip.
 
-	django-zxcvbn-password-validator==1.0.2
+	django-zxcvbn-password-validator
 
 Then everything happens in your settings file.
 
@@ -30,7 +30,8 @@ Modify `AUTH_PASSWORD_VALIDATORS` :
 		...
 	]
 
-You could choose to use zxcvbn alone, but I personally still use Django's `UserAttributeSimilarityValidator`.
+You could choose to use zxcvbn alone, but I personally still use Django's `UserAttributeSimilarityValidator`,
+because there seems to be still be some problem with it integrating user informations with zxcvbn (as of june 2018).
 
 Finally you can set the `PASSWORD_MINIMAL_STRENGH` to your liking (default is 2),
 every password scoring lower than this number will be rejected :

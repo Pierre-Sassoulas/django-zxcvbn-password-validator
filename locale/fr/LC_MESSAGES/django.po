@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-16 13:07+0200\n"
+"POT-Creation-Date: 2018-06-16 15:10+0200\n"
 "PO-Revision-Date: 2018-06-16 13:06+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,59 +18,73 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.8.1\n"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:49
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:49
 msgid "Your password is too guessable :"
 msgstr "Votre mot de passe est trop facile à deviner :"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:50
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:50
 #, python-brace-format
 msgid "It would take an offline attacker {offline_time} to guess it."
 msgstr "Le definer prendrait seulement {offline_time} à un hacker hors ligne."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:53
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:53
 msgid "Warning :"
 msgstr "Attention :"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:55
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:55
 msgid "What you can do :"
 msgstr "Ce que vous pouvez faire :"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:59
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:59
 msgid "We expect"
 msgstr "Nous nous attendons à"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:61
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:61
 msgid "nothing : you can use any password you want."
 msgstr "rien : vous pouvez utiliser n'importe quel mot de passe."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:63
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:63
 msgid "a password that cannot be guessed"
 msgstr "un mot de passe qui ne ne peut pas être deviné"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:65
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:65
 msgid "by your familly or friends."
 msgstr "par votre famille ou vos amis."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:66
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:66
 msgid "by attackers online."
 msgstr "par des aggresseurs depuis internet."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:67
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:67
 msgid "without access to our database."
 msgstr "à moins d'avoir accès à notre base de donnée."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:68
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:68
 msgid "without a dedicated team and an access to our database."
 msgstr "à moins d'avoir une équipe dédiée et un accès à notre base de donnée."
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:72
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:72
 msgid "There is no specific rule for a great password,"
 msgstr "Il n'y a pas de règle absolu pour un bon mot de passe,"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:73
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:73
 msgid "however if your password is too easy to guess,"
 msgstr "cependant si votre mot de passe est trop facile à deviner,"
 
+#: .\build\lib\django_zxcvbn_password_validator\zxcvbn_password_validator.py:74
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:74
 msgid "we will tell you how to make a better one."
 msgstr "nous vous dirons comment l'améliorer."

@@ -7,7 +7,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-zxcvbn-password-validator',
-    version='1.0.3',
+    version='1.1.0',
     packages=find_packages(),
     include_package_data=True,
     install_requires=['django', 'zxcvbn-python'],

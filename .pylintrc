@@ -1,0 +1,13 @@
+[MESSAGES CONTROL]
+# I0011 Warning locally suppressed using disable-msg
+disable=I0011, no-member, missing-docstring
+
+[MASTER]
+# We don't want to document the tests, thank you very much.
+# We don't want to format the migrations properly either.
+ignore=migrations
+
+[BASIC]
+
+# Good variable names which should always be accepted, separated by a comma
+good-names=i,j,k,l,m,n,x,y,z
