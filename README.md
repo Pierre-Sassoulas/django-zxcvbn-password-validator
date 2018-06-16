@@ -30,13 +30,11 @@ Modify `AUTH_PASSWORD_VALIDATORS` :
 
 You could choose to use zxcvbn alone, but I personally still use Django's `UserAttributeSimilarityValidator`.
 
-Finally set the `PASSWORD_MINIMAL_STRENGH` to your liking, every password scoring
-lower than this number will be rejected :
+Finally you can set the `PASSWORD_MINIMAL_STRENGH` to your liking (default is 2),
+every password scoring lower than this number will be rejected :
 
 	# 0 too guessable: risky password. (guesses < 10^3)
 	# 1 very guessable: protection from throttled online attacks. (guesses < 10^6)
 	# 2 somewhat guessable: protection from unthrottled online attacks. (guesses < 10^8)
 	# 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 	# 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
-	PASSWORD_MINIMAL_STRENGH = 3
-

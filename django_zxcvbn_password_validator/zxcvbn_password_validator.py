@@ -3,6 +3,7 @@ from django.core.exceptions import ValidationError, ImproperlyConfigured
 from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
 
+DEFAULT_MINIMAL_STRENGH = 2
 
 class ZxcvbnPasswordValidator(object):
 
@@ -13,7 +14,7 @@ class ZxcvbnPasswordValidator(object):
         try:
             self.password_minimal_strengh = settings.PASSWORD_MINIMAL_STRENGH
         except AttributeError:
-            raise ImproperlyConfigured(error_msg)
+            self.password_minimal_strengh = DEFAULT_MINIMAL_STRENGH
         if int(self.password_minimal_strengh) != self.password_minimal_strengh:
             error_msg += f" (not a {self.password_minimal_strengh.__class__.__name__})"
             raise ImproperlyConfigured(error_msg)
