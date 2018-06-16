@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-16 09:31+0200\n"
-"PO-Revision-Date: 2018-06-15 19:14+0000\n"
+"POT-Creation-Date: 2018-06-16 10:43+0200\n"
+"PO-Revision-Date: 2018-06-16 10:43+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,57 +18,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.8.1\n"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:34
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:38
 msgid "Your password is too guessable :"
 msgstr "Votre mot de passe est trop facile à deviner :"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:35
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:39
 #, python-brace-format
 msgid "It would take an offline attacker {offline_time} to guess it."
 msgstr "Le definer prendrait seulement {offline_time} à un hacker hors ligne."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:38
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:42
 #, python-brace-format
 msgid "Warning : {warn}."
 msgstr "Attention : {warn}."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:40
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:44
 #, python-brace-format
 msgid "What you can do : {advice}."
 msgstr "Ce que vous pouvez faire : {advice}."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:44
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:48
 msgid "We expect"
 msgstr "Nous nous attendons à"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:46
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:50
+msgid "nothing : you can use any password you want."
+msgstr "rien : vous pouvez utiliser n'importe quel mot de passe."
+
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:51
 msgid "a password that is not one of the 1000 most used worldwide."
 msgstr "un mot de passe qui ne fait pas partie des 1000 les plus utilisés dans le monde."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:47
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:52
 msgid "a password that cannot be guessed by slow online attacks."
 msgstr "un mot de passe qui ne ne peut pas être deviné par une attaque en ligne lente."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:48
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:53
 msgid "a password that cannot be guessed by fast online attacks."
 msgstr "un mot de passe qui ne ne peut pas être deviné par une attaque en ligne rapide."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:49
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:54
 msgid "a password that could not be guessed if a lone engineer hacked into our database."
 msgstr "un mot de passe qui ne ne pourrait pas être deviné par un ingénieur isolé ayant piraté notre base de données."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:50
-msgid "a password that could not be guessed if a large organisation hacked into our database."
-msgstr "un mot de passe qui ne ne pourrait pas être deviné par une large organisation ayant piraté notre base de données."
-
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:54
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:60
 msgid "There is no specific rule for a great password,"
 msgstr "Il n'y a pas de règle absolu pour un bon mot de passe,"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:55
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:61
 msgid "however if your password is too easy to guess,"
 msgstr "cependant si votre mot de passe est trop facile à deviner,"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:56
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:62
 msgid "we will tell you how to make a better one."
 msgstr "nous vous dirons comment l'améliorer."

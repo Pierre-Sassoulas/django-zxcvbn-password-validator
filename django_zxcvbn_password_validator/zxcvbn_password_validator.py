@@ -47,13 +47,15 @@ class ZxcvbnPasswordValidator(object):
     def get_help_text(self):
         expectations = _("We expect")
         hardness = {
-            0: _("a password that is not one of the 1000 most used worldwide."),
-            1: _("a password that cannot be guessed by slow online attacks."),
-            2: _("a password that cannot be guessed by fast online attacks."),
-            3: _("a password that could not be guessed if a lone engineer hacked into our database."),
-            4: _("a password that could not be guessed if a large organisation hacked into our database."),
+            0: _("nothing : you can use any password you want."),
+            1: _("a password that is not one of the 1000 most used worldwide."),
+            2: _("a password that cannot be guessed by slow online attacks."),
+            3: _("a password that cannot be guessed by fast online attacks."),
+            4: _("a password that could not be guessed if a lone engineer hacked into our database."),
         }
         expectations += " {}".format(hardness.get(self.password_minimal_strengh))
+        if self.password_minimal_strengh == 0:
+            return expectations
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),
