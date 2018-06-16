@@ -2,6 +2,8 @@
 
 A password validator for django, based on zxcvbn-python and available with pip.
 
+[![Build Status](https://travis-ci.org/Pierre-Sassoulas/django-zxcvbn-password-validator.svg?branch=master)](https://travis-ci.org/Pierre-Sassoulas/django-zxcvbn-password-validator)
+[![Coverage Status](https://coveralls.io/repos/github/Pierre-Sassoulas/django-zxcvbn-password-validator/badge.svg?branch=master)](https://coveralls.io/github/Pierre-Sassoulas/django-zxcvbn-password-validator?branch=master)
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 
 # How to use
