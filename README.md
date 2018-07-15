@@ -64,11 +64,12 @@ every password scoring lower than this number will be rejected :
 # I18n
 
 ````
-python manage.py makemessages --no-obsolete --no-wrap
+python manage.py makemessages
 # python manage.py createsuperuser ? (You need to login for rosetta)
 python manage.py runserver
 # Access http://localhost:8000/admin to login
 # Then go to http://localhost:8000/rosetta to translate
+python manage.py makemessages --no-obsolete --no-wrap
 python manage.py compilemessages
 ````
 
