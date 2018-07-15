@@ -1,7 +1,11 @@
+import logging
+
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
+
+LOGGER = logging.getLogger(__file__)
 
 DEFAULT_MINIMAL_STRENGH = 2
 
@@ -39,7 +43,14 @@ def translate_zxcvbn_text(text):
         'Reversed words aren\'t much harder to guess': _('Reversed words aren\'t much harder to guess'),
         'Predictable substitutions like \'@\' instead of \'a\' don\'t help very much': _('Predictable substitutions like \'@\' instead of \'a\' don\'t help very much'),
     }
-    return i18n.get(text, text)
+    translated_text = i18n.get(text)
+    if translated_text is None:
+        # zxcvbn is inconsistent, sometime there is a dot, sometime not
+        translated_text = i18n.get(text[:-1])
+    if translated_text is None:
+        LOGGER.warning(f"No translation for '{text}' or '{text[:-1]}', update the generatei18ndict command, please.")
+        return text
+    return translated_text
 
 
 class ZxcvbnPasswordValidator(object):
