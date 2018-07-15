@@ -49,6 +49,7 @@ every password scoring lower than this number will be rejected :
 
 ## Lint
 
+	isort -rc django_zxcvbn_password_validator
 	pylint django_zxcvbn_password_validator
 
 ## Testing

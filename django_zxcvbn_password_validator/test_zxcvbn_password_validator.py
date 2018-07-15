@@ -5,6 +5,7 @@ from django.contrib.auth.password_validation import (
 )
 from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.test import TestCase, override_settings
+
 from django_zxcvbn_password_validator.zxcvbn_password_validator import (
     DEFAULT_MINIMAL_STRENGH, ZxcvbnPasswordValidator
 )
