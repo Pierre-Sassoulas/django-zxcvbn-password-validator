@@ -42,6 +42,29 @@ every password scoring lower than this number will be rejected :
 	# 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 	# 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
 
-# Reminder 
+# Contributing
 
-If you want to use this with another language than english, you need to use `compilemessages` first.
+## Lint
+
+	pylint django_zxcvbn_password_validator
+
+## Testing
+
+	python manage.py test
+
+## Coverage
+
+	coverage run ./manage.py test
+	coverage html
+	# Open htmlcov/index.html in a navigator
+
+# I18n
+
+````
+python manage.py makemessages --no-obsolete --no-wrap
+python manage.py runserver
+# Access http://localhost:8000/rosetta
+python manage.py compilemessages
+````
+
+You need to use `compilemessages` before releasing a package.
