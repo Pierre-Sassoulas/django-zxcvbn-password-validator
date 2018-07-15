@@ -9,3 +9,4 @@ dist/
 db.sqlite3
 .coverage
 htmlcov/
+.env/

@@ -5,6 +5,10 @@ from zxcvbn import zxcvbn
 
 DEFAULT_MINIMAL_STRENGH = 2
 
+def translate_zxcvbn_text(text):
+    i18n = {
+    }
+    return i18n.get(text, text)
 
 class ZxcvbnPasswordValidator(object):
 
@@ -28,9 +32,9 @@ class ZxcvbnPasswordValidator(object):
         def add_list_of_advices(header, comment, advices):
             comment += f"\n{header}\n"
             if isinstance(advices, str):
-                return f"{comment}- {advices}"
+                return f"{comment}- {translate_zxcvbn_text(advices)}"
             for advice in advices:
-                comment += f"- {advice}\n"
+                comment += f"- {translate_zxcvbn_text(advice)}\n"
             comment = comment[:-len("\n")]
             return comment
 
