@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_zxcvbn_password_validator',
     'rosetta',
+    'translation_project',
 ]
 
 MIDDLEWARE = [
