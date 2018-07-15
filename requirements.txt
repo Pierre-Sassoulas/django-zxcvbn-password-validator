@@ -1,8 +1,2 @@
-# This is not the requirement for the package, this is for development
-Django==2.0.6
+Django==2.0.7
 zxcvbn-python==4.4.24
-coverage==4.5.1
-python-coveralls==2.9.1
-django-rosetta==0.8.1
-mock==2.0.0
-pylint==1.9.2
