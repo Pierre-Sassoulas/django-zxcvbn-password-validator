@@ -31,7 +31,7 @@ class ZxcvbnPasswordValidator(object):
                 return f"{comment}- {advices}"
             for advice in advices:
                 comment += f"- {advice}\n"
-                comment = comment[:-len("\n")]
+            comment = comment[:-len("\n")]
             return comment
 
         user_imputs = []
