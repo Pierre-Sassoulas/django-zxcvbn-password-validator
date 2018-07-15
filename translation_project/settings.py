@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'fr'
 
-LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
+LOCALE_PATHS = [os.path.join(BASE_DIR, "django_zxcvbn_password_validator", "locale")]
 
 TIME_ZONE = 'UTC'
 
