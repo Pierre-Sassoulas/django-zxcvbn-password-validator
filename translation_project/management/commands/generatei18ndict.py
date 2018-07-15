@@ -17,7 +17,7 @@ class Command(BaseCommand):
             'Repeats like "aaa" are easy to guess',
             'Repeats like "abcabcabc" are only slightly harder to guess than "abc"',
             'Avoid repeated words and characters',
-            'Sequences like abc or 6543 are easy to guess',
+            'Sequences like "abc" or "6543" are easy to guess',
             'Avoid sequences',
             'Recent years are easy to guess',
             'Avoid recent years',

@@ -24,7 +24,7 @@ def translate_zxcvbn_text(text):
         'Repeats like "aaa" are easy to guess': _('Repeats like "aaa" are easy to guess'),
         'Repeats like "abcabcabc" are only slightly harder to guess than "abc"': _('Repeats like "abcabcabc" are only slightly harder to guess than "abc"'),
         'Avoid repeated words and characters': _('Avoid repeated words and characters'),
-        'Sequences like abc or 6543 are easy to guess': _('Sequences like abc or 6543 are easy to guess'),
+        'Sequences like "abc" or "6543" are easy to guess': _('Sequences like "abc" or "6543" are easy to guess'),
         'Avoid sequences': _('Avoid sequences'),
         'Recent years are easy to guess': _('Recent years are easy to guess'),
         'Avoid recent years': _('Avoid recent years'),
@@ -92,9 +92,10 @@ class ZxcvbnPasswordValidator(object):
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
             warnings = results["feedback"]["warning"]
             advices = results["feedback"]["suggestions"]
-            comment += _(f'Your password is too guessable :')
-            comment += " "
-            comment += _(f'It would take an offline attacker {offline_time} to guess it.')
+            comment = "{} {}".format(
+                _('Your password is too guessable :'),
+                _('It would take an offline attacker {time} to guess it.') % { "time": offline_time}
+            )
             if warnings:
                 comment = add_list_of_advices(_('Warning'), comment, warnings)
             if advices:

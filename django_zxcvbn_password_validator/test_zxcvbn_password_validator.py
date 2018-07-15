@@ -89,7 +89,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0dz1ll@'))
         self.assertIn("Your password is too guessable", error.exception.messages[0])
-        self.assertIn("- This is similar to a commonly used password.\n",
+        self.assertIn("This is similar to a commonly used password",
                       error.exception.messages[0])
 
     @override_settings(PASSWORD_MINIMAL_STRENGH=4)
@@ -143,7 +143,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(
             self.validator.get_help_text(),
-            "Il n'y a pas de règle absolu pour un bon mot de passe, "
+            "Il n'y a pas de règle absolue pour un bon mot de passe, "
             "cependant si votre mot de passe est trop facile à deviner,"
             " nous vous dirons comment l'améliorer. Nous nous attendons à un "
             "mot de passe qui ne ne peut pas être deviné par des aggresseurs "
