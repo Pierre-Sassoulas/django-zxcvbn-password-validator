@@ -1,6 +1,6 @@
 # django-zxcvbn-password-validator
 
-A password validator for django, based on zxcvbn-python and available with pip.
+A translatable password validator for django, based on zxcvbn-python and available with pip.
 
 [![Build Status](https://travis-ci.org/Pierre-Sassoulas/django-zxcvbn-password-validator.svg?branch=master)](https://travis-ci.org/Pierre-Sassoulas/django-zxcvbn-password-validator)
 [![Coverage Status](https://coveralls.io/repos/github/Pierre-Sassoulas/django-zxcvbn-password-validator/badge.svg?branch=master)](https://coveralls.io/github/Pierre-Sassoulas/django-zxcvbn-password-validator?branch=master)
@@ -25,7 +25,7 @@ Modify `AUTH_PASSWORD_VALIDATORS` :
 
 	AUTH_PASSWORD_VALIDATORS = [
 		{
-	    'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+			'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
 		},
 		{
 			'NAME': 'django_zxcvbn_password_validator.ZxcvbnPasswordValidator',
@@ -62,7 +62,7 @@ every password scoring lower than this number will be rejected :
 	coverage html
 	# Open htmlcov/index.html in a navigator
 
-# I18n
+## I18n
 
 ````
 python manage.py makemessages
@@ -71,7 +71,4 @@ python manage.py runserver
 # Access http://localhost:8000/admin to login
 # Then go to http://localhost:8000/rosetta to translate
 python manage.py makemessages --no-obsolete --no-wrap
-python manage.py compilemessages
 ````
-
-You need to use `compilemessages` before releasing a package.
