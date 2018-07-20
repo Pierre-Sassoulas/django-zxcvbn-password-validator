@@ -15,7 +15,7 @@ class TranslateZxcvbnTextTest(TestCase):
 
     @override_settings(LANGUAGE_CODE='en-us')
     def test_help_text(self):
-        test = "This should create an error logging"
+        test = "Disregard this logging text :)."
         self.assertEqual(translate_zxcvbn_text(test), test)
 
     @override_settings(LANGUAGE_CODE='fr')
