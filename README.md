@@ -55,6 +55,17 @@ every password scoring lower than this number will be rejected :
 	# 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 	# 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
 
+# Translating the project
+
+This project is available in multiple language.
+Your contribution would be very appreciated if you
+know a language that is not yet available.
+
+## Language available
+
+- [x] French thanks to Pierre Sassoulas (@Pierre-Sassoulas)
+- [x] English
+
 # Contributing
 
 ## Lint
