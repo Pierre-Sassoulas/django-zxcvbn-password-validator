@@ -6,6 +6,16 @@ A translatable password validator for django, based on zxcvbn-python and availab
 [![Coverage Status](https://coveralls.io/repos/github/Pierre-Sassoulas/django-zxcvbn-password-validator/badge.svg?branch=master)](https://coveralls.io/github/Pierre-Sassoulas/django-zxcvbn-password-validator?branch=master)
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 
+# Creating a user with django-zxcvbn-password-validator
+
+If the password is not strong enough, we provide errors explaining what you need to do :
+
+![English example](doc/english_example.png "English example")
+
+The error message are translated to your target language (even the string given by zxcvbn that are in english only) :
+
+![Translated example](doc/french_example.png "Translated example")
+
 # How to use
 
 Add it to your requirements and get it with pip.
