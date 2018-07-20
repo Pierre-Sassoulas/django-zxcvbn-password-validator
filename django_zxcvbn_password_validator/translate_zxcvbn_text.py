@@ -46,3 +46,38 @@ def translate_zxcvbn_text(text):
         LOGGER.warning(f"No translation for '{text}' or '{text[:-1]}', update the generatei18ndict command, please.")
         return text
     return translated_text
+
+
+
+
+def translate_zxcvbn_time_estimate(text):
+
+    def replace_dict(text, times):
+        for original, translated in times.items():
+            text = text.replace(original, str(translated))
+        return text
+
+    if text == "less than a second":
+        return _("less than a second")
+    text = text.replace("centuries", str(_("centuries")))
+    # Plural first because if there is an s we need to translate that first
+    # Every language does not handle plural the same
+    plural_times = {
+        "seconds" : _("seconds"),
+        "minutes" : _("minutes"),
+        "hours" : _("hours"),
+        "days" : _("days"),
+        "months" : _("months"),
+        "years" : _("years"),
+    }
+    times = {
+        "second" : _("second"),
+        "minute" : _("minute"),
+        "hour" : _("hour"),
+        "day" : _("day"),
+        "month" : _("month"),
+        "year" : _("year"),
+    }
+    text = replace_dict(text, plural_times)
+    text = replace_dict(text, times)
+    return text

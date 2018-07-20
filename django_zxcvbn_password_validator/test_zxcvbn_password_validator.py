@@ -92,15 +92,21 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIn("Your password is too guessable", error.exception.messages[0])
         self.assertIn("This is similar to a commonly used password", error.exception.messages[0])
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=2)
+    @override_settings(PASSWORD_MINIMAL_STRENGH=4)
     @override_settings(LANGUAGE_CODE='fr')
-    def test_medium_strengh_i18n(self):
+    def test_strengh_i18n(self):
         self.validator = ZxcvbnPasswordValidator()
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0dz1ll@'))
         self.assertIn("Votre mot de passe est trop facile à deviner", error.exception.messages[0])
         self.assertIn("C'est similaire à un mot de passe courant", error.exception.messages[0])
-        self.assertIn("Le deviner prendrait less than a second à un attaquant", error.exception.messages[0])
+        self.assertIn("Le deviner prendrait moins d'une seconde à un attaquant", error.exception.messages[0])
+        with self.assertRaises(ValidationError) as error:
+            self.assertIsNone(self.validator.validate('g0dze1ll@'))
+        self.assertIn("prendrait 12 heures à un attaquant", error.exception.messages[0])
+        with self.assertRaises(ValidationError) as error:
+            self.assertIsNone(self.validator.validate('g0de1ll@'))
+        self.assertIn("prendrait 1 heure à un attaquant", error.exception.messages[0])
 
     @override_settings(PASSWORD_MINIMAL_STRENGH=4)
     def test_high_strengh(self):

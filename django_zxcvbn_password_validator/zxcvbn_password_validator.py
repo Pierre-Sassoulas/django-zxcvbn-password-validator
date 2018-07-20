@@ -5,7 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
 
 from django_zxcvbn_password_validator.translate_zxcvbn_text import (
-    translate_zxcvbn_text
+    translate_zxcvbn_text, translate_zxcvbn_time_estimate
 )
 
 
@@ -53,7 +53,9 @@ class ZxcvbnPasswordValidator(object):
             advices = results["feedback"]["suggestions"]
             comment = "{} {}".format(
                 _('Your password is too guessable :'),
-                _('It would take an offline attacker %(time)s to guess it.') % { "time": offline_time}
+                _('It would take an offline attacker %(time)s to guess it.') % {
+                     "time": translate_zxcvbn_time_estimate(offline_time)
+                 }
             )
             if warnings:
                 comment = add_list_of_advices(_('Warning'), comment, warnings)

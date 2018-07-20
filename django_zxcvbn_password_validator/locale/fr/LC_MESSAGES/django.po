@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-20 17:10+0200\n"
-"PO-Revision-Date: 2018-07-20 17:07+0000\n"
+"POT-Creation-Date: 2018-07-20 17:37+0200\n"
+"PO-Revision-Date: 2018-07-20 17:27+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -126,6 +126,62 @@ msgstr "Les mots dont l'ordre des lettres est inversé sont à peine plus dure �
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
 msgstr "Les substitutions prévisibles comme '@' à la place de 'a' n'aident pas beaucoup."
 
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:61
+msgid "less than a second"
+msgstr "moins d'une seconde"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:62
+msgid "centuries"
+msgstr "siècles"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:66
+msgid "seconds"
+msgstr "secondes"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:67
+msgid "minutes"
+msgstr "minutes"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:68
+msgid "hours"
+msgstr "heures"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:69
+msgid "days"
+msgstr "jours"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:70
+msgid "months"
+msgstr "mois"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:71
+msgid "years"
+msgstr "années"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:74
+msgid "second"
+msgstr "seconde"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:75
+msgid "minute"
+msgstr "minute"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:76
+msgid "hour"
+msgstr "heure"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:77
+msgid "day"
+msgstr "jour"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:78
+msgid "month"
+msgstr "mois"
+
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:79
+msgid "year"
+msgstr "année"
+
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:55
 msgid "Your password is too guessable :"
 msgstr "Votre mot de passe est trop facile à deviner :"
@@ -135,50 +191,50 @@ msgstr "Votre mot de passe est trop facile à deviner :"
 msgid "It would take an offline attacker %(time)s to guess it."
 msgstr "Le deviner prendrait %(time)s à un attaquant ayant accès à notre base de données."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:59
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:61
 msgid "Warning"
 msgstr "Attention"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:61
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:63
 msgid "What you can do is"
 msgstr "Vous pouvez faire ce qui suit"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:65
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:67
 msgid "We expect"
 msgstr "Nous nous attendons à"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:67
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:69
 msgid "nothing : you can use any password you want."
 msgstr "rien : vous pouvez utiliser n'importe quel mot de passe."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:69
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:71
 msgid "a password that cannot be guessed"
 msgstr "un mot de passe qui ne ne peut pas être deviné"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:71
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:73
 msgid "by your familly or friends."
 msgstr "par votre famille ou vos amis."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:72
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:74
 msgid "by attackers online."
 msgstr "par des aggresseurs depuis internet."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:73
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:75
 msgid "without access to our database."
 msgstr "à moins d'avoir accès à notre base de données."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:74
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:76
 msgid "without a dedicated team and an access to our database."
 msgstr "à moins d'avoir une équipe dédiée et un accès à notre base de données."
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:78
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:80
 msgid "There is no specific rule for a great password,"
 msgstr "Il n'y a pas de règle absolue pour un bon mot de passe,"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:79
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:81
 msgid "however if your password is too easy to guess,"
 msgstr "cependant si votre mot de passe est trop facile à deviner,"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:80
+#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:82
 msgid "we will tell you how to make a better one."
 msgstr "nous vous dirons comment l'améliorer."
