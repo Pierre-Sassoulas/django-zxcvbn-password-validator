@@ -2,7 +2,6 @@ import logging
 
 from django.utils.translation import ugettext_lazy as _
 
-
 LOGGER = logging.getLogger(__file__)
 
 def translate_zxcvbn_text(text):

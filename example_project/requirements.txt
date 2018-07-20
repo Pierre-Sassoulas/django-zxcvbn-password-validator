@@ -1,1 +1,1 @@
-django-zxcvbn-password-validator==1.1.1
+django-zxcvbn-password-validator

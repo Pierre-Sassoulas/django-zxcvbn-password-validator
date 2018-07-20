@@ -8,7 +8,6 @@ from django_zxcvbn_password_validator.translate_zxcvbn_text import (
     translate_zxcvbn_text, translate_zxcvbn_time_estimate
 )
 
-
 DEFAULT_MINIMAL_STRENGH = 2
 
 
