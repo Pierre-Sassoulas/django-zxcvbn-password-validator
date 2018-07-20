@@ -49,10 +49,10 @@ class ZxcvbnPasswordValidatorTest(TestCase):
     def test_validate_too_short(self):
         with self.assertRaises(ValidationError) as error:
             self.validator.validate('d@1sR')
-        self.assertIn('Add another word or two.', error.exception.messages[0])
+        self.assertIn('Add another word or two.', str(error.exception))
         with self.assertRaises(ValidationError) as error:
             self.validator.validate('d5G=}78')
-        self.assertIn('Add another word or two.', error.exception.messages[0])
+        self.assertIn('Add another word or two.', str(error.exception))
 
     @override_settings(LANGUAGE_CODE='en-us')
     @override_settings(PASSWORD_MINIMAL_STRENGH=4)
@@ -82,15 +82,15 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('p@sswOrd1'))
         self.assertIn("Your password is too guessable", error.exception.messages[0])
-        self.assertIn("Predictable substitutions", error.exception.messages[0])
+        self.assertIn("Predictable substitutions", str(error.exception))
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('123123123123'))
         self.assertIn("Your password is too guessable", error.exception.messages[0])
-        self.assertIn('Repeats like "abcabcabc"', error.exception.messages[0])
+        self.assertIn('Repeats like "abcabcabc"', str(error.exception))
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0dz1ll@'))
         self.assertIn("Your password is too guessable", error.exception.messages[0])
-        self.assertIn("This is similar to a commonly used password", error.exception.messages[0])
+        self.assertIn("This is similar to a commonly used password", str(error.exception))
 
     @override_settings(PASSWORD_MINIMAL_STRENGH=4)
     @override_settings(LANGUAGE_CODE='fr')
@@ -99,14 +99,14 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0dz1ll@'))
         self.assertIn("Votre mot de passe est trop facile à deviner", error.exception.messages[0])
-        self.assertIn("C'est similaire à un mot de passe courant", error.exception.messages[0])
-        self.assertIn("Le deviner prendrait moins d'une seconde à un attaquant", error.exception.messages[0])
+        self.assertIn("C'est similaire à un mot de passe courant", str(error.exception))
+        self.assertIn("Le deviner prendrait moins d'une seconde à un attaquant", str(error.exception))
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0dze1ll@'))
-        self.assertIn("prendrait 12 heures à un attaquant", error.exception.messages[0])
+        self.assertIn("prendrait 12 heures à un attaquant", str(error.exception))
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate('g0de1ll@'))
-        self.assertIn("prendrait 1 heure à un attaquant", error.exception.messages[0])
+        self.assertIn("prendrait 1 heure à un attaquant", str(error.exception))
 
     @override_settings(PASSWORD_MINIMAL_STRENGH=4)
     def test_high_strengh(self):

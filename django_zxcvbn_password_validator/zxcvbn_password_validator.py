@@ -31,14 +31,13 @@ class ZxcvbnPasswordValidator(object):
 
     def validate(self, password, user=None):
 
-        def add_list_of_advices(header, comment, advices):
+        def add_list_of_advices(header, comments, advices):
             if isinstance(advices, str):
-                return f"{comment} {header} {translate_zxcvbn_text(advices)}"
-            comment += f"\n{header}\n"
-            for advice in advices:
-                comment += f"- {translate_zxcvbn_text(advice)}\n"
-            comment = comment[:-len("\n")]
-            return comment
+                comments.append(f"{header} : {translate_zxcvbn_text(advices)}")
+            else:
+                for advice in advices:
+                    comments.append(f"{header} : {translate_zxcvbn_text(advice)}")
+            return comments
 
         user_imputs = []
         if user:
@@ -51,17 +50,18 @@ class ZxcvbnPasswordValidator(object):
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
             warnings = results["feedback"]["warning"]
             advices = results["feedback"]["suggestions"]
-            comment = "{} {}".format(
+            comments = []
+            comments.append("{} {}".format(
                 _('Your password is too guessable :'),
                 _('It would take an offline attacker %(time)s to guess it.') % {
                      "time": translate_zxcvbn_time_estimate(offline_time)
                  }
-            )
+            ))
             if warnings:
-                comment = add_list_of_advices(_('Warning'), comment, warnings)
+                comments = add_list_of_advices(_('Warning'), comments, warnings)
             if advices:
-                comment = add_list_of_advices(_('What you can do is'), comment, advices)
-            raise ValidationError(comment)
+                comments = add_list_of_advices(_('Advice'), comments, advices)
+            raise ValidationError(comments)
 
     def get_help_text(self):
         expectations = _("We expect")

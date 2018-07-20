@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-20 17:37+0200\n"
-"PO-Revision-Date: 2018-07-20 17:27+0000\n"
+"POT-Creation-Date: 2018-07-20 19:24+0200\n"
+"PO-Revision-Date: 2018-07-20 19:23+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -126,59 +126,59 @@ msgstr "Les mots dont l'ordre des lettres est inversé sont à peine plus dure �
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
 msgstr "Les substitutions prévisibles comme '@' à la place de 'a' n'aident pas beaucoup."
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:61
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:59
 msgid "less than a second"
 msgstr "moins d'une seconde"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:62
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:60
 msgid "centuries"
 msgstr "siècles"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:66
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:62
 msgid "seconds"
 msgstr "secondes"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:67
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:63
 msgid "minutes"
 msgstr "minutes"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:68
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:64
 msgid "hours"
 msgstr "heures"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:69
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:65
 msgid "days"
 msgstr "jours"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:70
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:66
 msgid "months"
 msgstr "mois"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:71
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:67
 msgid "years"
 msgstr "années"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:74
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:70
 msgid "second"
 msgstr "seconde"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:75
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:71
 msgid "minute"
 msgstr "minute"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:76
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:72
 msgid "hour"
 msgstr "heure"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:77
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:73
 msgid "day"
 msgstr "jour"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:78
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:74
 msgid "month"
 msgstr "mois"
 
-#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:79
+#: .\django_zxcvbn_password_validator\translate_zxcvbn_text.py:75
 msgid "year"
 msgstr "année"
 
@@ -196,8 +196,8 @@ msgid "Warning"
 msgstr "Attention"
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:63
-msgid "What you can do is"
-msgstr "Vous pouvez faire ce qui suit"
+msgid "Advice"
+msgstr "Conseil"
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:67
 msgid "We expect"

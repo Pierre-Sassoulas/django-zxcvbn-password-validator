@@ -48,8 +48,6 @@ def translate_zxcvbn_text(text):
     return translated_text
 
 
-
-
 def translate_zxcvbn_time_estimate(text):
 
     def replace_dict(text, times):
