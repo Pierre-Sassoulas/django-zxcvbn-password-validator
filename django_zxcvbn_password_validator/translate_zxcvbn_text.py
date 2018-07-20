@@ -60,8 +60,6 @@ def translate_zxcvbn_time_estimate(text):
     if text == "less than a second":
         return _("less than a second")
     text = text.replace("centuries", str(_("centuries")))
-    # Plural first because if there is an s we need to translate that first
-    # Every language does not handle plural the same
     plural_times = {
         "seconds" : _("seconds"),
         "minutes" : _("minutes"),
@@ -78,6 +76,8 @@ def translate_zxcvbn_time_estimate(text):
         "month" : _("month"),
         "year" : _("year"),
     }
+    # Plural first to avoid replacing "hours" by _("hour") + s
+    # Adding an 's' does not mean plural in every language
     text = replace_dict(text, plural_times)
     text = replace_dict(text, times)
     return text
