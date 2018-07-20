@@ -53,7 +53,7 @@ class ZxcvbnPasswordValidator(object):
             advices = results["feedback"]["suggestions"]
             comment = "{} {}".format(
                 _('Your password is too guessable :'),
-                _('It would take an offline attacker {time} to guess it.') % { "time": offline_time}
+                _('It would take an offline attacker %(time)s to guess it.') % { "time": offline_time}
             )
             if warnings:
                 comment = add_list_of_advices(_('Warning'), comment, warnings)
