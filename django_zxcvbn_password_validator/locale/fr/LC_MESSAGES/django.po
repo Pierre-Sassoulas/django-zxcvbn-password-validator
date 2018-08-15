@@ -1,13 +1,13 @@
 # django_zxcvbn_password_validator's french traduction
 # This file is distributed under the MIT license.
 # Pierre SASSOULAS <pierre.sassoulas@gmail.com>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-20 19:24+0200\n"
+"POT-Creation-Date: 2018-08-15 13:36+0000\n"
 "PO-Revision-Date: 2018-07-20 19:23+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,8 +203,8 @@ msgstr "Conseil"
 msgid "We expect"
 msgstr "Nous nous attendons à"
 
-#: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:69
-msgid "nothing : you can use any password you want."
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:68
+msgid "nothing: you can use any password you want."
 msgstr "rien : vous pouvez utiliser n'importe quel mot de passe."
 
 #: .\django_zxcvbn_password_validator\zxcvbn_password_validator.py:71
