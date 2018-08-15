@@ -63,6 +63,7 @@ know a language that is not yet available.
 
 ## Language available
 
+- [x] Dutch thanks to Thom Wiggers (@thomwiggers)
 - [x] French thanks to Pierre Sassoulas (@Pierre-Sassoulas)
 - [x] English
 
