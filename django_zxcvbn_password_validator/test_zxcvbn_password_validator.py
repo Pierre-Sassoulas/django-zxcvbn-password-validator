@@ -138,7 +138,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(
             self.validator.get_help_text(),
-            "We expect nothing : you can use any password you want."
+            "We expect nothing: you can use any password you want."
         )
 
     @override_settings(LANGUAGE_CODE='en-us')
