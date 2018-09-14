@@ -11,13 +11,14 @@ require= [x.strip() for x in require]
 
 setup(
     name='django-zxcvbn-password-validator',
-    version='1.2.3',
+    version='1.2.4',
     packages=find_packages(),
     include_package_data=True,
     install_requires=require,
     license='MIT License',
     description='A translatable password validator for django, based on zxcvbn-python.',
     long_description=open(os.path.join(ROOT, 'README.md')).read(),
+    long_description_content_type="text/markdown",
     url='https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator',
     author='Pierre Sassoulas',
     author_email='pierre.sassoulas@gmail.com',
