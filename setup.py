@@ -11,7 +11,7 @@ require= [x.strip() for x in require]
 
 setup(
     name='django-zxcvbn-password-validator',
-    version='1.2.5',
+    version='1.2.6',
     packages=find_packages(),
     include_package_data=True,
     install_requires=require,
@@ -29,5 +29,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )

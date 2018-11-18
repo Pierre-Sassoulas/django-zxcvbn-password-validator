@@ -62,7 +62,6 @@ every password scoring lower than this number will be rejected :
 # 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 # 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
 ````
-
 ## Translating the project
 
 This project is available in multiple language.
@@ -71,20 +70,13 @@ know a language that is not yet available.
 
 ### Language available
 
-The following languages are available:
+The software is developed in english. Other available languages are :
 
-- [x] Dutch thanks to Thom Wiggers (@thomwiggers)
-- [x] French thanks to Pierre Sassoulas (@Pierre-Sassoulas)
-- [x] English
+* [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
+* [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/)
+* [x] English
 
 ## Contributing
-
-### Lint
-
-````bash
-isort -rc django_zxcvbn_password_validator
-pylint django_zxcvbn_password_validator
-````
 
 ### Testing
 
@@ -99,6 +91,15 @@ coverage run ./manage.py test
 coverage html
 # Open htmlcov/index.html in a navigator
 ````
+
+### Lint
+
+We're using `pre-commit`, it should take care of linting during commit.
+
+~~~~bash
+pip install -r requirements_dev.txt
+pre-commit
+~~~~
 
 ### I18n
 

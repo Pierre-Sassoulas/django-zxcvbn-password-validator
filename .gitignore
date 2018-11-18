@@ -10,3 +10,5 @@ db.sqlite3
 .coverage
 htmlcov/
 .env/
+venv/
+.idea/
