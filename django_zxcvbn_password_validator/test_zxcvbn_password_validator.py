@@ -19,6 +19,7 @@ from django_zxcvbn_password_validator import (
 class ZxcvbnPasswordValidatorTest(TestCase):
 
     def setUp(self):
+        self.maxDiff = None  # pylint: disable=invalid-name
         self.validator = get_default_password_validators()[0]
 
     def test_settings_not_set(self):
