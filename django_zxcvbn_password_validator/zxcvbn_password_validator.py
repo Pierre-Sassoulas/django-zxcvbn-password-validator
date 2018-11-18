@@ -10,7 +10,7 @@ from django_zxcvbn_password_validator.translate_zxcvbn_text import (
 )
 
 
-class ZxcvbnPasswordValidator(object):
+class ZxcvbnPasswordValidator:
     def __init__(self, min_length=1):
         self.min_length = min_length
         self.password_minimal_strengh = getattr(
