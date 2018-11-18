@@ -4,23 +4,22 @@ from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
 
+from django_zxcvbn_password_validator.settings import DEFAULT_MINIMAL_STRENGH
 from django_zxcvbn_password_validator.translate_zxcvbn_text import (
     translate_zxcvbn_text, translate_zxcvbn_time_estimate
 )
-
-DEFAULT_MINIMAL_STRENGH = 2
 
 
 class ZxcvbnPasswordValidator(object):
 
     def __init__(self, min_length=1):
         self.min_length = min_length
+        self.password_minimal_strengh = getattr(settings, 'PASSWORD_MINIMAL_STRENGH', DEFAULT_MINIMAL_STRENGH)
+        self.__check_password_minimal_strengh()
+
+    def __check_password_minimal_strengh(self):
         error_msg = "ZxcvbnPasswordValidator need an integer between 0 and 4 "
         error_msg += "for PASSWORD_MINIMAL_STRENGH in the settings."
-        try:
-            self.password_minimal_strengh = settings.PASSWORD_MINIMAL_STRENGH
-        except AttributeError:
-            self.password_minimal_strengh = DEFAULT_MINIMAL_STRENGH
         if int(self.password_minimal_strengh) != self.password_minimal_strengh:
             error_msg += f" (not a {self.password_minimal_strengh.__class__.__name__})"
             raise ImproperlyConfigured(error_msg)
