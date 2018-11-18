@@ -1,7 +1,3 @@
-from django.conf import settings
-from django.contrib.auth.models import User
-from django.contrib.auth.password_validation import get_default_password_validators
-from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.test import TestCase, override_settings
 
 from django_zxcvbn_password_validator.translate_zxcvbn_text import translate_zxcvbn_text

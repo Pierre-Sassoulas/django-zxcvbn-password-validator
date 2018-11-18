@@ -80,7 +80,8 @@ def translate_zxcvbn_text(text):
         translated_text = i18n.get(text[:-1])
     if translated_text is None:
         LOGGER.warning(
-            f"No translation for '{text}' or '{text[:-1]}', update the generatei18ndict command, please."
+            f"No translation for '{text}' or '{text[:-1]}', "
+            "update the generatei18ndict command, please."
         )
         return text
     return translated_text
