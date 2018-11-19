@@ -1,10 +1,11 @@
 -r requirements.txt
 
-coverage
-python-coveralls
-django-rosetta
-mock
-pylint
-flake8
-pre-commit
 black
+coverage
+django-rosetta
+flake8
+isort
+mock
+pre-commit
+pylint
+python-coveralls
