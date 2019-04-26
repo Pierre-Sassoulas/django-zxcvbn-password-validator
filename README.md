@@ -73,7 +73,7 @@ know a language that is not yet available.
 The software is developed in english. Other available languages are :
 
 * [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
-* [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/)
+* [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and [Lionel Sausin](https://github.com/ls-initiatives)
 * [x] English
 
 ## Contributing
