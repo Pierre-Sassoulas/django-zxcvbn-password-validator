@@ -11,8 +11,9 @@ from django_zxcvbn_password_validator.translate_zxcvbn_text import (
 
 
 class ZxcvbnPasswordValidator:
-    def __init__(self, min_length=1):
+    def __init__(self, min_length=1, zxcvbn_implementation=zxcvbn):
         self.min_length = min_length
+        self.zxcvbn_implementation = zxcvbn_implementation
         self.password_minimal_strengh = getattr(
             settings, "PASSWORD_MINIMAL_STRENGH", DEFAULT_MINIMAL_STRENGH
         )
@@ -41,7 +42,7 @@ class ZxcvbnPasswordValidator:
         if user:
             for value in user.__dict__.values():
                 user_imputs.append(value)
-        results = zxcvbn(password, user_inputs=user_imputs)
+        results = self.zxcvbn_implementation(password, user_inputs=user_imputs)
         password_strengh = results["score"]
         if password_strengh < self.password_minimal_strengh:
             crack_time = results["crack_times_display"]
