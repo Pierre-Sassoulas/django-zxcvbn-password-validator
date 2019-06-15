@@ -106,7 +106,9 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIn(
             "Votre mot de passe est trop facile à deviner", error.exception.messages[0]
         )
-        self.assertIn("C'est similaire à un mot de passe courant", str(error.exception))
+        self.assertIn(
+            "C'est proche d'un mot de passe très courant", str(error.exception)
+        )
         self.assertIn(
             "Le deviner prendrait moins d'une seconde à un attaquant",
             str(error.exception),
@@ -175,7 +177,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
             self.validator.get_help_text(),
             "Il n'y a pas de règle absolue pour un bon mot de passe, "
             "cependant si votre mot de passe est trop facile à deviner,"
-            " nous vous dirons comment l'améliorer. Nous nous attendons à un "
-            "mot de passe qui ne ne peut pas être deviné par des aggresseurs "
-            "depuis internet.",
+            " nous vous dirons comment l'améliorer. Nous demandons un "
+            "mot de passe qui ne peut pas être deviné par des attaquants"
+            " sur internet.",
         )
