@@ -14,9 +14,15 @@ class ZxcvbnPasswordValidator:
     def __init__(self, min_length=1, zxcvbn_implementation=zxcvbn):
         self.min_length = min_length
         self.zxcvbn_implementation = zxcvbn_implementation
-        self.password_minimal_strength = getattr(
-            settings, "PASSWORD_MINIMAL_STRENGTH", DEFAULT_MINIMAL_STRENGTH
-        )
+        password_minimal_strength = getattr(settings, "PASSWORD_MINIMAL_STRENGTH", None)
+        if password_minimal_strength is None:
+            # Compatibility with a typo in previous version.
+            password_minimal_strength = getattr(
+                settings, "PASSWORD_MINIMAL_STRENTH", None
+            )
+        if password_minimal_strength is None:
+            password_minimal_strength = DEFAULT_MINIMAL_STRENGTH
+        self.password_minimal_strength = password_minimal_strength
         self.__check_password_minimal_strength()
 
     def __check_password_minimal_strength(self):

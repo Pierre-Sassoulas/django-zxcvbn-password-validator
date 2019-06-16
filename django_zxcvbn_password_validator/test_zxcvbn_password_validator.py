@@ -85,6 +85,22 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIsNone(self.validator.validate("123"))
         self.assertIsNone(self.validator.validate("godzilla"))
 
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=None)
+    @override_settings(PASSWORD_MINIMAL_STRENTH=0)
+    def test_compatibility_with_old_settings(self):
+        """If we're using the default value of 2 instead of taking the old
+        value into account the password are not strong enough."""
+        self.validator = ZxcvbnPasswordValidator()
+        self.assertIsNone(self.validator.validate("password"))
+
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
+    @override_settings(PASSWORD_MINIMAL_STRENTH=2)
+    def test_priority_of_new_settings(self):
+        """We need to give priority to the new value when we
+        have both settings."""
+        self.validator = ZxcvbnPasswordValidator()
+        self.assertIsNone(self.validator.validate("password"))
+
     @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
     @override_settings(LANGUAGE_CODE="en-us")
     def test_medium_strength(self):
