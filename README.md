@@ -52,7 +52,7 @@ AUTH_PASSWORD_VALIDATORS = [
 You could choose to use zxcvbn alone, but I personally still use Django's `UserAttributeSimilarityValidator`,
 because there seems to be still be some problem with it integrating user informations with zxcvbn (as of june 2018).
 
-Finally you can set the `PASSWORD_MINIMAL_STRENGH` to your liking (default is 2),
+Finally you can set the `PASSWORD_MINIMAL_STRENGTH` to your liking (default is 2),
 every password scoring lower than this number will be rejected :
 
 ````python

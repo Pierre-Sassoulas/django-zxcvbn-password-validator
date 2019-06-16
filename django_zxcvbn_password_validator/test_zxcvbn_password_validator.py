@@ -5,7 +5,7 @@ from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.test import TestCase, override_settings
 
 from django_zxcvbn_password_validator import (
-    DEFAULT_MINIMAL_STRENGH,
+    DEFAULT_MINIMAL_STRENGTH,
     ZxcvbnPasswordValidator,
 )
 
@@ -21,33 +21,33 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.validator = get_default_password_validators()[0]
 
     def test_settings_not_set(self):
-        del settings.PASSWORD_MINIMAL_STRENGH
+        del settings.PASSWORD_MINIMAL_STRENGTH
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(
-            self.validator.password_minimal_strengh, DEFAULT_MINIMAL_STRENGH
+            self.validator.password_minimal_strength, DEFAULT_MINIMAL_STRENGTH
         )
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH="4")
+    @override_settings(PASSWORD_MINIMAL_STRENGTH="4")
     def test_settings_not_int(self):
         with self.assertRaises(ImproperlyConfigured) as error:
             self.validator = ZxcvbnPasswordValidator()
         self.assertIn("need an integer between 0 and 4", str(error.exception))
         self.assertIn("(not '4', a str)", str(error.exception))
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH="foor")
+    @override_settings(PASSWORD_MINIMAL_STRENGTH="foor")
     def test_absurd_settings(self):
         with self.assertRaises(ImproperlyConfigured) as error:
             self.validator = ZxcvbnPasswordValidator()
         self.assertIn("need an integer between 0 and 4", str(error.exception))
         self.assertIn("(not 'foor', a str)", str(error.exception))
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=5)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=5)
     def test_settings_not_in_range_high(self):
         with self.assertRaises(ImproperlyConfigured) as error:
             self.validator = ZxcvbnPasswordValidator()
         self.assertIn("need an integer between 0 and 4", str(error.exception))
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=-1)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=-1)
     def test_settings_not_in_range_low(self):
         with self.assertRaises(ImproperlyConfigured) as error:
             self.validator = ZxcvbnPasswordValidator()
@@ -63,7 +63,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIn("Add another word or two.", str(error.exception))
 
     @override_settings(LANGUAGE_CODE="en-us")
-    @override_settings(PASSWORD_MINIMAL_STRENGH=4)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=4)
     def test_validate_user_similarity(self):
         user = User.objects.create(
             username="testclient",
@@ -78,16 +78,16 @@ class ZxcvbnPasswordValidatorTest(TestCase):
             self.validator.validate("testclient@example.com", user=user)
         self.assertIn("Your password is too guessable", error.exception.messages[0])
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=0)
-    def test_low_strengh(self):
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
+    def test_low_strength(self):
         self.validator = ZxcvbnPasswordValidator()
         self.assertIsNone(self.validator.validate("password"))
         self.assertIsNone(self.validator.validate("123"))
         self.assertIsNone(self.validator.validate("godzilla"))
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=2)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
     @override_settings(LANGUAGE_CODE="en-us")
-    def test_medium_strengh(self):
+    def test_medium_strength(self):
         self.validator = ZxcvbnPasswordValidator()
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate("p@sswOrd1"))
@@ -104,9 +104,9 @@ class ZxcvbnPasswordValidatorTest(TestCase):
             "This is similar to a commonly used password", str(error.exception)
         )
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=4)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=4)
     @override_settings(LANGUAGE_CODE="fr")
-    def test_strengh_i18n(self):
+    def test_strength_i18n(self):
         self.validator = ZxcvbnPasswordValidator()
         with self.assertRaises(ValidationError) as error:
             self.assertIsNone(self.validator.validate("g0dz1ll@"))
@@ -127,8 +127,8 @@ class ZxcvbnPasswordValidatorTest(TestCase):
             self.assertIsNone(self.validator.validate("g0de1ll@"))
         self.assertIn("prendrait 1 heure à un attaquant", str(error.exception))
 
-    @override_settings(PASSWORD_MINIMAL_STRENGH=4)
-    def test_high_strengh(self):
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=4)
+    def test_high_strength(self):
         self.validator = ZxcvbnPasswordValidator()
         self.assertRaises(ValidationError, self.validator.validate, "password")
         self.assertRaises(ValidationError, self.validator.validate, "123")
@@ -156,7 +156,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         )
 
     @override_settings(LANGUAGE_CODE="en-us")
-    @override_settings(PASSWORD_MINIMAL_STRENGH=0)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
     def test_help_text_accept_all(self):
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(
@@ -165,8 +165,8 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         )
 
     @override_settings(LANGUAGE_CODE="en-us")
-    @override_settings(PASSWORD_MINIMAL_STRENGH=1)
-    def test_help_text_low_strengh(self):
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=1)
+    def test_help_text_low_strength(self):
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(
             self.validator.get_help_text(),
@@ -177,7 +177,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         )
 
     @override_settings(LANGUAGE_CODE="fr")
-    @override_settings(PASSWORD_MINIMAL_STRENGH=2)
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
     def test_help_text_i18n(self):
         self.validator = ZxcvbnPasswordValidator()
         self.assertEqual(

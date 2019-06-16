@@ -92,7 +92,7 @@ DATABASES = {
 # 2 somewhat guessable: protection from unthrottled online attacks. (guesses < 10^8)
 # 3 safely unguessable: moderate protection from offline slow-hash scenario. (guesses < 10^10)
 # 4 very unguessable: strong protection from offline slow-hash scenario. (guesses >= 10^10)
-PASSWORD_MINIMAL_STRENGH = 3
+PASSWORD_MINIMAL_STRENGTH = 3
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"

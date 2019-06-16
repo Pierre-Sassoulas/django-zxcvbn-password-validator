@@ -3,7 +3,7 @@ from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.utils.translation import ugettext_lazy as _
 from zxcvbn import zxcvbn
 
-from django_zxcvbn_password_validator.settings import DEFAULT_MINIMAL_STRENGH
+from django_zxcvbn_password_validator.settings import DEFAULT_MINIMAL_STRENGTH
 from django_zxcvbn_password_validator.translate_zxcvbn_text import (
     translate_zxcvbn_text,
     translate_zxcvbn_time_estimate,
@@ -14,26 +14,26 @@ class ZxcvbnPasswordValidator:
     def __init__(self, min_length=1, zxcvbn_implementation=zxcvbn):
         self.min_length = min_length
         self.zxcvbn_implementation = zxcvbn_implementation
-        self.password_minimal_strengh = getattr(
-            settings, "PASSWORD_MINIMAL_STRENGH", DEFAULT_MINIMAL_STRENGH
+        self.password_minimal_strength = getattr(
+            settings, "PASSWORD_MINIMAL_STRENGTH", DEFAULT_MINIMAL_STRENGTH
         )
-        self.__check_password_minimal_strengh()
+        self.__check_password_minimal_strength()
 
-    def __check_password_minimal_strengh(self):
+    def __check_password_minimal_strength(self):
         error_msg = "ZxcvbnPasswordValidator need an integer between 0 and 4 "
-        error_msg += "for PASSWORD_MINIMAL_STRENGH in the settings."
+        error_msg += "for PASSWORD_MINIMAL_STRENGTH in the settings."
         try:
             not_an_int = (
-                int(self.password_minimal_strengh) != self.password_minimal_strengh
+                int(self.password_minimal_strength) != self.password_minimal_strength
             )
         except ValueError:
             not_an_int = True
         if not_an_int:
-            error_msg += f" (not '{self.password_minimal_strengh}', "
-            error_msg += f"a {self.password_minimal_strengh.__class__.__name__})"
+            error_msg += f" (not '{self.password_minimal_strength}', "
+            error_msg += f"a {self.password_minimal_strength.__class__.__name__})"
             raise ImproperlyConfigured(error_msg)
-        if self.password_minimal_strengh < 0 or self.password_minimal_strengh > 4:
-            error_msg += f" ({self.password_minimal_strengh} is not in [0,4])"
+        if self.password_minimal_strength < 0 or self.password_minimal_strength > 4:
+            error_msg += f" ({self.password_minimal_strength} is not in [0,4])"
             raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
@@ -50,8 +50,8 @@ class ZxcvbnPasswordValidator:
             for value in user.__dict__.values():
                 user_inputs.append(value)
         results = self.zxcvbn_implementation(password, user_inputs=user_inputs)
-        password_strengh = results["score"]
-        if password_strengh < self.password_minimal_strengh:
+        password_strength = results["score"]
+        if password_strength < self.password_minimal_strength:
             crack_time = results["crack_times_display"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
             warnings = results["feedback"]["warning"]
@@ -72,7 +72,7 @@ class ZxcvbnPasswordValidator:
 
     def get_help_text(self):
         expectations = _("We expect")
-        if self.password_minimal_strengh == 0:
+        if self.password_minimal_strength == 0:
             expectations += " {}".format(
                 _("nothing: you can use any password you want.")
             )
@@ -84,7 +84,7 @@ class ZxcvbnPasswordValidator:
             3: _("without access to our database."),
             4: _("without a dedicated team and an access to our database."),
         }
-        expectations += " {}".format(hardness.get(self.password_minimal_strengh))
+        expectations += " {}".format(hardness.get(self.password_minimal_strength))
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),
