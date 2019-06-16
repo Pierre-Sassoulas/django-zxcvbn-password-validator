@@ -45,11 +45,11 @@ class ZxcvbnPasswordValidator:
                     comments.append(f"{header} : {translate_zxcvbn_text(advice)}")
             return comments
 
-        user_imputs = []
+        user_inputs = []
         if user:
             for value in user.__dict__.values():
-                user_imputs.append(value)
-        results = self.zxcvbn_implementation(password, user_inputs=user_imputs)
+                user_inputs.append(value)
+        results = self.zxcvbn_implementation(password, user_inputs=user_inputs)
         password_strengh = results["score"]
         if password_strengh < self.password_minimal_strengh:
             crack_time = results["crack_times_display"]
