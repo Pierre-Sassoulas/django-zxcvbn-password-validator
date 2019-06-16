@@ -32,7 +32,14 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         with self.assertRaises(ImproperlyConfigured) as error:
             self.validator = ZxcvbnPasswordValidator()
         self.assertIn("need an integer between 0 and 4", str(error.exception))
-        self.assertIn("(not a str)", str(error.exception))
+        self.assertIn("(not '4', a str)", str(error.exception))
+
+    @override_settings(PASSWORD_MINIMAL_STRENGH="foor")
+    def test_absurd_settings(self):
+        with self.assertRaises(ImproperlyConfigured) as error:
+            self.validator = ZxcvbnPasswordValidator()
+        self.assertIn("need an integer between 0 and 4", str(error.exception))
+        self.assertIn("(not 'foor', a str)", str(error.exception))
 
     @override_settings(PASSWORD_MINIMAL_STRENGH=5)
     def test_settings_not_in_range_high(self):

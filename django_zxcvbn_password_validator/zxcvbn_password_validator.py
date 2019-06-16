@@ -22,8 +22,15 @@ class ZxcvbnPasswordValidator:
     def __check_password_minimal_strengh(self):
         error_msg = "ZxcvbnPasswordValidator need an integer between 0 and 4 "
         error_msg += "for PASSWORD_MINIMAL_STRENGH in the settings."
-        if int(self.password_minimal_strengh) != self.password_minimal_strengh:
-            error_msg += f" (not a {self.password_minimal_strengh.__class__.__name__})"
+        try:
+            not_an_int = (
+                int(self.password_minimal_strengh) != self.password_minimal_strengh
+            )
+        except ValueError:
+            not_an_int = True
+        if not_an_int:
+            error_msg += f" (not '{self.password_minimal_strengh}', "
+            error_msg += f"a {self.password_minimal_strengh.__class__.__name__})"
             raise ImproperlyConfigured(error_msg)
         if self.password_minimal_strengh < 0 or self.password_minimal_strengh > 4:
             error_msg += f" ({self.password_minimal_strengh} is not in [0,4])"
