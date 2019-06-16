@@ -43,13 +43,14 @@ class ZxcvbnPasswordValidator:
             raise ImproperlyConfigured(error_msg)
 
     def validate(self, password, user=None):
-        def add_list_of_advices(header, comments, advices):
-            if isinstance(advices, str):
-                comments.append(f"{header} : {translate_zxcvbn_text(advices)}")
-            else:
-                for advice in advices:
-                    comments.append(f"{header} : {translate_zxcvbn_text(advice)}")
-            return comments
+        def append_translated_feedback(old_feedbacks, feedback_type, new_feedbacks):
+            if new_feedbacks:
+                if isinstance(new_feedbacks, str):
+                    new_feedbacks = [new_feedbacks]
+                for new_feedback in new_feedbacks:
+                    old_feedbacks.append(
+                        f"{feedback_type} : {translate_zxcvbn_text(new_feedback)}"
+                    )
 
         user_inputs = []
         if user:
@@ -60,20 +61,20 @@ class ZxcvbnPasswordValidator:
         if password_strength < self.password_minimal_strength:
             crack_time = results["crack_times_display"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
-            warnings = results["feedback"]["warning"]
-            advices = results["feedback"]["suggestions"]
-            comments = [
+            feedbacks = [
                 "{} {}".format(
                     _("Your password is too guessable :"),
                     _("It would take an offline attacker %(time)s to guess it.")
                     % {"time": translate_zxcvbn_time_estimate(offline_time)},
                 )
             ]
-            if warnings:
-                comments = add_list_of_advices(_("Warning"), comments, warnings)
-            if advices:
-                comments = add_list_of_advices(_("Advice"), comments, advices)
-            raise ValidationError(comments)
+            append_translated_feedback(
+                feedbacks, _("Warning"), results["feedback"]["warning"]
+            )
+            append_translated_feedback(
+                feedbacks, _("Advice"), results["feedback"]["suggestions"]
+            )
+            raise ValidationError(feedbacks)
 
     def get_help_text(self):
         expectations = _("We expect")
