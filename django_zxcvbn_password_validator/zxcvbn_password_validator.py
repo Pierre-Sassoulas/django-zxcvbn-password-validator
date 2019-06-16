@@ -62,14 +62,13 @@ class ZxcvbnPasswordValidator:
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
             warnings = results["feedback"]["warning"]
             advices = results["feedback"]["suggestions"]
-            comments = []
-            comments.append(
+            comments = [
                 "{} {}".format(
                     _("Your password is too guessable :"),
                     _("It would take an offline attacker %(time)s to guess it.")
                     % {"time": translate_zxcvbn_time_estimate(offline_time)},
                 )
-            )
+            ]
             if warnings:
                 comments = add_list_of_advices(_("Warning"), comments, warnings)
             if advices:
