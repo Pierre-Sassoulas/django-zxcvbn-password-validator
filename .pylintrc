@@ -5,4 +5,4 @@ disable=I0011, no-member, missing-docstring
 ignore=migrations
 
 [BASIC]
-good-names=i,j,k,l,m,n,x,y,z
+good-names=i,j,k,l,m,n,x,y,z,e
