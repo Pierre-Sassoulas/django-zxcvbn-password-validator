@@ -6,9 +6,9 @@ LOGGER = logging.getLogger(__file__)
 
 
 def translate_zxcvbn_text(text):
-    """ This PR would make it cleaner, but it will also be very slow
+    """This PR would make it cleaner, but it will also be very slow
     to be integrated in python-zxcvbn and we want this to work now :
-    https://github.com/dropbox/zxcvbn/pull/124 """
+    https://github.com/dropbox/zxcvbn/pull/124"""
     i18n = {
         "Use a few words, avoid common phrases": _(
             "Use a few words, avoid common phrases"

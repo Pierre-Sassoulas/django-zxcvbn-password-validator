@@ -10,9 +10,10 @@ repos:
             - --remove-duplicate-keys
             - --remove-unused-variables
 -   repo: https://github.com/ambv/black
-    rev: 18.9b0
+    rev: 20.8b1
     hooks:
     - id: black
+      args: [--safe, --quiet]
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.0.0
     hooks:
