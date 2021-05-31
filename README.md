@@ -13,7 +13,8 @@ Professional support for django-zxcvbn-password-validator is available as part o
 ## Translating the project
 
 This project is available in multiple language. Your contribution would be very
-appreciated if you know a language that is not yet available.
+appreciated if you know a language that is not yet available. See
+[how to contribute](CONTRIBUTING.md)
 
 ### Language available
 
@@ -65,10 +66,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 You could choose to use zxcvbn alone, but I personally still use Django's
 `UserAttributeSimilarityValidator`, because there seems to be still be some problem with
-it integrating user informations with zxcvbn (as of june 2018).
+it integrating user information with zxcvbn (as of june 2018).
 
-Finally you can set the `PASSWORD_MINIMAL_STRENGTH` to your liking (default is 2), every
-password scoring lower than this number will be rejected :
+Finally, you can set the `PASSWORD_MINIMAL_STRENGTH` to your liking (default is 2),
+every password scoring lower than this number will be rejected :
 
 ```python
 # 0 too guessable: risky password. (guesses < 10^3)
@@ -80,40 +81,4 @@ password scoring lower than this number will be rejected :
 # (guesses < 10^10)
 # 4 very unguessable: strong protection from offline slow-hash scenario.
 # (guesses >= 10^10)
-```
-
-## Contributing
-
-### Testing
-
-```bash
-python manage.py test
-```
-
-### Coverage
-
-```bash
-coverage run ./manage.py test
-coverage html
-# Open htmlcov/index.html in a navigator
-```
-
-### Lint
-
-We're using `pre-commit`, it should take care of linting during commit.
-
-```bash
-pip install -r requirements_dev.txt
-pre-commit install
-```
-
-### I18n
-
-```bash
-python manage.py makemessages
-# python manage.py createsuperuser ? (You need to login for rosetta)
-python manage.py runserver
-# Access http://localhost:8000/admin to login
-# Then go to http://localhost:8000/rosetta to translate
-python manage.py makemessages --no-obsolete --no-wrap
 ```
