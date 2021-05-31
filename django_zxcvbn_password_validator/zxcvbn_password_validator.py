@@ -90,7 +90,7 @@ class ZxcvbnPasswordValidator:
             3: _("without access to our database."),
             4: _("without a dedicated team and an access to our database."),
         }
-        expectations += " {}".format(hardness.get(self.password_minimal_strength))
+        expectations += f" {hardness.get(self.password_minimal_strength)}"
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),

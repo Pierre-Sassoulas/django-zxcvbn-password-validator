@@ -6,7 +6,7 @@ ROOT = os.path.abspath(os.path.dirname(__file__))
 
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
-with open("requirements.txt", "r") as fh:
+with open("requirements.txt") as fh:
     require = fh.readlines()
 require = [x.strip() for x in require]
 
