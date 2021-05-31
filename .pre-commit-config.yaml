@@ -13,17 +13,17 @@ repos:
           - --remove-duplicate-keys
           - --remove-unused-variables
   - repo: https://github.com/ambv/black
-    rev: 20.8b1
+    rev: 21.5b1
     hooks:
       - id: black
         args: [--safe, --quiet]
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.18.2
+    rev: v2.19.0
     hooks:
       - id: pyupgrade
         args: [--py36-plus]
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.2.3
+    rev: v4.0.1
     hooks:
       - id: check-merge-conflict
       - id: trailing-whitespace
@@ -31,10 +31,13 @@ repos:
       - id: check-json
       - id: check-yaml
       - id: check-xml
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
       - id: flake8
-        args: [--config=.flake8]
+        exclude: "translation_project/|example_project"
   - repo: https://github.com/PyCQA/isort
-    rev: 5.5.2
+    rev: 5.8.0
     hooks:
       - id: isort
   - repo: local
@@ -44,6 +47,7 @@ repos:
         entry: pylint
         language: system
         types: [python]
+        exclude: "translation_project/|example_project"
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v2.3.0
     hooks:
