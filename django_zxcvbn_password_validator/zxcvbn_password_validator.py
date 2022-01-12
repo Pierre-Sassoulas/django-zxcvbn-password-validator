@@ -1,6 +1,6 @@
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured, ValidationError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from zxcvbn import zxcvbn
 
 from django_zxcvbn_password_validator.settings import DEFAULT_MINIMAL_STRENGTH
