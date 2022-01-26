@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request: ~
+
+env:
+  CACHE_VERSION: 4
+  DEFAULT_PYTHON: 3.8
+  PRE_COMMIT_CACHE: ~/.cache/pre-commit
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9, 3.10]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          pip install -r requirements_dev.txt
+      - name: Lint
+        run: |
+          pre-commit run --all-files
+      - name: Test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python manage.py compilemessages
+          coverage run --source=django_zxcvbn_password_validator ./manage.py test
+          coverage html
+          coveralls debug --service=github
