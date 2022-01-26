@@ -5,5 +5,7 @@ django-rosetta
 mock
 pre-commit>=2.16
 pylint==2.12.2
+coverage
 python-coveralls
+coveralls
 tox
