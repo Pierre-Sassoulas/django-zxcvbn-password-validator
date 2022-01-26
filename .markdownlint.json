@@ -1,0 +1,11 @@
+{
+  "default": true,
+  "first-heading-h1": false,
+  "hr-style": false,
+  "line-length": false,
+  "no-duplicate-heading": false,
+  "no-inline-html": {
+    "allowed_elements": ["br", "sup", "sub"]
+  },
+  "ol-prefix": false
+}
