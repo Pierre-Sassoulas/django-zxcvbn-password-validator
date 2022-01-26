@@ -1,3 +1,5 @@
+# mypy: ignore-errors
+
 from django.conf import settings
 from django.contrib.auth.models import User
 from django.contrib.auth.password_validation import get_default_password_validators

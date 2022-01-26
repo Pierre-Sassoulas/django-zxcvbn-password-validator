@@ -1,9 +1,11 @@
+# mypy: ignore-errors
+
 import logging
 
 try:
-  from django.utils.translation import gettext_lazy as _
+    from django.utils.translation import gettext_lazy as _
 except ImportError:
-  from django.utils.translation import ugettext_lazy as _
+    from django.utils.translation import ugettext_lazy as _
 
 LOGGER = logging.getLogger(__file__)
 

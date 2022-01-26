@@ -1,9 +1,13 @@
+# mypy: ignore-errors
+
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured, ValidationError
+
 try:
-  from django.utils.translation import gettext_lazy as _
+    from django.utils.translation import gettext_lazy as _
 except ImportError:
-  from django.utils.translation import ugettext_lazy as _
+    from django.utils.translation import ugettext_lazy as _
+
 from zxcvbn import zxcvbn
 
 from django_zxcvbn_password_validator.settings import DEFAULT_MINIMAL_STRENGTH
@@ -64,8 +68,9 @@ class ZxcvbnPasswordValidator:
         if password_strength < self.password_minimal_strength:
             crack_time = results["crack_times_display"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
+
             feedbacks = [
-                "{} {}".format(
+                "{} {}".format(  # pylint: disable=consider-using-f-string
                     _("Your password is too guessable :"),
                     _("It would take an offline attacker %(time)s to guess it.")
                     % {"time": translate_zxcvbn_time_estimate(offline_time)},
@@ -82,11 +87,9 @@ class ZxcvbnPasswordValidator:
     def get_help_text(self):
         expectations = _("We expect")
         if self.password_minimal_strength == 0:
-            expectations += " {}".format(
-                _("nothing: you can use any password you want.")
-            )
+            expectations += f" {_('nothing: you can use any password you want.')}"
             return expectations
-        expectations += " {}".format(_("a password that cannot be guessed"))
+        expectations += f" {_('a password that cannot be guessed')}"
         hardness = {
             1: _("by your familly or friends."),
             2: _("by attackers online."),
@@ -94,6 +97,7 @@ class ZxcvbnPasswordValidator:
             4: _("without a dedicated team and an access to our database."),
         }
         expectations += f" {hardness.get(self.password_minimal_strength)}"
+        # pylint: disable=consider-using-f-string
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),

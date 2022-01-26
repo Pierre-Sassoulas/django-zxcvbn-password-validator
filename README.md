@@ -46,7 +46,7 @@ Add `'django_zxcvbn_password_validator'` in the `INSTALLED_APPS` :
 ```python
 INSTALLED_APPS = [
     # ...
-    'django_zxcvbn_password_validator'
+    "django_zxcvbn_password_validator"
 ]
 ```
 
@@ -55,10 +55,10 @@ Modify `AUTH_PASSWORD_VALIDATORS` :
 ```python
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
     },
     {
-        'NAME': 'django_zxcvbn_password_validator.ZxcvbnPasswordValidator',
+        "NAME": "django_zxcvbn_password_validator.ZxcvbnPasswordValidator",
     },
     # ...
 ]
