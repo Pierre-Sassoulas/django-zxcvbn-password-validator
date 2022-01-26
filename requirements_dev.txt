@@ -3,7 +3,7 @@
 coverage
 django-rosetta
 mock
-pre-commit
-pylint
+pre-commit>=2.16
+pylint==2.12.2
 python-coveralls
 tox

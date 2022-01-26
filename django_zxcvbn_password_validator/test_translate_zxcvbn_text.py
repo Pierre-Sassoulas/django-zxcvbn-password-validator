@@ -1,3 +1,5 @@
+# mypy: ignore-errors
+
 from django.test import TestCase, override_settings
 
 from django_zxcvbn_password_validator.translate_zxcvbn_text import translate_zxcvbn_text
