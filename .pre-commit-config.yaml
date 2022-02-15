@@ -68,17 +68,8 @@ repos:
         entry: mypy
         language: python
         "types": [python]
-        args:
-          [
-            "--ignore-missing-imports",
-            "--disallow-untyped-defs",
-            "--scripts-are-modules",
-            "--implicit-reexport",
-            "--install-types",
-            "--non-interactive",
-            "--explicit-package-bases",
-            "--namespace-packages",
-          ]
+        args: ["--strict", "--ignore-missing-imports", "--namespace-packages"]
+        additional_dependencies: []
         require_serial: true
         exclude: "translation_project/|example_project"
   - repo: https://github.com/DavidAnson/markdownlint-cli2
