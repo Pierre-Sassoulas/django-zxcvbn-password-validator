@@ -47,7 +47,7 @@ repos:
         exclude: "tests/config/fixtures/album_duplicated.json"
       - id: check-ast
   - repo: https://github.com/PyCQA/flake8
-    rev: 5.0.2
+    rev: 5.0.4
     hooks:
       - id: flake8
         exclude: "translation_project/|example_project"
