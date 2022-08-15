@@ -73,7 +73,7 @@ repos:
         require_serial: true
         exclude: "translation_project/|example_project"
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.5.0
+    rev: v0.5.1
     hooks:
       - id: markdownlint-cli2
         name: markdownlint-cli2
