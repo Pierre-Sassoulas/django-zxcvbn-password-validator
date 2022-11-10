@@ -87,9 +87,9 @@ class ZxcvbnPasswordValidator:
     def get_help_text(self):
         expectations = _("We expect")
         if self.password_minimal_strength == 0:
-            expectations += f" {_('nothing: you can use any password you want.')}"
+            expectations += " " + _("nothing: you can use any password you want.")
             return expectations
-        expectations += f" {_('a password that cannot be guessed')}"
+        expectations += " " + _("a password that cannot be guessed")
         hardness = {
             1: _("by your familly or friends."),
             2: _("by attackers online."),
