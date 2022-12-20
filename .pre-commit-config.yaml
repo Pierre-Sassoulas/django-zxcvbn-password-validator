@@ -18,7 +18,7 @@ repos:
       - id: remove-empty-comment
         args: [--meaningless-characters, "-= "]
   - repo: https://github.com/PyCQA/isort
-    rev: 5.11.1
+    rev: v5.11.3
     hooks:
       - id: isort
   - repo: https://github.com/asottile/pyupgrade
@@ -47,7 +47,7 @@ repos:
         exclude: "tests/config/fixtures/album_duplicated.json"
       - id: check-ast
   - repo: https://github.com/PyCQA/flake8
-    rev: 5.0.4
+    rev: 6.0.0
     hooks:
       - id: flake8
         exclude: "translation_project/|example_project"
