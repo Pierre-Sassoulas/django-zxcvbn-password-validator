@@ -18,7 +18,7 @@ repos:
       - id: remove-empty-comment
         args: [--meaningless-characters, "-= "]
   - repo: https://github.com/PyCQA/isort
-    rev: 5.11.1
+    rev: v5.11.3
     hooks:
       - id: isort
   - repo: https://github.com/asottile/pyupgrade
