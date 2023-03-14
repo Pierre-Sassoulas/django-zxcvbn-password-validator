@@ -2,7 +2,6 @@ from django.core.management.base import BaseCommand
 
 
 class Command(BaseCommand):
-
     help = "Will generate what the i18n dict for the translate_zxcvbn_text function"
 
     def handle(self, *args, **options):
