@@ -81,4 +81,5 @@ every password scoring lower than this number will be rejected :
 # (guesses < 10^10)
 # 4 very unguessable: strong protection from offline slow-hash scenario.
 # (guesses >= 10^10)
+PASSWORD_MINIMAL_STRENGTH = 0 if DEBUG else 4
 ```
