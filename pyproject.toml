@@ -8,7 +8,7 @@ include = ["django_zxcvbn_password_validator*"]
 [project]
 name = "django-zxcvbn-password-validator"
 description = "A translatable password validator for django, based on zxcvbn-python."
-version = "1.4.3"
+version = "1.4.4"
 readme = "README.md"
 authors = [
     {email="pierre.sassoulas@gmail.com", name="Pierre SASSOULAS"}
