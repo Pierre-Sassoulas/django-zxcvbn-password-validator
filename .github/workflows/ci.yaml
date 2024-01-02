@@ -17,10 +17,10 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8, 3.9, "3.10", "3.11", "3.12"]
-    #        django-version: ["<4", "<5", "<6"]
+        django-version: ["<4", "<5", "<6"]
     steps:
       - uses: actions/checkout@v2
-      - name: Python ${{ matrix.python-version }} # Django ${{ matrix.django-version }}
+      - name: Python-${{ matrix.python-version }}-django${{ matrix.django-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
@@ -28,6 +28,7 @@ jobs:
         run: |
           sudo apt-get install -yqq gettext
           pip3 install -e ".[dev]"
+          pip3 install "django${{ matrix.django-version }}"
       - name: Lint
         run: |
           pre-commit run --all-files
