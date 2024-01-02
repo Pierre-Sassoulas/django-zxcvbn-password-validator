@@ -2,30 +2,12 @@ ci:
   skip: [pylint]
 
 repos:
-  - repo: https://github.com/PyCQA/autoflake
-    rev: v2.2.1
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: "v0.1.8"
     hooks:
-      - id: autoflake
-        args:
-          - --in-place
-          - --remove-all-unused-imports
-          - --expand-star-imports
-          - --remove-duplicate-keys
-          - --remove-unused-variables
-  - repo: https://github.com/Pierre-Sassoulas/remove-empty-comment
-    rev: 1.1.0
-    hooks:
-      - id: remove-empty-comment
-        args: [--meaningless-characters, "-= "]
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.13.2
-    hooks:
-      - id: isort
-  - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.0
-    hooks:
-      - id: pyupgrade
-        args: [--py36-plus]
+      - id: ruff
+        args: ["--fix"]
+        exclude: &nocheck "translation_project/|example_project"
   - repo: https://github.com/asottile/blacken-docs
     rev: 1.16.0
     hooks:
@@ -46,11 +28,6 @@ repos:
       - id: check-json
         exclude: "tests/config/fixtures/album_duplicated.json"
       - id: check-ast
-  - repo: https://github.com/PyCQA/flake8
-    rev: 6.1.0
-    hooks:
-      - id: flake8
-        exclude: "translation_project/|example_project"
   - repo: local
     hooks:
       - id: pylint
@@ -59,7 +36,7 @@ repos:
         language: system
         args: ["-sn", "-rn"]
         types: [python]
-        exclude: "translation_project/|example_project"
+        exclude: *nocheck
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.8.0
     hooks:
@@ -71,7 +48,7 @@ repos:
         args: ["--strict", "--ignore-missing-imports", "--namespace-packages"]
         additional_dependencies: []
         require_serial: true
-        exclude: "translation_project/|example_project"
+        exclude: *nocheck
   - repo: https://github.com/DavidAnson/markdownlint-cli2
     rev: v0.11.0
     hooks:
