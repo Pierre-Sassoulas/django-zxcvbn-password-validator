@@ -35,6 +35,6 @@ coverage html
 We're using `pre-commit`, it should take care of linting during commit.
 
 ```bash
-pip install -r requirements_dev.txt
+pip3 install -e ".[dev]"
 pre-commit install
 ```
