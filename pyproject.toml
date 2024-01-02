@@ -45,7 +45,8 @@ dev = [
     "django-rosetta",
     "mock",
     "pre-commit>=2.16",
-    "pylint>=2.17.0",
+    "pylint>=3.0.3",
+    "pylint-django",
     "coverage",
     "python-coveralls",
     "coveralls",
@@ -65,3 +66,16 @@ select = [
     "RUF", # ruff
     "UP", # pyupgrade
 ]
+
+[tool.pylint.main]
+
+load-plugins = "pylint_django"
+django-settings-module="django_zxcvbn_password_validator.settings"
+disable=[
+    # I0011 Warning locally suppressed using disable-msg
+    "I0011",
+    "missing-docstring", # We don't want docstring everywhere
+    "imported-auth-user", # harmful according to django's dev
+]
+
+max-line-length = 88
