@@ -3,7 +3,7 @@ ci:
 
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.1.11"
+    rev: "v0.1.13"
     hooks:
       - id: ruff
         args: ["--fix"]
@@ -50,7 +50,7 @@ repos:
         require_serial: true
         exclude: *nocheck
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.11.0
+    rev: v0.12.1
     hooks:
       - id: markdownlint-cli2
         name: markdownlint-cli2
