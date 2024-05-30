@@ -52,8 +52,8 @@ repos:
         entry: mypy
         language: python
         "types": [python]
-        args: ["--strict", "--ignore-missing-imports", "--namespace-packages"]
-        additional_dependencies: []
+        args: ["--strict"]
+        additional_dependencies: ["django-stubs"]
         require_serial: true
         exclude: *nocheck
   - repo: https://github.com/DavidAnson/markdownlint-cli2
