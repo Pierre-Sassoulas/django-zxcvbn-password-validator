@@ -60,13 +60,14 @@ include = [
 
 line-length = 88
 lint.select = [
-  "B",   # bugbear
-  "E",   # pycodestyle
-  "F",   # pyflakes
-  "I",   # isort
-  "RUF", # ruff
-  "UP",  # pyupgrade
-  "W",   # pycodestyle
+  "B",      # bugbear
+  "E",      # pycodestyle
+  "F",      # pyflakes
+  "I",      # isort
+  "PGH004", # pygrep-hooks - Use specific rule codes when using noqa
+  "RUF",    # ruff
+  "UP",     # pyupgrade
+  "W",      # pycodestyle
 ]
 
 [tool.pylint.main]
