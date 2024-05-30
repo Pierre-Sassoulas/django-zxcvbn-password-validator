@@ -8,7 +8,8 @@ appreciated if you know a language that is not yet available.
 ### I18n
 
 ```bash
-python manage.py makemessages
+python manage.py makemessages --locale=<desired locale>
+# python manage.py migrate
 # python manage.py createsuperuser ? (You need to login for rosetta)
 python manage.py runserver
 # Access http://localhost:8000/admin to login
