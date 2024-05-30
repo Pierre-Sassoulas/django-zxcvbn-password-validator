@@ -51,7 +51,7 @@ optional-dependencies.dev = [
   "mock",
   "pre-commit>=2.16",
   "pylint>=3.2",
-  "pylint-django",
+  "pylint-django==2.5.5",
   "python-coveralls",
   "tox",
 ]
