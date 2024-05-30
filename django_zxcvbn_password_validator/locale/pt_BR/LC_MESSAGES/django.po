@@ -1,0 +1,246 @@
+# Portuguese brasilian translations
+# Copyright (C) 2024
+# This file is distributed under the same license as the django-zxcvbn-password package.
+# Andrés Martano, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-29 19:19+0000\n"
+"PO-Revision-Date: 2024-05-29 19:41+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:19
+msgid "Use a few words, avoid common phrases"
+msgstr ""
+"Use algumas palavras, evite palavras geralmente utilizadas em conjunto"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:22
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "Não é necessário utilizar símbolos, números ou letras maiúsculas"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:25
+msgid "Add another word or two. Uncommon words are better."
+msgstr "Adicione uma ou duas palavras. Dê preferência palavras pouco usadas."
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:28
+msgid "Straight rows of keys are easy to guess"
+msgstr "Teclas em sequência são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:31
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Padrões curtos de teclas são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:34
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Use mais teclas e mudando a direção"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:37
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "Repetições como \"aaa\" são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:40
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+"Repetições como \"abcabcabc\" são apenas um pouco mais difíceis de adivinhar"
+" do que \"abc\""
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Avoid repeated words and characters"
+msgstr "Evite palavras ou caracteres repetidos"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:44
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "Sequências como \"abc\" ou \"6543\" são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:46
+msgid "Avoid sequences"
+msgstr "Evite sequências"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Recent years are easy to guess"
+msgstr "Anos recentes são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:48
+msgid "Avoid recent years"
+msgstr "Evite anos recentes"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:50
+msgid "Avoid years that are associated with you"
+msgstr "Evite anos associados a você"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Dates are often easy to guess"
+msgstr "Datas geralmente são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
+msgid "Avoid dates and years that are associated with you"
+msgstr "Evite datas e anos associados a você"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:56
+msgid "This is a top-10 common password"
+msgstr "Essa é uma das 10 senhas mais comuns"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "This is a top-100 common password"
+msgstr "Essa é uma das 100 senhas mais comuns"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:58
+msgid "This is a very common password"
+msgstr "Essa é uma senha muito comum"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:60
+msgid "This is similar to a commonly used password"
+msgstr "Essa é similar a uma senha muito comum"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "A word by itself is easy to guess"
+msgstr "Uma única palavra é fácil de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:64
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Nomes e sobrenomes são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "Common names and surnames are easy to guess"
+msgstr "Nomes e sobrenomes comuns são fáceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:70
+msgid "Capitalization doesn't help very much"
+msgstr "Usar maiúsculo só na primeira letra de uma palavra não ajuda muito"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:73
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr ""
+"Usar maiúsculo em todas as letras é quase tão fácil de adivinhar quanto usar"
+" só minúsculo"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:76
+msgid "Reversed words aren't much harder to guess"
+msgstr "Palavras de trás para frente não são muito mais difíceis de adivinhar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr "Substituições previsíveis, como '@' ao invés de 'a', não ajudam muito"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:103
+msgid "less than a second"
+msgstr "Menos de um segundo"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:104
+msgid "centuries"
+msgstr "séculos"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:106
+msgid "seconds"
+msgstr "segundos"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:107
+msgid "minutes"
+msgstr "minutos"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:108
+msgid "hours"
+msgstr "horas"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:109
+msgid "days"
+msgstr "dias"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "months"
+msgstr "meses"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:111
+msgid "years"
+msgstr "anos"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:114
+msgid "second"
+msgstr "segundo"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:115
+msgid "minute"
+msgstr "minuto"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+msgid "hour"
+msgstr "hora"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:117
+msgid "day"
+msgstr "dia"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:118
+msgid "month"
+msgstr "mês"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+msgid "year"
+msgstr "ano"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:74
+msgid "Your password is too guessable :"
+msgstr "Sua senha é muito fácil de adivinhar :"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:75
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "Um ataque offline levaria %(time)s para adivinhá-la."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Warning"
+msgstr "Aviso"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:83
+msgid "Advice"
+msgstr "Dica"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:88
+msgid "We expect"
+msgstr "Nós estimamos"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:90
+msgid "nothing: you can use any password you want."
+msgstr "nenhuma: você pode usar qualquer senha que quiser."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:92
+msgid "a password that cannot be guessed"
+msgstr "uma senha que não possa ser adivinhada"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:94
+msgid "by your familly or friends."
+msgstr "por sua família ou amigos."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "by attackers online."
+msgstr "por atacantes online."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+msgid "without access to our database."
+msgstr "sem acesso à nossa base de dados."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:97
+msgid "without a dedicated team and an access to our database."
+msgstr "sem uma equipe dedicada e com acesso à nossa base de dados."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:102
+msgid "There is no specific rule for a great password,"
+msgstr "Não existe uma regra específica para uma boa senha,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:103
+msgid "however if your password is too easy to guess,"
+msgstr "porém se sua senha for muito fácil de adivinhar,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:104
+msgid "we will tell you how to make a better one."
+msgstr "nós daremos sugestões de como melhorá-la."
