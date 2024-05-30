@@ -44,6 +44,7 @@ dependencies = [
   "zxcvbn",
 ]
 optional-dependencies.dev = [
+  "build",
   "coverage",
   "coveralls",
   "django-rosetta",
