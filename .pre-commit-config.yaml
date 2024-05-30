@@ -33,8 +33,7 @@ repos:
         files: |
           (?x)^(
               README.md|
-              pyproject.toml|
-              setup.py
+              pyproject.toml
           )$
   - repo: local
     hooks:
