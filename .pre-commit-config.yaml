@@ -3,21 +3,17 @@ ci:
 
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.4.5"
+    rev: "v0.4.6"
     hooks:
       - id: ruff
         args: ["--fix"]
         exclude: &nocheck "translation_project/|example_project"
+      - id: ruff-format
   - repo: https://github.com/asottile/blacken-docs
     rev: 1.16.0
     hooks:
       - id: blacken-docs
         additional_dependencies: [black==24.2.0]
-  - repo: https://github.com/psf/black
-    rev: 24.4.2
-    hooks:
-      - id: black
-        args: [--safe, --quiet]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
