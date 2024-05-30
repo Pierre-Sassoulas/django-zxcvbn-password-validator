@@ -1,81 +1,83 @@
 [build-system]
-requires = ["setuptools>=67.5.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools.packages.find]
-include = ["django_zxcvbn_password_validator*"]
+requires = [
+  "setuptools>=67.5.1",
+  "wheel",
+]
 
 [project]
 name = "django-zxcvbn-password-validator"
-description = "A translatable password validator for django, based on zxcvbn-python."
 version = "1.4.4"
+description = "A translatable password validator for django, based on zxcvbn-python."
 readme = "README.md"
+license = { text = "MIT" }
 authors = [
-    {email="pierre.sassoulas@gmail.com", name="Pierre SASSOULAS"}
-]
-license = {text = "MIT"}
-classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Natural Language :: English",
-    "Natural Language :: French",
-    "Natural Language :: Dutch",
-    "Framework :: Django",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-]
-dependencies = [
-    "django>=2.0,<6",
-    "zxcvbn",
+  { email = "pierre.sassoulas@gmail.com", name = "Pierre SASSOULAS" },
 ]
 requires-python = ">=3.8.0"
 
-[project.urls]
-"Source Code"       = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator"
-"Bug Tracker"       = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/issues"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Framework :: Django",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Dutch",
+  "Natural Language :: English",
+  "Natural Language :: French",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "django>=2,<6",
+  "zxcvbn",
+]
+optional-dependencies.dev = [
+  "coverage",
+  "coveralls",
+  "django-rosetta",
+  "mock",
+  "pre-commit>=2.16",
+  "pylint>=3.0.3",
+  "pylint-django",
+  "python-coveralls",
+  "tox",
+]
+urls."Bug Tracker" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/issues"
+urls."Source Code" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator"
 
-[project.optional-dependencies]
-dev = [
-    "coverage",
-    "django-rosetta",
-    "mock",
-    "pre-commit>=2.16",
-    "pylint>=3.0.3",
-    "pylint-django",
-    "coverage",
-    "python-coveralls",
-    "coveralls",
-    "tox",
+[tool.setuptools.packages.find]
+include = [
+  "django_zxcvbn_password_validator*",
 ]
 
 [tool.ruff]
 
 line-length = 88
-[tool.ruff.lint]
-select = [
-    "E",  # pycodestyle
-    "F",  # pyflakes
-    "W",  # pycodestyle
-    "B",  # bugbear
-    "I",  # isort
-    "RUF", # ruff
-    "UP", # pyupgrade
+lint.select = [
+  "B",   # bugbear
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "I",   # isort
+  "RUF", # ruff
+  "UP",  # pyupgrade
+  "W",   # pycodestyle
 ]
 
 [tool.pylint.main]
 
 load-plugins = "pylint_django"
-django-settings-module="django_zxcvbn_password_validator.settings"
-disable=[
-    # I0011 Warning locally suppressed using disable-msg
-    "I0011",
-    "missing-docstring", # We don't want docstring everywhere
-    "imported-auth-user", # harmful according to django's dev
+django-settings-module = "django_zxcvbn_password_validator.settings"
+disable = [
+  # I0011 Warning locally suppressed using disable-msg
+  "I0011",
+  "missing-docstring",  # We don't want docstring everywhere
+  "imported-auth-user", # harmful according to django's dev
 ]
 
 max-line-length = 88
