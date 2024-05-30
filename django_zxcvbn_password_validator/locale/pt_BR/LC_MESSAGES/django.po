@@ -1,7 +1,7 @@
 # Portuguese brasilian translations
 # Copyright (C) 2024
 # This file is distributed under the same license as the django-zxcvbn-password package.
-# Andrés Martano  < mail if you wish ?>, 2024.
+# Andrés Martano, 2024.
 #
 #, fuzzy
 msgid ""
