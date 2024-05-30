@@ -1,0 +1,3 @@
+recursive-include django_zxcvbn_password_validator/locale *.po *.mo
+global-exclude __pycache__
+global-exclude *.py[co]
