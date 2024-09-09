@@ -3,7 +3,7 @@ ci:
 
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.6.3"
+    rev: "v0.6.4"
     hooks:
       - id: ruff
         args: ["--fix"]
@@ -57,7 +57,7 @@ repos:
         require_serial: true
         exclude: *nocheck
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.13.0
+    rev: v0.14.0
     hooks:
       - id: markdownlint-cli2
         name: markdownlint-cli2
@@ -67,7 +67,7 @@ repos:
         types: [markdown]
         minimum_pre_commit_version: 0.15.0
   - repo: https://github.com/tox-dev/pyproject-fmt
-    rev: "2.2.1"
+    rev: "2.2.3"
     hooks:
       - id: pyproject-fmt
   - repo: https://github.com/rbubley/mirrors-prettier
