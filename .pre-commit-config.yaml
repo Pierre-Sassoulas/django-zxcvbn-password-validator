@@ -3,7 +3,7 @@ ci:
 
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.6.5"
+    rev: "v0.6.7"
     hooks:
       - id: ruff
         args: ["--fix"]
@@ -67,7 +67,7 @@ repos:
         types: [markdown]
         minimum_pre_commit_version: 0.15.0
   - repo: https://github.com/tox-dev/pyproject-fmt
-    rev: "2.2.3"
+    rev: "2.2.4"
     hooks:
       - id: pyproject-fmt
   - repo: https://github.com/rbubley/mirrors-prettier
@@ -77,7 +77,7 @@ repos:
         args: [--prose-wrap=always, --print-width=88]
         exclude: "tests/config/fixtures/album_duplicated.yaml"
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.9
+    rev: 1.7.10
     hooks:
       - id: bandit
         args: ["-r", "-lll"]
