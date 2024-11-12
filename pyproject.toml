@@ -51,11 +51,13 @@ optional-dependencies.dev = [
   "coveralls",
   "django-rosetta",
   "mock",
+  "python-coveralls",
+  "tox",
+]
+optional-dependencies.pylint = [
   "pre-commit>=2.16",
   "pylint>=3.2",
   "pylint-django==2.5.5",
-  "python-coveralls",
-  "tox",
 ]
 urls."Bug Tracker" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/issues"
 urls."Source Code" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator"
