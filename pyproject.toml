@@ -52,7 +52,6 @@ optional-dependencies.dev = [
   "django-rosetta",
   "mock",
   "python-coveralls",
-  "tox",
 ]
 optional-dependencies.pylint = [
   "pre-commit>=2.16",
