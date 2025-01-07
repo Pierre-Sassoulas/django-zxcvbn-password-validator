@@ -5,4 +5,4 @@ from django_zxcvbn_password_validator.zxcvbn_password_validator import (
     ZxcvbnPasswordValidator,
 )
 
-__all__ = ["ZxcvbnPasswordValidator", "DEFAULT_MINIMAL_STRENGTH"]
+__all__ = ["DEFAULT_MINIMAL_STRENGTH", "ZxcvbnPasswordValidator"]
