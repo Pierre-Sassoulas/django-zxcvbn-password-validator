@@ -20,7 +20,7 @@ license = { text = "MIT" }
 authors = [
   { email = "pierre.sassoulas@gmail.com", name = "Pierre SASSOULAS" },
 ]
-requires-python = ">=3.7.0"
+requires-python = ">=3.9.0"
 
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -33,8 +33,6 @@ classifiers = [
   "Natural Language :: Portuguese (Brazilian)",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.7",
-  "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
