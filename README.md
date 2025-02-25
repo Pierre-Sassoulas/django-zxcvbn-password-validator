@@ -24,6 +24,7 @@ The software is developed in english. Other available languages are :
 - [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
       [Lionel Sausin](https://github.com/ls-initiatives)
 - [x] Brazilian Portuguese thanks to [Andrés Martano](https://github.com/andresmrm/)
+- [x] Czech thanks to [Michal Čihař](https://github.com/nijel/)
 - [x] English
 
 ## Creating a user with django-zxcvbn-password-validator
