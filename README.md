@@ -18,7 +18,9 @@ appreciated if you know a language that is not yet available. See
 
 ### Language available
 
-The software is developed in english. Other available languages are :
+The software is developed in English. Other available languages are:
+
+[![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
 - [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
 - [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
