@@ -5,6 +5,9 @@
 This project is available in multiple language. Your contribution would be very
 appreciated if you know a language that is not yet available.
 
+The translations can be edited online using
+[Weblate](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/).
+
 ### I18n
 
 ```bash
