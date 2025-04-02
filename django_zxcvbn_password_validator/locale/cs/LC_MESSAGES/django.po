@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-24 12:46+0000\n"
-"PO-Revision-Date: 2025-02-25 12:11+0000\n"
+"PO-Revision-Date: 2025-04-02 13:15+0000\n"
 "Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "django-zxcvbn-password-validator/translations/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:21
 msgid "Use a few words, avoid common phrases"
@@ -233,12 +233,12 @@ msgstr ""
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:102
 msgid "There is no specific rule for a great password,"
-msgstr ""
+msgstr "Neexistují žádná specifická pravidla pro dokonalé heslo,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:103
 msgid "however if your password is too easy to guess,"
-msgstr ""
+msgstr "ale pokud je vaše heslo příliš snadné odhadnout,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:104
 msgid "we will tell you how to make a better one."
-msgstr ""
+msgstr "řekneme vám, jak vytvořit lepší."
