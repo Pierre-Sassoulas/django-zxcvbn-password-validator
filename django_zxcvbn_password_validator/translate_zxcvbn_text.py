@@ -1,10 +1,13 @@
 # mypy: ignore-errors
 
 import logging
+from decimal import Decimal
 
 try:
     from django.utils.translation import gettext_lazy as _
+    from django.utils.translation import ngettext
 except ImportError:
+    from django.utils.translation import ngettext
     from django.utils.translation import ugettext_lazy as _
 
 LOGGER = logging.getLogger(__file__)
@@ -95,33 +98,32 @@ def translate_zxcvbn_text(text):
     return translated_text
 
 
-def translate_zxcvbn_time_estimate(text):
-    def replace_dict(text, times):
-        for original, translated in times.items():
-            text = text.replace(original, str(translated))
-        return text
-
-    if text == "less than a second":
+def translate_zxcvbn_time_estimate(seconds: Decimal) -> str:  # noqa: PLR0911 # pylint: disable=R0911
+    """Based on display_time from zxcvbn."""
+    minute = 60
+    hour = minute * 60
+    day = hour * 24
+    month = day * 31
+    year = month * 12
+    century = year * 100
+    if seconds < 1:
         return _("less than a second")
-    text = text.replace("centuries", str(_("centuries")))
-    plural_times = {
-        "seconds": _("seconds"),
-        "minutes": _("minutes"),
-        "hours": _("hours"),
-        "days": _("days"),
-        "months": _("months"),
-        "years": _("years"),
-    }
-    times = {
-        "second": _("second"),
-        "minute": _("minute"),
-        "hour": _("hour"),
-        "day": _("day"),
-        "month": _("month"),
-        "year": _("year"),
-    }
-    # Plural first to avoid replacing "hours" by _("hour") + s
-    # Adding an 's' does not mean plural in every language
-    text = replace_dict(text, plural_times)
-    text = replace_dict(text, times)
-    return text
+    if seconds < minute:
+        base = round(seconds)
+        return ngettext("%d second", "%d seconds", base) % base
+    if seconds < hour:
+        base = round(seconds / minute)
+        return ngettext("%d minute", "%d minutes", base) % base
+    if seconds < day:
+        base = round(seconds / hour)
+        return ngettext("%d hour", "%d hours", base) % base
+    if seconds < month:
+        base = round(seconds / day)
+        return ngettext("%d day", "%d days", base) % base
+    if seconds < year:
+        base = round(seconds / month)
+        return ngettext("%d month", "%d months", base) % base
+    if seconds < century:
+        base = round(seconds / year)
+        return ngettext("%d year", "%d year", base) % base
+    return _("centuries")
