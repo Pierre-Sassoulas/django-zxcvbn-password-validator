@@ -63,7 +63,13 @@ class ZxcvbnPasswordValidator:
         if user:
             for value in user.__dict__.values():
                 user_inputs.append(value)
-        results = self.zxcvbn_implementation(password, user_inputs=user_inputs)
+        try:
+            results = self.zxcvbn_implementation(password, user_inputs=user_inputs)
+        except ValueError as error:
+            # zxcvbn raises ValueError only if the password is too long.
+            raise ValidationError(
+                _("Your password exceeds the maximal length of 72 characters.")
+            ) from error
         password_strength = results["score"]
         if password_strength < self.password_minimal_strength:
             crack_time = results["crack_times_display"]
