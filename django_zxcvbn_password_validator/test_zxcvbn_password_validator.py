@@ -87,6 +87,14 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIsNone(self.validator.validate("123"))
         self.assertIsNone(self.validator.validate("godzilla"))
 
+    def test_long_password(self):
+        self.validator = ZxcvbnPasswordValidator()
+        with self.assertRaises(ValidationError) as error:
+            self.validator.validate("x" * 80)
+        self.assertIn(
+            "Your password exceeds the maximal length", error.exception.messages[0]
+        )
+
     @override_settings(PASSWORD_MINIMAL_STRENGTH=None)
     @override_settings(PASSWORD_MINIMAL_STRENTH=0)
     def test_compatibility_with_old_settings(self):
