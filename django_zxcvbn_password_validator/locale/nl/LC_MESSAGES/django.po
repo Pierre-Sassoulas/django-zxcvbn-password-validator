@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-10 10:20+0000\n"
+"POT-Creation-Date: 2025-04-02 10:41+0000\n"
 "PO-Revision-Date: 2022-11-10 10:21+0000\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -18,174 +18,173 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:19
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:22
 msgid "Use a few words, avoid common phrases"
 msgstr "Gebruik een paar woorden, vermijd veelvoorkomende zinnen"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:22
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:25
 msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Symbolen, cijfers of hoofdletters zijn niet noodzakelijk"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:25
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:28
 msgid "Add another word or two. Uncommon words are better."
 msgstr "Voeg nog een woord of twee toe. Ongewone woorden zijn beter."
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:28
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:31
 msgid "Straight rows of keys are easy to guess"
 msgstr "Opeenvolgende toetsen zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:31
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:34
 msgid "Short keyboard patterns are easy to guess"
 msgstr "Korte patronen van het toetsenbord zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:34
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:37
 msgid "Use a longer keyboard pattern with more turns"
 msgstr "Gebruik een langer toetsenbordpatroon met meer bochten"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:37
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:40
 msgid "Repeats like \"aaa\" are easy to guess"
 msgstr "Herhalingen zoals \"aaa\" zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:40
-msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:43
+msgid ""
+"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
 "Herhalingen zoals \"abcabcabc\" zijn maar een klein beetje moeilijker te "
 "raden dan \"abc\""
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid "Avoid repeated words and characters"
 msgstr "Vermijd herhalingen van woorden en karakters"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:44
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
 msgstr "Reeksen zoals \"abc\" of \"6543\" zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:46
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Avoid sequences"
 msgstr "Vermijd reeksen"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:50
 msgid "Recent years are easy to guess"
 msgstr "Recente jaartallen zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:48
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "Avoid recent years"
 msgstr "Vermijd recente jaartallen"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:50
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
 msgid "Avoid years that are associated with you"
 msgstr "Vermijd jaartallen die met jou zijn geassocieerd"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
 msgid "Dates are often easy to guess"
 msgstr "Data zijn vaak eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Avoid dates and years that are associated with you"
 msgstr "Vermijd data en jaren die met je zijn geassocieerd"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:56
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
 msgid "This is a top-10 common password"
 msgstr "Dit is een top-10 veelvoorkomend wachtwoord"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:60
 msgid "This is a top-100 common password"
 msgstr "Dit is een top-100 veelvoorkomend wachtwoord"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:58
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
 msgid "This is a very common password"
 msgstr "Dit is een veelvoorkomend wachtwoord"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:60
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
 msgid "This is similar to a commonly used password"
 msgstr "Dit lijkt te veel op een veelvoorkomend wachtwoord"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
 msgid "A word by itself is easy to guess"
 msgstr "Een los woord is eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:64
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
 msgid "Names and surnames by themselves are easy to guess"
 msgstr "Namen en achternamen op zich zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:70
 msgid "Common names and surnames are easy to guess"
 msgstr "Veelvoorkomende namen en achternamen zijn eenvoudig te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:70
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:73
 msgid "Capitalization doesn't help very much"
 msgstr "Hoofdletters toevoegen helpt niet veel"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:73
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:76
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
 msgstr ""
 "Alles in hoofdletters is bijna even eenvoudig te raden als alles in kleine "
 "letters"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:76
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
 msgid "Reversed words aren't much harder to guess"
 msgstr "Woorden achterstevoren spellen is niet veel moeilijker te raden"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:82
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"Voorspelbare vervangingen zoals '@' in plaats van 'a' helpen niet veel"
+msgstr "Voorspelbare vervangingen zoals '@' in plaats van 'a' helpen niet veel"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:103
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:108
 msgid "less than a second"
 msgstr "minder dan één seconde"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:104
-msgid "centuries"
-msgstr "eeuwen"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:106
-msgid "seconds"
-msgstr "seconden"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:107
-msgid "minutes"
-msgstr "minuten"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:108
-msgid "hours"
-msgstr "uren"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:109
-msgid "days"
-msgstr "dagen"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
-msgid "months"
-msgstr "maand"
-
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:111
-msgid "years"
-msgstr "jaren"
+#, fuzzy, python-format
+#| msgid "second"
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "seconde"
+msgstr[1] "seconde"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:114
-msgid "second"
-msgstr "seconde"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:115
-msgid "minute"
-msgstr "minuut"
-
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
-msgid "hour"
-msgstr "uur"
+#, fuzzy, python-format
+#| msgid "minute"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minuut"
+msgstr[1] "minuut"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:117
-msgid "day"
-msgstr "dag"
+#, fuzzy, python-format
+#| msgid "hour"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "uur"
+msgstr[1] "uur"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:118
-msgid "month"
-msgstr "maand"
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:120
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
-msgid "year"
-msgstr "jaar"
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:123
+#, fuzzy, python-format
+#| msgid "month"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "maand"
+msgstr[1] "maand"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:126
+#, fuzzy, python-format
+#| msgid "year"
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "jaar"
+msgstr[1] "jaar"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:127
+msgid "centuries"
+msgstr "eeuwen"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:74
 msgid "Your password is too guessable :"
@@ -243,3 +242,24 @@ msgstr "maar als je wachtwoord te eenvoudig te raden is,"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:104
 msgid "we will tell you how to make a better one."
 msgstr "zullen we je vertellen hoe je een beter wachtwoord kunt maken."
+
+#~ msgid "seconds"
+#~ msgstr "seconden"
+
+#~ msgid "minutes"
+#~ msgstr "minuten"
+
+#~ msgid "hours"
+#~ msgstr "uren"
+
+#~ msgid "days"
+#~ msgstr "dagen"
+
+#~ msgid "months"
+#~ msgstr "maand"
+
+#~ msgid "years"
+#~ msgstr "jaren"
+
+#~ msgid "day"
+#~ msgstr "dag"
