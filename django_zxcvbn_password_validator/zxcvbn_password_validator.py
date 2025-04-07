@@ -85,22 +85,19 @@ class ZxcvbnPasswordValidator:
             raise ValidationError(feedbacks)
 
     def get_help_text(self):
-        expectations = _("We expect")
         if self.password_minimal_strength == 0:
-            expectations += " " + _("nothing: you can use any password you want.")
-            return expectations
-        expectations += " " + _("a password that cannot be guessed")
+            return _("We expect nothing: you can use any password you want.")
+        expectations = _("We expect a password that cannot be guessed %s")
         hardness = {
             1: _("by your familly or friends."),
             2: _("by attackers online."),
             3: _("without access to our database."),
             4: _("without a dedicated team and an access to our database."),
         }
-        expectations += f" {hardness.get(self.password_minimal_strength)}"
         # pylint: disable=consider-using-f-string
         return "{} {} {} {}".format(
             _("There is no specific rule for a great password,"),
             _("however if your password is too easy to guess,"),
             _("we will tell you how to make a better one."),
-            expectations,
+            expectations % hardness.get(self.password_minimal_strength),
         )
