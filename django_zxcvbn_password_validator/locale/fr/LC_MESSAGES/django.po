@@ -193,7 +193,7 @@ msgid "year"
 msgstr "année"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:74
-msgid "Your password is too guessable :"
+msgid "Your password is too guessable:"
 msgstr "Votre mot de passe est trop facile à deviner :"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:75
