@@ -56,7 +56,7 @@ class ZxcvbnPasswordValidator:
                     new_feedbacks = [new_feedbacks]
                 for new_feedback in new_feedbacks:
                     old_feedbacks.append(
-                        f"{feedback_type} : {translate_zxcvbn_text(new_feedback)}"
+                        f"{feedback_type} {translate_zxcvbn_text(new_feedback)}"
                     )
 
         user_inputs = []
@@ -71,16 +71,16 @@ class ZxcvbnPasswordValidator:
 
             feedbacks = [
                 "{} {}".format(  # pylint: disable=consider-using-f-string
-                    _("Your password is too guessable :"),
+                    _("Your password is too guessable:"),
                     _("It would take an offline attacker %(time)s to guess it.")
                     % {"time": translate_zxcvbn_time_estimate(offline_time)},
                 )
             ]
             append_translated_feedback(
-                feedbacks, _("Warning"), results["feedback"]["warning"]
+                feedbacks, _("Warning:"), results["feedback"]["warning"]
             )
             append_translated_feedback(
-                feedbacks, _("Advice"), results["feedback"]["suggestions"]
+                feedbacks, _("Advice:"), results["feedback"]["suggestions"]
             )
             raise ValidationError(feedbacks)
 
