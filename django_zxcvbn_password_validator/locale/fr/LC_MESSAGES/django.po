@@ -216,12 +216,12 @@ msgid "We expect"
 msgstr "Nous"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:90
-msgid "nothing: you can use any password you want."
-msgstr "n’exigeons rien : vous pouvez utiliser n'importe quel mot de passe."
+msgid "We expect nothing: you can use any password you want."
+msgstr "Nous n’exigeons rien : vous pouvez utiliser n'importe quel mot de passe."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:92
-msgid "a password that cannot be guessed"
-msgstr "demandons un mot de passe qui ne peut pas être deviné"
+msgid "We expect a password that cannot be guessed %s"
+msgstr "Nous demandons un mot de passe qui ne peut pas être deviné %s"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:94
 msgid "by your familly or friends."
