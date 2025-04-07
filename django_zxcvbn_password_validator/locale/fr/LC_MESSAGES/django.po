@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-10 10:20+0000\n"
-"PO-Revision-Date: 2025-02-26 10:08+0000\n"
+"PO-Revision-Date: 2025-04-07 10:01+0000\n"
 "Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/"
 "django-zxcvbn-password-validator/translations/fr/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:19
@@ -133,8 +133,8 @@ msgstr "Un mot écrit à l'envers n'est pas beaucoup plus dur à deviner"
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
 msgstr ""
-"Les substitutions prévisibles comme \"@\" à la place de \"a\" n'aident pas "
-"beaucoup."
+"Les substitutions prévisibles comme «@»à la place de «a» n'aident pas "
+"beaucoup"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:103
 msgid "less than a second"
