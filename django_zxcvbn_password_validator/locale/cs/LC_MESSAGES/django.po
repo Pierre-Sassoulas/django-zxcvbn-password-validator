@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-24 12:46+0000\n"
-"PO-Revision-Date: 2025-04-02 13:15+0000\n"
+"PO-Revision-Date: 2025-04-07 18:04+0000\n"
 "Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "django-zxcvbn-password-validator/translations/cs/>\n"
@@ -193,7 +193,7 @@ msgstr "Vaše heslo je snadno uhodnutelné:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:75
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr ""
+msgstr "Offline útočníkovi by trvalo %(time)s, než by ho uhodl."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
 msgid "Warning"
@@ -217,19 +217,19 @@ msgstr ""
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:94
 msgid "by your familly or friends."
-msgstr ""
+msgstr "vaší rodinou nebo přáteli."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "by attackers online."
-msgstr ""
+msgstr "útočníkem online."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 msgid "without access to our database."
-msgstr ""
+msgstr "bez přístupu k naší databázi."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:97
 msgid "without a dedicated team and an access to our database."
-msgstr ""
+msgstr "bez vyhrazeného týmu a přístupu k naší databázi."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:102
 msgid "There is no specific rule for a great password,"
