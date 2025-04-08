@@ -72,7 +72,7 @@ class ZxcvbnPasswordValidator:
             ) from error
         password_strength = results["score"]
         if password_strength < self.password_minimal_strength:
-            crack_time = results["crack_times_display"]
+            crack_time = results["crack_times_seconds"]
             offline_time = crack_time["offline_slow_hashing_1e4_per_second"]
 
             feedbacks = [
