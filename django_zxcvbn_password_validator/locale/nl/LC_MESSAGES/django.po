@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2022-11-10 10:21+0000\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-04-09 10:03+0000\n"
+"Last-Translator: Michal Čihař <michal@weblate.org>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/"
+"django-zxcvbn-password-validator/translations/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
@@ -227,15 +229,15 @@ msgstr "een wachtwoord dat niet geraden kan worden"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
 msgid "by your familly or friends."
-msgstr "door je familie of vrienden"
+msgstr "door je familie of vrienden."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
 msgid "by attackers online."
-msgstr "door online aanvallers"
+msgstr "door online aanvallers."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
 msgid "without access to our database."
-msgstr "zonder toegang tot onze database"
+msgstr "zonder toegang tot onze database."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
