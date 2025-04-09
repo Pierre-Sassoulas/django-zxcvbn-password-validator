@@ -87,6 +87,7 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertIsNone(self.validator.validate("123"))
         self.assertIsNone(self.validator.validate("godzilla"))
 
+    @override_settings(LANGUAGE_CODE="en-us")
     def test_long_password(self):
         self.validator = ZxcvbnPasswordValidator()
         with self.assertRaises(ValidationError) as error:
