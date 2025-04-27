@@ -1,4 +1,4 @@
-# django_zxcvbn_password_validator's french traduction
+# django_zxcvbn_password_validator's hungarian traduction
 # This file is distributed under the MIT license.
 # Pierre SASSOULAS <pierre.sassoulas@gmail.com>, 2018.
 #
