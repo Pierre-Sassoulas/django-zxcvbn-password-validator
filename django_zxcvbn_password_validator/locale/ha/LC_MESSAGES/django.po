@@ -1,0 +1,233 @@
+# django_zxcvbn_password_validator's hausa translation
+# This file is distributed under the MIT license.
+# Claude AI Assistant, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2025-08-26 00:00+0000\n"
+"Last-Translator: Claude AI Assistant\n"
+"Language-Team: Hausa\n"
+"Language: ha\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+msgid "Use a few words, avoid common phrases"
+msgstr "Yi amfani da kalmomi kaɗan, ka guji jimlolin da aka saba"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "Ba buƙatar alamomi, lambobi, ko manyan haruffa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+msgid "Add another word or two. Uncommon words are better."
+msgstr "Ƙara wata kalma ɗaya ko biyu. Kalmomin da ba a saba ba sun fi kyau."
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+msgid "Straight rows of keys are easy to guess"
+msgstr "Layukan maɓallan da suke a jere suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Ƙananan sifofi na madannai suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Yi amfani da tsawon sigar madannai da karkatarwa da yawa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "Maimaitawa kamar \"aaa\" suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr "Maimaitawa kamar \"abcabcabc\" sun fi \"abc\" wahala kaɗan kawai wajen tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Avoid repeated words and characters"
+msgstr "Ka guji kalmomi da haruffa masu maimaitawa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "Jeri kamar \"abc\" ko \"6543\" suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+msgid "Avoid sequences"
+msgstr "Ka guji jeri"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Recent years are easy to guess"
+msgstr "Shekarun baya-bayan nan suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+msgid "Avoid recent years"
+msgstr "Ka guji shekarun baya-bayan nan"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+msgid "Avoid years that are associated with you"
+msgstr "Ka guji shekarun da suke da alaƙa da kai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "Dates are often easy to guess"
+msgstr "Kwananki sau da yawa suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+msgid "Avoid dates and years that are associated with you"
+msgstr "Ka guji kwananki da shekaru masu alaƙa da kai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+msgid "This is a top-10 common password"
+msgstr "Wannan ɗaya ne daga cikin kalmomin sirri 10 da aka fi amfani"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "This is a top-100 common password"
+msgstr "Wannan ɗaya ne daga cikin kalmomin sirri 100 da aka fi amfani"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+msgid "This is a very common password"
+msgstr "Wannan kalmar sirri ce da aka saba amfani da ita sosai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+msgid "This is similar to a commonly used password"
+msgstr "Wannan yana kama da kalmar sirri da aka saba amfani da ita"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "A word by itself is easy to guess"
+msgstr "Kalma ɗaya kaɗai tana da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Sunaye da sunayen iyali su kaɗai suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+msgid "Common names and surnames are easy to guess"
+msgstr "Sunaye da sunayen iyali masu yawan amfani suna da sauƙi a tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+msgid "Capitalization doesn't help very much"
+msgstr "Yin amfani da manyan haruffa ba ya taimaka sosai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr "Manyan haruffa duka sun kusan kasance masu sauƙi a tsinke kamar ƙananan haruffa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+msgid "Reversed words aren't much harder to guess"
+msgstr "Kalmomi masu juyawa ba su da wahala sosai wajen tsinke"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr "Musayar da za a iya hango kamar '@' maimakon 'a' ba ta taimaka sosai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "less than a second"
+msgstr "ƙasa da daƙiƙa ɗaya"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "daƙiƙa %d"
+msgstr[1] "daƙiku %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minti %d"
+msgstr[1] "mintoci %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "awa %d"
+msgstr[1] "awanni %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "rana %d"
+msgstr[1] "ranaku %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "wata %d"
+msgstr[1] "watanni %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#, python-format
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "shekara %d"
+msgstr[1] "shekaru %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+msgid "centuries"
+msgstr "ƙarni"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
+msgid "Your password exceeds the maximal length of 72 characters."
+msgstr "Kalmar sirrin ka ta zarce matsakaicin tsawo na haruffa 72."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Your password is too guessable:"
+msgstr "Kalmar sirrin ka tana da sauƙi sosai wajen tsinke:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "Zai ɗauki wa mai hari %(time)s don ya tsinke ta."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
+msgid "Warning:"
+msgstr "Gargaɗi:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
+msgid "Advice:"
+msgstr "Shawara:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "We expect nothing: you can use any password you want."
+msgstr "Ba mu tsammanin komai: za ka iya amfani da kowace kalmar sirri da kake so."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+#, python-format
+msgid "We expect a password that cannot be guessed %s"
+msgstr "Muna tsammanin kalmar sirri da ba za a iya tsinke ta %s"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
+msgid "by your familly or friends."
+msgstr "ta hanyar iyalin ka ko abokan ka."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
+msgid "by attackers online."
+msgstr "ta hanyar masu hari a yanar gizo."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
+msgid "without access to our database."
+msgstr "ba tare da samun damar shiga bayananmu ba."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
+msgid "without a dedicated team and an access to our database."
+msgstr "ba tare da ƙwararren ƙungiya da damar shiga bayananmu ba."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
+msgid "There is no specific rule for a great password,"
+msgstr "Babu takamaiman ƙa'ida don kyakkyawar kalmar sirri,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
+msgid "however if your password is too easy to guess,"
+msgstr "amma idan kalmar sirrin ka tana da sauƙi sosai wajen tsinke,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
+msgid "we will tell you how to make a better one."
+msgstr "za mu gaya maka yadda za ka yi wacce ta fi kyau."
