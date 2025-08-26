@@ -23,16 +23,33 @@ The software is developed in English. Other available languages are:
 [![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
 - [x] Arabic thanks to Claude AI Assistant
+- [x] Armenian thanks to Claude AI Assistant
 - [x] Brazilian Portuguese thanks to [Andrés Martano](https://github.com/andresmrm/) and
       Claude AI Assistant (corrections)
+- [x] Chinese Simplified thanks to Claude AI Assistant
 - [x] Czech thanks to [Michal Čihař](https://github.com/nijel/)
 - [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
 - [x] English
 - [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
       [Lionel Sausin](https://github.com/ls-initiatives)
+- [x] German thanks to Claude AI Assistant
+- [x] Hausa thanks to Claude AI Assistant
+- [x] Hindi thanks to Claude AI Assistant
 - [x] Hungarian thanks to [RViktor](https://github.com/rviktor/)
 - [x] Indonesian thanks to Claude AI Assistant
+- [x] Italian thanks to Claude AI Assistant
+- [x] Japanese thanks to Claude AI Assistant
+- [x] Korean thanks to Claude AI Assistant
+- [x] Polish thanks to Claude AI Assistant
 - [x] Portuguese thanks to Claude AI Assistant
+- [x] Russian thanks to Claude AI Assistant
+- [x] Spanish thanks to Claude AI Assistant
+- [x] Swahili thanks to Claude AI Assistant
+- [x] Thai thanks to Claude AI Assistant
+- [x] Turkish thanks to Claude AI Assistant
+- [x] Ukrainian thanks to Claude AI Assistant
+- [x] Vietnamese thanks to Claude AI Assistant
+- [x] Yoruba thanks to Claude AI Assistant
 
 ## Creating a user with django-zxcvbn-password-validator
 
