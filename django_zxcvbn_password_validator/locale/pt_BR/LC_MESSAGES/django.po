@@ -1,23 +1,21 @@
-# Portuguese brasilian translations
-# Copyright (C) 2024
-# This file is distributed under the same license as the django-zxcvbn-password package.
+# django_zxcvbn_password_validator's portuguese brazilian translation
+# This file is distributed under the MIT license.
 # Andrés Martano, 2024.
+# Claude AI Assistant (corrections), 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2024-05-29 19:41+0000\n"
-"Last-Translator:   <>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-08-26 00:00+0000\n"
+"Last-Translator: Claude AI Assistant\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -48,11 +46,8 @@ msgid "Repeats like \"aaa\" are easy to guess"
 msgstr "Repetições como \"aaa\" são fáceis de adivinhar"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
-msgid ""
-"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
-"Repetições como \"abcabcabc\" são apenas um pouco mais difíceis de adivinhar "
-"do que \"abc\""
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr "Repetições como \"abcabcabc\" são apenas um pouco mais difíceis de adivinhar do que \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -120,9 +115,7 @@ msgstr "Usar maiúsculo só na primeira letra de uma palavra não ajuda muito"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr ""
-"Usar maiúsculo em todas as letras é quase tão fácil de adivinhar quanto usar "
-"só minúsculo"
+msgstr "Usar maiúsculo em todas as letras é quase tão fácil de adivinhar quanto usar só minúsculo"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -134,54 +127,49 @@ msgstr "Substituições previsíveis, como '@' ao invés de 'a', não ajudam mui
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
-msgstr "Menos de um segundo"
+msgstr "menos de um segundo"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
-#, fuzzy, python-format
-#| msgid "second"
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "segundo"
-msgstr[1] "segundo"
+msgstr[0] "%d segundo"
+msgstr[1] "%d segundos"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
-#, fuzzy, python-format
-#| msgid "minute"
+#, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "minuto"
-msgstr[1] "minuto"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
-#, fuzzy, python-format
-#| msgid "hour"
+#, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "hora"
-msgstr[1] "hora"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dia"
+msgstr[1] "%d dias"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
-#, fuzzy, python-format
-#| msgid "month"
+#, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "mês"
-msgstr[1] "mês"
+msgstr[0] "%d mês"
+msgstr[1] "%d meses"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
-#, fuzzy, python-format
-#| msgid "year"
+#, python-format
 msgid "%d year"
 msgid_plural "%d year"
-msgstr[0] "ano"
-msgstr[1] "ano"
+msgstr[0] "%d ano"
+msgstr[1] "%d anos"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
 msgid "centuries"
@@ -189,13 +177,11 @@ msgstr "séculos"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
 msgid "Your password exceeds the maximal length of 72 characters."
-msgstr ""
+msgstr "Sua senha excede o comprimento máximo de 72 caracteres."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
-#, fuzzy
-#| msgid "Your password is too guessable :"
 msgid "Your password is too guessable:"
-msgstr "Sua senha é muito fácil de adivinhar :"
+msgstr "Sua senha é muito fácil de adivinhar:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
@@ -203,28 +189,21 @@ msgid "It would take an offline attacker %(time)s to guess it."
 msgstr "Um ataque offline levaria %(time)s para adivinhá-la."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
-#, fuzzy
-#| msgid "Warning"
 msgid "Warning:"
-msgstr "Aviso"
+msgstr "Aviso:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
-#, fuzzy
-#| msgid "Advice"
 msgid "Advice:"
-msgstr "Dica"
+msgstr "Dica:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
-#, fuzzy
-#| msgid "nothing: you can use any password you want."
 msgid "We expect nothing: you can use any password you want."
-msgstr "nenhuma: você pode usar qualquer senha que quiser."
+msgstr "Não esperamos nada: você pode usar qualquer senha que quiser."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
-#, fuzzy, python-format
-#| msgid "a password that cannot be guessed"
+#, python-format
 msgid "We expect a password that cannot be guessed %s"
-msgstr "uma senha que não possa ser adivinhada"
+msgstr "Esperamos uma senha que não possa ser adivinhada %s"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
 msgid "by your familly or friends."
@@ -253,27 +232,3 @@ msgstr "porém se sua senha for muito fácil de adivinhar,"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
 msgstr "nós daremos sugestões de como melhorá-la."
-
-#~ msgid "We expect"
-#~ msgstr "Nós estimamos"
-
-#~ msgid "seconds"
-#~ msgstr "segundos"
-
-#~ msgid "minutes"
-#~ msgstr "minutos"
-
-#~ msgid "hours"
-#~ msgstr "horas"
-
-#~ msgid "days"
-#~ msgstr "dias"
-
-#~ msgid "months"
-#~ msgstr "meses"
-
-#~ msgid "years"
-#~ msgstr "anos"
-
-#~ msgid "day"
-#~ msgstr "dia"
