@@ -1,0 +1,227 @@
+# django_zxcvbn_password_validator's korean translation
+# This file is distributed under the MIT license.
+# Claude AI Assistant, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2025-08-26 00:00+0000\n"
+"Last-Translator: Claude AI Assistant\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+msgid "Use a few words, avoid common phrases"
+msgstr "몇 개의 단어를 사용하고, 일반적인 구문은 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "기호, 숫자, 대문자는 필요하지 않습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+msgid "Add another word or two. Uncommon words are better."
+msgstr "한두 단어를 더 추가하세요. 흔하지 않은 단어가 더 좋습니다."
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+msgid "Straight rows of keys are easy to guess"
+msgstr "연속된 키 행은 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+msgid "Short keyboard patterns are easy to guess"
+msgstr "짧은 키보드 패턴은 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "더 많은 방향 전환이 있는 긴 키보드 패턴을 사용하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "\"aaa\"와 같은 반복은 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr "\"abcabcabc\"와 같은 반복은 \"abc\"보다 조금 더 어려울 뿐입니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Avoid repeated words and characters"
+msgstr "반복되는 단어와 문자를 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "\"abc\"나 \"6543\"과 같은 순서는 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+msgid "Avoid sequences"
+msgstr "순서를 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Recent years are easy to guess"
+msgstr "최근 연도는 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+msgid "Avoid recent years"
+msgstr "최근 연도를 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+msgid "Avoid years that are associated with you"
+msgstr "본인과 관련된 연도를 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "Dates are often easy to guess"
+msgstr "날짜는 종종 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+msgid "Avoid dates and years that are associated with you"
+msgstr "본인과 관련된 날짜와 연도를 피하세요"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+msgid "This is a top-10 common password"
+msgstr "이것은 가장 많이 사용되는 10개 비밀번호 중 하나입니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "This is a top-100 common password"
+msgstr "이것은 가장 많이 사용되는 100개 비밀번호 중 하나입니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+msgid "This is a very common password"
+msgstr "이것은 매우 일반적인 비밀번호입니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+msgid "This is similar to a commonly used password"
+msgstr "이것은 일반적으로 사용되는 비밀번호와 유사합니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "A word by itself is easy to guess"
+msgstr "단어 하나만으로는 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "이름과 성만으로는 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+msgid "Common names and surnames are easy to guess"
+msgstr "일반적인 이름과 성은 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+msgid "Capitalization doesn't help very much"
+msgstr "대문자화는 별로 도움이 되지 않습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr "모두 대문자는 모두 소문자만큼이나 쉽게 추측할 수 있습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+msgid "Reversed words aren't much harder to guess"
+msgstr "거꾸로 된 단어는 추측하기 별로 어렵지 않습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr "'a' 대신 '@'와 같은 예측 가능한 치환은 별로 도움이 되지 않습니다"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "less than a second"
+msgstr "1초 미만"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d초"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d분"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d시간"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d일"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d개월"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#, python-format
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "%d년"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+msgid "centuries"
+msgstr "세기"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
+msgid "Your password exceeds the maximal length of 72 characters."
+msgstr "비밀번호가 최대 길이인 72자를 초과했습니다."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Your password is too guessable:"
+msgstr "비밀번호가 너무 쉽게 추측할 수 있습니다:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "오프라인 공격자가 이를 추측하는 데 %(time)s가 걸릴 것입니다."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
+msgid "Warning:"
+msgstr "경고:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
+msgid "Advice:"
+msgstr "조언:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "We expect nothing: you can use any password you want."
+msgstr "아무 요구사항이 없습니다: 원하는 어떤 비밀번호든 사용할 수 있습니다."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+#, python-format
+msgid "We expect a password that cannot be guessed %s"
+msgstr "%s 추측할 수 없는 비밀번호를 기대합니다"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
+msgid "by your familly or friends."
+msgstr "가족이나 친구들이."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
+msgid "by attackers online."
+msgstr "온라인 공격자들이."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
+msgid "without access to our database."
+msgstr "우리 데이터베이스에 접근하지 않고."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
+msgid "without a dedicated team and an access to our database."
+msgstr "전담 팀과 우리 데이터베이스 접근 없이."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
+msgid "There is no specific rule for a great password,"
+msgstr "훌륭한 비밀번호에 대한 특정한 규칙은 없지만,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
+msgid "however if your password is too easy to guess,"
+msgstr "비밀번호가 너무 쉽게 추측된다면,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
+msgid "we will tell you how to make a better one."
+msgstr "더 나은 비밀번호를 만드는 방법을 알려드리겠습니다."
