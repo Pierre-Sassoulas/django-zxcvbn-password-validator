@@ -22,12 +22,13 @@ The software is developed in English. Other available languages are:
 
 [![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
-- [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
-- [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
-      [Lionel Sausin](https://github.com/ls-initiatives)
 - [x] Brazilian Portuguese thanks to [Andrés Martano](https://github.com/andresmrm/)
 - [x] Czech thanks to [Michal Čihař](https://github.com/nijel/)
+- [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
 - [x] English
+- [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
+      [Lionel Sausin](https://github.com/ls-initiatives)
+- [x] Hungarian thanks to [RViktor](https://github.com/rviktor/)
 
 ## Creating a user with django-zxcvbn-password-validator
 
