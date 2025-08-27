@@ -1,18 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# django_zxcvbn_password_validator's hindi translation
+# This file is distributed under the MIT license.
+# Claude AI Assistant, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 19:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2025-08-26 00:00+0000\n"
+"Last-Translator: Claude AI Assistant\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,216 +18,216 @@ msgstr ""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
-msgstr ""
+msgstr "कुछ शब्दों का उपयोग करें, आम वाक्यांशों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
 msgid "No need for symbols, digits, or uppercase letters"
-msgstr ""
+msgstr "प्रतीकों, अंकों या बड़े अक्षरों की आवश्यकता नहीं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr ""
+msgstr "एक या दो शब्द और जोड़ें। असामान्य शब्द बेहतर होते हैं।"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
-msgstr ""
+msgstr "कीबोर्ड की सीधी कतारें आसानी से अनुमान लगा ली जाती हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
 msgid "Short keyboard patterns are easy to guess"
-msgstr ""
+msgstr "छोटे कीबोर्ड पैटर्न आसानी से अनुमान लगा लिए जाते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
 msgid "Use a longer keyboard pattern with more turns"
-msgstr ""
+msgstr "अधिक मोड़ के साथ लंबे कीबोर्ड पैटर्न का उपयोग करें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
 msgid "Repeats like \"aaa\" are easy to guess"
-msgstr ""
+msgstr "\"aaa\" जैसी पुनरावृत्ति आसानी से अनुमान लगा ली जाती है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
+msgstr "\"abcabcabc\" जैसी पुनरावृत्ति \"abc\" से केवल थोड़ी सी कठिन है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
-msgstr ""
+msgstr "दोहराए गए शब्दों और अक्षरों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
-msgstr ""
+msgstr "\"abc\" या \"6543\" जैसे अनुक्रम आसानी से अनुमान लगा लिए जाते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "Avoid sequences"
-msgstr ""
+msgstr "अनुक्रमों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
 msgid "Recent years are easy to guess"
-msgstr ""
+msgstr "हाल के वर्ष आसानी से अनुमान लगा लिए जाते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
 msgid "Avoid recent years"
-msgstr ""
+msgstr "हाल के वर्षों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
 msgid "Avoid years that are associated with you"
-msgstr ""
+msgstr "अपने से जुड़े वर्षों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Dates are often easy to guess"
-msgstr ""
+msgstr "तारीखें अक्सर आसानी से अनुमान लगा ली जाती हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
 msgid "Avoid dates and years that are associated with you"
-msgstr ""
+msgstr "अपने से जुड़ी तारीखों और वर्षों से बचें"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
 msgid "This is a top-10 common password"
-msgstr ""
+msgstr "यह शीर्ष 10 सामान्य पासवर्डों में से एक है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
 msgid "This is a top-100 common password"
-msgstr ""
+msgstr "यह शीर्ष 100 सामान्य पासवर्डों में से एक है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
 msgid "This is a very common password"
-msgstr ""
+msgstr "यह एक बहुत ही सामान्य पासवर्ड है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
 msgid "This is similar to a commonly used password"
-msgstr ""
+msgstr "यह आमतौर पर उपयोग किए जाने वाले पासवर्ड के समान है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
 msgid "A word by itself is easy to guess"
-msgstr ""
+msgstr "एक शब्द अकेले आसानी से अनुमान लगा लिया जाता है"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
 msgid "Names and surnames by themselves are easy to guess"
-msgstr ""
+msgstr "नाम और उपनाम अकेले आसानी से अनुमान लगा लिए जाते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
 msgid "Common names and surnames are easy to guess"
-msgstr ""
+msgstr "सामान्य नाम और उपनाम आसानी से अनुमान लगा लिए जाते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
 msgid "Capitalization doesn't help very much"
-msgstr ""
+msgstr "बड़े अक्षर बहुत मदद नहीं करते"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr ""
+msgstr "सभी बड़े अक्षर सभी छोटे अक्षरों जितने ही आसान होते हैं"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
-msgstr ""
+msgstr "उल्टे शब्द अनुमान लगाने में बहुत कठिन नहीं होते"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
+msgstr "'a' के बजाय '@' जैसे अनुमानित प्रतिस्थापन बहुत मदद नहीं करते"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
-msgstr ""
+msgstr "एक सेकंड से कम"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d सेकंड"
+msgstr[1] "%d सेकंड"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d मिनट"
+msgstr[1] "%d मिनट"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d घंटा"
+msgstr[1] "%d घंटे"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d दिन"
+msgstr[1] "%d दिन"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d महीना"
+msgstr[1] "%d महीने"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
 #, python-format
 msgid "%d year"
 msgid_plural "%d year"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d साल"
+msgstr[1] "%d साल"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
 msgid "centuries"
-msgstr ""
+msgstr "शताब्दियां"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
 msgid "Your password exceeds the maximal length of 72 characters."
-msgstr ""
+msgstr "आपका पासवर्ड 72 अक्षरों की अधिकतम लंबाई से अधिक है।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
 msgid "Your password is too guessable:"
-msgstr ""
+msgstr "आपका पासवर्ड बहुत आसानी से अनुमान लगाया जा सकता है:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr ""
+msgstr "एक ऑफलाइन हमलावर को इसे अनुमान लगाने में %(time)s लगेगा।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
-msgstr ""
+msgstr "चेतावनी:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
 msgid "Advice:"
-msgstr ""
+msgstr "सलाह:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr ""
+msgstr "हमारी कोई अपेक्षा नहीं: आप कोई भी पासवर्ड उपयोग कर सकते हैं।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
 msgid "We expect a password that cannot be guessed %s"
-msgstr ""
+msgstr "हम एक ऐसे पासवर्ड की अपेक्षा करते हैं जिसका अनुमान %s नहीं लगाया जा सकता"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
 msgid "by your familly or friends."
-msgstr ""
+msgstr "आपके परिवार या दोस्तों द्वारा।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
 msgid "by attackers online."
-msgstr ""
+msgstr "ऑनलाइन हमलावरों द्वारा।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
 msgid "without access to our database."
-msgstr ""
+msgstr "हमारे डेटाबेस की पहुंच के बिना।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr ""
+msgstr "बिना किसी समर्पित टीम और हमारे डेटाबेस की पहुंच के।"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
-msgstr ""
+msgstr "एक बेहतरीन पासवर्ड के लिए कोई विशिष्ट नियम नहीं है,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
 msgid "however if your password is too easy to guess,"
-msgstr ""
+msgstr "हालांकि यदि आपका पासवर्ड अनुमान लगाने में बहुत आसान है,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
-msgstr ""
+msgstr "तो हम आपको बताएंगे कि बेहतर कैसे बनाया जाए।"
