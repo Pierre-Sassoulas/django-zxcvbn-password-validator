@@ -22,7 +22,7 @@ jobs:
           - python-version: "3.13"
             django-version: "<4"
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Python-${{ matrix.python-version }}-django${{ matrix.django-version }}
         uses: actions/setup-python@v2
         with:
@@ -48,7 +48,7 @@ jobs:
         python-version: ["3.12"]
         django-version: ["<4", "<5", "<6"]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Python-${{ matrix.python-version }}-django${{ matrix.django-version }}
         uses: actions/setup-python@v2
         with:
