@@ -9,7 +9,6 @@ Professional support for django-zxcvbn-password-validator is available as part o
 [![Coverage Status](https://coveralls.io/repos/github/Pierre-Sassoulas/django-zxcvbn-password-validator/badge.svg?branch=master)](https://coveralls.io/github/Pierre-Sassoulas/django-zxcvbn-password-validator?branch=master)
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 
-
 ## Translating the project
 
 This project is available in multiple language. Your contribution would be very
