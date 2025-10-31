@@ -6,6 +6,7 @@ pip.
 Professional support for django-zxcvbn-password-validator is available as part of the
 [Tidelift Subscription](https://tidelift.com/subscription/pkg/pypi-django-zxcvbn-password-validator?utm_source=pypi-django-zxcvbn-password-validator&utm_medium=referral&utm_campaign=enterprise)
 
+[![Build status](https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/actions?branch=main)
 [![Coverage Status](https://coveralls.io/repos/github/Pierre-Sassoulas/django-zxcvbn-password-validator/badge.svg?branch=master)](https://coveralls.io/github/Pierre-Sassoulas/django-zxcvbn-password-validator?branch=master)
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 [![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/django-zxcvbn-password-validator/)
