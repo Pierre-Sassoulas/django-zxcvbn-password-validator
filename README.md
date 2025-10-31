@@ -11,8 +11,6 @@ Professional support for django-zxcvbn-password-validator is available as part o
 [![PyPI version](https://badge.fury.io/py/django-zxcvbn-password-validator.svg)](https://badge.fury.io/py/django-zxcvbn-password-validator)
 [![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/django-zxcvbn-password-validator/)
 
-
-
 ## Translating the project
 
 This project is available in multiple language. Your contribution would be very
