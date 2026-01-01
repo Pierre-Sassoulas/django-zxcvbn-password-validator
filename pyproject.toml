@@ -72,7 +72,7 @@ optional-dependencies.dev = [
 optional-dependencies.pylint = [
   "pre-commit>=2.16",
   "pylint>=3.2",
-  "pylint-django==2.6.1",
+  "pylint-django==2.7",
 ]
 urls."Bug Tracker" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator/issues"
 urls."Source Code" = "https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator"
