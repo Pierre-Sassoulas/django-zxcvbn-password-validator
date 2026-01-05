@@ -47,9 +47,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.13"]
-        # Not testing 3.2 because of ModuleNotFoundError: No module named 'cgi'
-        django-version: ["<5", "<6", "<7"]
+        # Linting in 3.12 because of ModuleNotFoundError: No module named 'cgi'
+        # on python 3.13 for django 3.2
+        python-version: ["3.12"]
+        django-version: ["<4", "<5", "<6", "<7"]
     steps:
       - uses: actions/checkout@v6
       - name: Python-${{ matrix.python-version }}-django${{ matrix.django-version }}
