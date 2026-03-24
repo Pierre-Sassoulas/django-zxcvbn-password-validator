@@ -7,14 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Irish\n"
+"PO-Revision-Date: 2026-03-24 14:18+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -46,7 +49,9 @@ msgstr "Tá athráthaí cosúil le \"aaa\" éasca le thomhas"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "Níl athráthaí cosúil le \"abcabcabc\" ach beagán níos deacra le thomhas ná \"abc\""
+msgstr ""
+"Níl athráthaí cosúil le \"abcabcabc\" ach beagán níos deacra le thomhas ná "
+"\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -114,7 +119,9 @@ msgstr "Ní chuidíonn ceannlitriú mórán"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Tá litreacha móra ar fad beagnach chomh héasca le thomhas le litreacha beaga ar fad"
+msgstr ""
+"Tá litreacha móra ar fad beagnach chomh héasca le thomhas le litreacha beaga "
+"ar fad"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -215,7 +222,8 @@ msgstr "Comhairle:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Ní bhímid ag súil le rud ar bith: is féidir leat aon phasfhocal a úsáid."
+msgstr ""
+"Ní bhímid ag súil le rud ar bith: is féidir leat aon phasfhocal a úsáid."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
