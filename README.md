@@ -23,73 +23,24 @@ The software is developed in English. Other available languages are:
 
 [![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
-- [x] Afrikaans thanks to Claude Code
-- [x] Albanian thanks to Claude Code
-- [x] Amharic thanks to Claude Code
-- [x] Arabic thanks to Claude AI Assistant
-- [x] Armenian thanks to Claude AI Assistant
-- [x] Azerbaijani thanks to Claude Code
-- [x] Basque thanks to Claude Code
-- [x] Bengali thanks to Claude Code
-- [x] Brazilian Portuguese thanks to [Andrés Martano](https://github.com/andresmrm/) and
-      Claude AI Assistant (corrections)
-- [x] Bulgarian thanks to Claude Code
-- [x] Burmese thanks to Claude Code
-- [x] Catalan thanks to Claude Code
-- [x] Chinese Simplified thanks to Claude AI Assistant
-- [x] Chinese Traditional thanks to Claude Code
-- [x] Croatian thanks to Claude Code
-- [x] Czech thanks to [Michal Čihař](https://github.com/nijel/)
-- [x] Danish thanks to Claude Code
-- [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
+- [x] [Andrés Martano](https://github.com/andresmrm/): Brazilian Portuguese
+- [x] [Lionel Sausin](https://github.com/ls-initiatives): French
+- [x] [Michal Čihař](https://github.com/nijel/): Czech
+- [x] [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
+- [x] [RViktor](https://github.com/rviktor/): Hungarian
+- [x] [Thom Wiggers](https://github.com/thomwiggers/): Dutch
+- [x] Claude AI Assistant: Arabic, Armenian, Brazilian Portuguese (corrections), Chinese
+      Simplified, German, Hausa, Hindi, Indonesian, Italian, Japanese, Korean, Polish,
+      Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Ukrainian, Vietnamese,
+      Yoruba
+- [x] Claude Code: Afrikaans, Albanian, Amharic, Assamese, Azerbaijani, Basque,
+      Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Chinese Traditional,
+      Croatian, Danish, Estonian, Filipino, Finnish, Galician, Georgian, Greek,
+      Gujarati, Hebrew, Icelandic, Irish, Kannada, Kazakh, Khmer, Kurdish, Lao, Latvian,
+      Lithuanian, Macedonian, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian
+      Bokmål, Odia, Pashto, Persian, Punjabi, Romanian, Serbian, Sinhala, Slovak,
+      Slovenian, Somali, Swedish, Tamil, Telugu, Urdu, Uzbek, Welsh, Zulu
 - [x] English
-- [x] Estonian thanks to Claude Code
-- [x] Filipino thanks to Claude Code
-- [x] Finnish thanks to Claude Code
-- [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
-      [Lionel Sausin](https://github.com/ls-initiatives)
-- [x] Galician thanks to Claude Code
-- [x] Georgian thanks to Claude Code
-- [x] German thanks to Claude AI Assistant
-- [x] Greek thanks to Claude Code
-- [x] Hausa thanks to Claude AI Assistant
-- [x] Hebrew thanks to Claude Code
-- [x] Hindi thanks to Claude AI Assistant
-- [x] Hungarian thanks to [RViktor](https://github.com/rviktor/)
-- [x] Indonesian thanks to Claude AI Assistant
-- [x] Italian thanks to Claude AI Assistant
-- [x] Japanese thanks to Claude AI Assistant
-- [x] Kazakh thanks to Claude Code
-- [x] Khmer thanks to Claude Code
-- [x] Korean thanks to Claude AI Assistant
-- [x] Latvian thanks to Claude Code
-- [x] Lithuanian thanks to Claude Code
-- [x] Macedonian thanks to Claude Code
-- [x] Malay thanks to Claude Code
-- [x] Marathi thanks to Claude Code
-- [x] Mongolian thanks to Claude Code
-- [x] Nepali thanks to Claude Code
-- [x] Norwegian Bokmål thanks to Claude Code
-- [x] Persian thanks to Claude Code
-- [x] Polish thanks to Claude AI Assistant
-- [x] Portuguese thanks to Claude AI Assistant
-- [x] Romanian thanks to Claude Code
-- [x] Russian thanks to Claude AI Assistant
-- [x] Serbian thanks to Claude Code
-- [x] Sinhala thanks to Claude Code
-- [x] Slovak thanks to Claude Code
-- [x] Slovenian thanks to Claude Code
-- [x] Spanish thanks to Claude AI Assistant
-- [x] Swahili thanks to Claude AI Assistant
-- [x] Swedish thanks to Claude Code
-- [x] Tamil thanks to Claude Code
-- [x] Telugu thanks to Claude Code
-- [x] Thai thanks to Claude AI Assistant
-- [x] Turkish thanks to Claude AI Assistant
-- [x] Ukrainian thanks to Claude AI Assistant
-- [x] Uzbek thanks to Claude Code
-- [x] Vietnamese thanks to Claude AI Assistant
-- [x] Yoruba thanks to Claude AI Assistant
 
 ## Creating a user with django-zxcvbn-password-validator
 
