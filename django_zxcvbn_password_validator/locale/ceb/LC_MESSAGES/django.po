@@ -7,18 +7,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Cebuano\n"
+"PO-Revision-Date: 2026-03-24 14:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Cebuano <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ceb/>\n"
 "Language: ceb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
-msgstr "Gamita ang pipila ka pulong, likayi ang kasagarang mga hugpong sa pulong"
+msgstr ""
+"Gamita ang pipila ka pulong, likayi ang kasagarang mga hugpong sa pulong"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
 msgid "No need for symbols, digits, or uppercase letters"
@@ -26,7 +29,9 @@ msgstr "Dili kinahanglan ang mga simbolo, numero, o dagkong letra"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Pagdugang og usa o duha ka pulong. Ang dili kasagaran nga mga pulong mas maayo."
+msgstr ""
+"Pagdugang og usa o duha ka pulong. Ang dili kasagaran nga mga pulong mas "
+"maayo."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -48,7 +53,8 @@ msgstr "Ang mga balikbalik sama sa \"aaa\" sayon ra hulaan"
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Ang mga balikbalik sama sa \"abcabcabc\" gamay ra nga mas lisod hulaan kay sa \"abc\""
+"Ang mga balikbalik sama sa \"abcabcabc\" gamay ra nga mas lisod hulaan kay "
+"sa \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -116,7 +122,9 @@ msgstr "Ang pag-capitalize dili kaayo makatabang"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Ang tanan-dagko nga letra halos sama ra ka sayon hulaan sa tanan-gagmay nga letra"
+msgstr ""
+"Ang tanan-dagko nga letra halos sama ra ka sayon hulaan sa tanan-gagmay nga "
+"letra"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -188,7 +196,8 @@ msgstr "Ang imong password sayon ra kaayo hulaan:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr "Magkinahanglan ang usa ka offline nga tig-atake og %(time)s aron hulaan kini."
+msgstr ""
+"Magkinahanglan ang usa ka offline nga tig-atake og %(time)s aron hulaan kini."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
@@ -200,7 +209,9 @@ msgstr "Tambag:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Wala kami magdahom og bisan unsa: mahimo nimong gamiton ang bisan unsang password nga imong gusto."
+msgstr ""
+"Wala kami magdahom og bisan unsa: mahimo nimong gamiton ang bisan unsang "
+"password nga imong gusto."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
