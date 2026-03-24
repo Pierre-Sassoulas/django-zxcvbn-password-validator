@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Assamese\n"
+"PO-Revision-Date: 2026-03-24 14:20+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Assamese <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/as/>\n"
 "Language: as\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -47,8 +49,7 @@ msgstr "\"aaa\" ৰ দৰে পুনৰাবৃত্তি অনুমা�
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
-"\"abcabcabc\" ৰ দৰে পুনৰাবৃত্তি \"abc\" তকৈ অলপহে কঠিন অনুমান কৰিবলৈ"
+msgstr "\"abcabcabc\" ৰ দৰে পুনৰাবৃত্তি \"abc\" তকৈ অলপহে কঠিন অনুমান কৰিবলৈ"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -124,8 +125,7 @@ msgstr "ওলোটা শব্দ অনুমান কৰা বেছি �
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"'a' ৰ সলনি '@' ৰ দৰে অনুমানযোগ্য সলনিয়ে বেছি সহায় নকৰে"
+msgstr "'a' ৰ সলনি '@' ৰ দৰে অনুমানযোগ্য সলনিয়ে বেছি সহায় নকৰে"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
