@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Luxembourgish\n"
+"PO-Revision-Date: 2026-03-24 14:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Luxembourgish <https://hosted.weblate.org/projects/django-"
+"zxcvbn-password-validator/translations/lb/>\n"
 "Language: lb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -26,7 +28,8 @@ msgstr "Keng Symboler, Zifferen oder Groussbuschstawen néideg"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Setzt nach een oder zwee Wierder derbäi. Ongewéinlech Wierder si besser."
+msgstr ""
+"Setzt nach een oder zwee Wierder derbäi. Ongewéinlech Wierder si besser."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -48,8 +51,8 @@ msgstr "Widderhuelungen wéi \"aaa\" sinn einfach ze roden"
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Widderhuelungen wéi \"abcabcabc\" si just e bëssen méi schwéier ze roden "
-"wéi \"abc\""
+"Widderhuelungen wéi \"abcabcabc\" si just e bëssen méi schwéier ze roden wéi "
+"\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -117,7 +120,9 @@ msgstr "Groussbuschstawen hëllefen net vill"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Alles a Groussbuschstawen ass bal esou einfach ze roden wéi alles a Klengbuschstawen"
+msgstr ""
+"Alles a Groussbuschstawen ass bal esou einfach ze roden wéi alles a "
+"Klengbuschstawen"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
