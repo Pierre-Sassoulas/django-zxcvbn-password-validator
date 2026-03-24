@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Tibetan\n"
+"PO-Revision-Date: 2026-03-24 14:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Tibetan <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/bo/>\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -116,7 +118,8 @@ msgstr "ཡི་གེ་ཆེན་པོ་བེད་སྤྱོད་བ
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "ཡི་གེ་ཆེན་པོ་ཚང་མ་ནི་ཡི་གེ་ཆུང་ངུ་ཚང་མ་དང་ཚོད་དཔག་བྱེད་སླ་བ་ཕལ་ཆེར་འདྲའོ།"
+msgstr ""
+"ཡི་གེ་ཆེན་པོ་ཚང་མ་ནི་ཡི་གེ་ཆུང་ངུ་ཚང་མ་དང་ཚོད་དཔག་བྱེད་སླ་བ་ཕལ་ཆེར་འདྲའོ།"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -124,7 +127,8 @@ msgstr "ཚིག་ལྡོག་བསྒྱུར་བྱས་པས་ཚ
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "'a' ཡི་ཚབ་ཏུ་'@' ལྟ་བུའི་ཚོད་དཔག་བྱེད་ཐུབ་པའི་བརྗེ་སྒྱུར་གྱིས་ཕན་ཐོགས་ཆེན་པོ་མེད།"
+msgstr ""
+"'a' ཡི་ཚབ་ཏུ་'@' ལྟ་བུའི་ཚོད་དཔག་བྱེད་ཐུབ་པའི་བརྗེ་སྒྱུར་གྱིས་ཕན་ཐོགས་ཆེན་པོ་མེད།"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -193,7 +197,8 @@ msgstr "བསླབ་བྱ།"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "ང་ཚོས་ཅི་ཡང་མི་དགོས། ཁྱེད་ཀྱིས་འདོད་པའི་གསང་ཚིག་གང་ཡང་བེད་སྤྱོད་བྱེད་ཆོག"
+msgstr ""
+"ང་ཚོས་ཅི་ཡང་མི་དགོས། ཁྱེད་ཀྱིས་འདོད་པའི་གསང་ཚིག་གང་ཡང་བེད་སྤྱོད་བྱེད་ཆོག"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
