@@ -1,22 +1,20 @@
-# django_zxcvbn_password_validator's french traduction
+# django_zxcvbn_password_validator's Basque translation
 # This file is distributed under the MIT license.
-# Pierre SASSOULAS <pierre.sassoulas@gmail.com>, 2018.
+# Unai Loidi <uloidi@codesyntax.eus>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-04-09 10:03+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-24 00:00+0000\n"
+"Last-Translator: Unai Loidi <uloidi@codesyntax.eus>\n"
+"Language-Team: Basque\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
-"X-Translated-Using: django-rosetta 0.9.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -237,27 +235,3 @@ msgstr "hala ere, zure pasahitza asmatzeko erraza bada,"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
 msgstr "hobea nola egin esango dizugu."
-
-#~ msgid "We expect"
-#~ msgstr "Nous"
-
-#~ msgid "seconds"
-#~ msgstr "secondes"
-
-#~ msgid "minutes"
-#~ msgstr "minutes"
-
-#~ msgid "hours"
-#~ msgstr "heures"
-
-#~ msgid "days"
-#~ msgstr "jours"
-
-#~ msgid "months"
-#~ msgstr "mois"
-
-#~ msgid "years"
-#~ msgstr "années"
-
-#~ msgid "day"
-#~ msgstr "jour"

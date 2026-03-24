@@ -98,20 +98,21 @@ translation (especially AI-generated ones). See [how to contribute](CONTRIBUTING
 - [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
 - [RViktor](https://github.com/rviktor/): Hungarian
 - [Thom Wiggers](https://github.com/thomwiggers/): Dutch
+- Unai Loidi: Basque
 - Claude AI: Afrikaans, Akan, Albanian, Amharic, Arabic, Armenian, Assamese,
-  Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Brazilian Portuguese (corrections),
-  Breton, Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chichewa, Chinese Simplified,
-  Chinese Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Ewe, Faroese,
-  Filipino, Finnish, Fulah, Galician, Georgian, German, Greek, Gujarati, Hausa,
-  Hawaiian, Hebrew, Hindi, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese,
-  Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Kirundi, Korean, Kurdish, Kyrgyz, Lao,
-  Latin, Latvian, Lingala, Lithuanian, Luganda, Luxembourgish, Macedonian, Malagasy,
-  Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Northern Ndebele,
-  Northern Sami, Norwegian Bokmål, Occitan, Odia, Oromo, Pashto, Persian, Polish,
-  Portuguese, Punjabi, Romanian, Russian, Samoan, Sango, Sardinian, Scottish Gaelic,
-  Serbian, Sesotho, Shona, Sindhi, Sinhala, Slovak, Slovenian, Somali, Southern Ndebele,
-  Spanish, Sundanese, Swahili, Swati, Swedish, Tajik, Tamil, Telugu, Thai, Tibetan,
-  Tigrinya, Tongan, Tsonga, Tswana, Turkish, Turkmen, Twi, Ukrainian, Urdu, Uzbek,
-  Venda, Vietnamese, Welsh, Western Frisian, Wolof, Xhosa, Yiddish, Yoruba, Zulu
+  Azerbaijani, Belarusian, Bengali, Bosnian, Brazilian Portuguese (corrections), Breton,
+  Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chichewa, Chinese Simplified, Chinese
+  Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Ewe, Faroese, Filipino,
+  Finnish, Fulah, Galician, Georgian, German, Greek, Gujarati, Hausa, Hawaiian, Hebrew,
+  Hindi, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada,
+  Kazakh, Khmer, Kinyarwanda, Kirundi, Korean, Kurdish, Kyrgyz, Lao, Latin, Latvian,
+  Lingala, Lithuanian, Luganda, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam,
+  Maltese, Maori, Marathi, Mongolian, Nepali, Northern Ndebele, Northern Sami, Norwegian
+  Bokmål, Occitan, Odia, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian,
+  Russian, Samoan, Sango, Sardinian, Scottish Gaelic, Serbian, Sesotho, Shona, Sindhi,
+  Sinhala, Slovak, Slovenian, Somali, Southern Ndebele, Spanish, Sundanese, Swahili,
+  Swati, Swedish, Tajik, Tamil, Telugu, Thai, Tibetan, Tigrinya, Tongan, Tsonga, Tswana,
+  Turkish, Turkmen, Twi, Ukrainian, Urdu, Uzbek, Venda, Vietnamese, Welsh, Western
+  Frisian, Wolof, Xhosa, Yiddish, Yoruba, Zulu
 
 </details>
