@@ -13,8 +13,9 @@ Professional support for django-zxcvbn-password-validator is available as part o
 
 ## Translating the project
 
-This project is available in multiple language. Your contribution would be very
-appreciated if you know a language that is not yet available. See
+This project is available in multiple languages. Your contribution would be very
+appreciated if you know a language that is not yet available or if you want to improve
+an existing translation (especially AI-generated ones). See
 [how to contribute](CONTRIBUTING.md)
 
 ### Language available
@@ -23,26 +24,34 @@ The software is developed in English. Other available languages are:
 
 [![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
+Translators:
+
+<details>
 - [x] [Andrés Martano](https://github.com/andresmrm/): Brazilian Portuguese
 - [x] [Lionel Sausin](https://github.com/ls-initiatives): French
 - [x] [Michal Čihař](https://github.com/nijel/): Czech
 - [x] [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
 - [x] [RViktor](https://github.com/rviktor/): Hungarian
 - [x] [Thom Wiggers](https://github.com/thomwiggers/): Dutch
-- [x] Claude AI: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani,
-      Basque, Belarusian, Bengali, Bosnian, Brazilian Portuguese (corrections), Breton,
-      Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chinese Simplified, Chinese
-      Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Filipino, Finnish,
-      Fulah, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi,
-      Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh,
-      Khmer, Korean, Kurdish, Kyrgyz, Lao, Latin, Latvian, Lingala, Lithuanian,
-      Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Marathi,
-      Mongolian, Nepali, Norwegian Bokmål, Occitan, Odia, Pashto, Persian, Polish,
-      Portuguese, Punjabi, Romanian, Russian, Scottish Gaelic, Serbian, Shona, Sindhi,
-      Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik,
-      Tamil, Telugu, Thai, Tibetan, Tigrinya, Tswana, Turkish, Turkmen, Ukrainian, Urdu,
-      Uzbek, Vietnamese, Welsh, Western Frisian, Wolof, Xhosa, Yiddish, Yoruba, Zulu
+- [x] Claude AI: Afrikaans, Akan, Albanian, Amharic, Arabic, Armenian, Assamese,
+      Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Brazilian Portuguese
+      (corrections), Breton, Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chichewa,
+      Chinese Simplified, Chinese Traditional, Corsican, Croatian, Danish, Esperanto,
+      Estonian, Ewe, Faroese, Filipino, Finnish, Fulah, Galician, Georgian, German, Greek,
+      Gujarati, Hausa, Hawaiian, Hebrew, Hindi, Icelandic, Igbo, Indonesian, Irish,
+      Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Kirundi, Korean,
+      Kurdish, Kyrgyz, Lao, Latin, Latvian, Lingala, Lithuanian, Luganda, Luxembourgish,
+      Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali,
+      Northern Ndebele, Northern Sami, Norwegian Bokmål, Occitan, Odia, Oromo, Pashto,
+      Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sango, Sardinian,
+      Scottish Gaelic, Serbian, Sesotho, Shona, Sindhi, Sinhala, Slovak, Slovenian, Somali,
+      Southern Ndebele, Spanish, Sundanese, Swahili, Swati, Swedish, Tajik, Tamil, Telugu,
+      Thai, Tibetan, Tigrinya, Tongan, Tsonga, Tswana, Turkish, Turkmen, Twi, Ukrainian,
+      Urdu, Uzbek, Venda, Vietnamese, Welsh, Western Frisian, Wolof, Xhosa, Yiddish,
+      Yoruba, Zulu
 - [x] English
+
+</details>
 
 ## Creating a user with django-zxcvbn-password-validator
 
