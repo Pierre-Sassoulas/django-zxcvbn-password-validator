@@ -12,24 +12,16 @@ env:
   PRE_COMMIT_CACHE: ~/.cache/pre-commit
 
 jobs:
-  tests:
-    runs-on: ubuntu-latest
+  test-django-2:
+    # Django 2.x: Python 3.6-3.9
+    # Python 3.6-3.7 require Ubuntu 20.04
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
-        django-version: [">=3,<4", ">=4,<5", ">=5,<6", ">=6,<7"]
-        exclude:
-          - python-version: "3.13"
-            django-version: ">=3,<4"
-          - python-version: "3.14"
-            django-version: ">=3,<4"
-          - python-version: "3.10"
-            django-version: ">=6,<7"
-          - python-version: "3.11"
-            django-version: ">=6,<7"
+        python-version: ["3.6", "3.7", "3.8", "3.9"]
     steps:
       - uses: actions/checkout@v6
-      - name: Python-${{ matrix.python-version }}-django${{ matrix.django-version }}
+      - name: Python-${{ matrix.python-version }}-django2
         uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
@@ -37,7 +29,112 @@ jobs:
         run: |
           sudo apt-get install -yqq gettext
           pip3 install -e ".[dev]"
-          pip3 install "django${{ matrix.django-version }}"
+          pip3 install "django>=2,<3"
+      - name: Test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python manage.py compilemessages
+          coverage run --source=django_zxcvbn_password_validator ./manage.py test
+          coverage html
+          coveralls debug --service=github
+
+  test-django-3:
+    # Django 3.x: Python 3.6-3.10
+    # Python 3.6-3.7 require Ubuntu 20.04
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Python-${{ matrix.python-version }}-django3
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -yqq gettext
+          pip3 install -e ".[dev]"
+          pip3 install "django>=3,<4"
+      - name: Test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python manage.py compilemessages
+          coverage run --source=django_zxcvbn_password_validator ./manage.py test
+          coverage html
+          coveralls debug --service=github
+
+  test-django-4:
+    # Django 4.x: Python 3.8-3.12
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Python-${{ matrix.python-version }}-django4
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -yqq gettext
+          pip3 install -e ".[dev]"
+          pip3 install "django>=4,<5"
+      - name: Test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python manage.py compilemessages
+          coverage run --source=django_zxcvbn_password_validator ./manage.py test
+          coverage html
+          coveralls debug --service=github
+
+  test-django-5:
+    # Django 5.x: Python 3.10+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14", "3.15-dev"]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Python-${{ matrix.python-version }}-django5
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -yqq gettext
+          pip3 install -e ".[dev]"
+          pip3 install "django>=5,<6"
+      - name: Test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python manage.py compilemessages
+          coverage run --source=django_zxcvbn_password_validator ./manage.py test
+          coverage html
+          coveralls debug --service=github
+
+  test-django-6:
+    # Django 6.x: Python 3.12+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12", "3.13", "3.14", "3.15-dev"]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Python-${{ matrix.python-version }}-django6
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -yqq gettext
+          pip3 install -e ".[dev]"
+          pip3 install "django>=6,<7"
       - name: Test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
