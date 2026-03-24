@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Azerbaijani\n"
+"PO-Revision-Date: 2026-03-24 14:17+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Azerbaijani <https://hosted.weblate.org/projects/django-"
+"zxcvbn-password-validator/translations/az/>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -117,7 +119,9 @@ msgstr "Böyük hərf istifadəsi çox kömək etmir"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Hamısı böyük hərflə, hamısı kiçik hərflə demək olar ki, eyni dərəcədə asanlıqla təxmin edilir"
+msgstr ""
+"Hamısı böyük hərflə, hamısı kiçik hərflə demək olar ki, eyni dərəcədə "
+"asanlıqla təxmin edilir"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -125,8 +129,7 @@ msgstr "Tərsinə yazılmış sözlər təxmin etmək üçün çox da çətin de
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"'a' əvəzinə '@' kimi proqnozlaşdırıla bilən əvəzetmələr çox kömək etmir"
+msgstr "'a' əvəzinə '@' kimi proqnozlaşdırıla bilən əvəzetmələr çox kömək etmir"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -201,7 +204,8 @@ msgstr "Məsləhət:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Heç nə tələb etmirik: istədiyiniz hər hansı parolu istifadə edə bilərsiniz."
+msgstr ""
+"Heç nə tələb etmirik: istədiyiniz hər hansı parolu istifadə edə bilərsiniz."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
