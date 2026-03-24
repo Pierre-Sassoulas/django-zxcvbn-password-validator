@@ -7,14 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Serbian\n"
+"PO-Revision-Date: 2026-03-24 14:17+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -47,8 +50,7 @@ msgstr "Понављања попут \"aaa\" су лака за погађањ�
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
-"Понављања попут \"abcabcabc\" су само мало тежа за погађање од \"abc\""
+msgstr "Понављања попут \"abcabcabc\" су само мало тежа за погађање од \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -116,7 +118,8 @@ msgstr "Велика слова не помажу много"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Све великим словима је скоро једнако лако за погађање као све малим словима"
+msgstr ""
+"Све великим словима је скоро једнако лако за погађање као све малим словима"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
