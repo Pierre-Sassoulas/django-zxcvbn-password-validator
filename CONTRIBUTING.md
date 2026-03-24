@@ -2,13 +2,16 @@
 
 ## Translating the project
 
-This project is available in multiple language. Your contribution would be very
-appreciated if you know a language that is not yet available.
+This project is available in multiple languages. Your contribution would be very
+appreciated if you know a language that is not yet available or if you want to improve
+an existing translation (especially AI-generated ones).
+
+### As a non dev
 
 The translations can be edited online using
 [Weblate](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/).
 
-### I18n
+### As a dev
 
 ```bash
 python manage.py makemessages --locale=<desired locale>
