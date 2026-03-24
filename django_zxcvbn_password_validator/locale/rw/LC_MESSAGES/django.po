@@ -1,0 +1,235 @@
+# django_zxcvbn_password_validator's Kinyarwanda translation
+# This file is distributed under the MIT license.
+# Claude AI, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2026-03-24 00:00+0000\n"
+"Last-Translator: Claude AI\n"
+"Language-Team: Kinyarwanda\n"
+"Language: rw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+msgid "Use a few words, avoid common phrases"
+msgstr "Koresha amagambo make, wirinde interuro zikunze gukoreshwa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "Nta mpamvu yo gukoresha ibimenyetso, imibare, cyangwa inyuguti nkuru"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+msgid "Add another word or two. Uncommon words are better."
+msgstr "Ongeraho ijambo rimwe cyangwa abiri. Amagambo atakunze gukoreshwa ni meza kurushaho."
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+msgid "Straight rows of keys are easy to guess"
+msgstr "Imirongo igororotse y'ibonyeza ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Imiterere igufi y'ibonyeza ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Koresha imiterere y'ibonyeza ndende irimo impinduka nyinshi"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "Gusubiramo nka \"aaa\" ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
+msgid ""
+"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+"Gusubiramo nka \"abcabcabc\" ni gake gusa bigoye guhanura kuruta \"abc\""
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Avoid repeated words and characters"
+msgstr "Irinde amagambo n'inyuguti bisubirwamo"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "Urutonde nka \"abc\" cyangwa \"6543\" ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+msgid "Avoid sequences"
+msgstr "Irinde urutonde"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Recent years are easy to guess"
+msgstr "Imyaka yashize vuba ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+msgid "Avoid recent years"
+msgstr "Irinde imyaka yashize vuba"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+msgid "Avoid years that are associated with you"
+msgstr "Irinde imyaka ijyanye nawe"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "Dates are often easy to guess"
+msgstr "Amatariki akunze kuba byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+msgid "Avoid dates and years that are associated with you"
+msgstr "Irinde amatariki n'imyaka bijyanye nawe"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+msgid "This is a top-10 common password"
+msgstr "Iri ni rimwe mu 10 y'amagambo y'ibanga akunze gukoreshwa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "This is a top-100 common password"
+msgstr "Iri ni rimwe mu 100 y'amagambo y'ibanga akunze gukoreshwa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+msgid "This is a very common password"
+msgstr "Iri ni ijambo ry'ibanga rikunze gukoreshwa cyane"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+msgid "This is similar to a commonly used password"
+msgstr "Iri rimeze nk'ijambo ry'ibanga rikunze gukoreshwa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "A word by itself is easy to guess"
+msgstr "Ijambo ryonyine ni ryoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Amazina n'izina ry'umuryango byonyine ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+msgid "Common names and surnames are easy to guess"
+msgstr "Amazina n'izina ry'umuryango bikunze gukoreshwa ni byoroshye guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+msgid "Capitalization doesn't help very much"
+msgstr "Gukoresha inyuguti nkuru ntibifasha cyane"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr "Inyuguti nkuru zose ni kimwe no guhanura n'inyuguti nto zose"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+msgid "Reversed words aren't much harder to guess"
+msgstr "Amagambo ahinduwe ntabwo bigoye cyane guhanura"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr "Gusimbuza bimenyerewe nka '@' aho gukoresha 'a' ntibifasha cyane"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "less than a second"
+msgstr "munsi y'isegonda"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "isegonda %d"
+msgstr[1] "amasegonda %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "umunota %d"
+msgstr[1] "iminota %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "isaha %d"
+msgstr[1] "amasaha %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "umunsi %d"
+msgstr[1] "iminsi %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "ukwezi %d"
+msgstr[1] "amezi %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#, python-format
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "umwaka %d"
+msgstr[1] "imyaka %d"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+msgid "centuries"
+msgstr "ibinyejana"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
+msgid "Your password exceeds the maximal length of 72 characters."
+msgstr "Ijambo ry'ibanga ryawe rirenze uburebure ntarengwa bw'inyuguti 72."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Your password is too guessable:"
+msgstr "Ijambo ry'ibanga ryawe ni ryoroshye cyane guhanura:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "Umuntu utarimo gukoresha interineti yamara %(time)s kugira ngo arihanure."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
+msgid "Warning:"
+msgstr "Umburira:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
+msgid "Advice:"
+msgstr "Inama:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "We expect nothing: you can use any password you want."
+msgstr "Nta cyo dusaba: ushobora gukoresha ijambo ry'ibanga iryo ari ryo ryose ushaka."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+#, python-format
+msgid "We expect a password that cannot be guessed %s"
+msgstr "Dusaba ijambo ry'ibanga ridashobora guhanurwa %s"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
+msgid "by your familly or friends."
+msgstr "n'umuryango wawe cyangwa inshuti."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
+msgid "by attackers online."
+msgstr "n'abatera kuri interineti."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
+msgid "without access to our database."
+msgstr "utabonye uburyo bwo kwinjira mu bubiko bw'amakuru yacu."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
+msgid "without a dedicated team and an access to our database."
+msgstr "utabonye itsinda ryihariye n'uburyo bwo kwinjira mu bubiko bw'amakuru yacu."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
+msgid "There is no specific rule for a great password,"
+msgstr "Nta mabwiriza adasanzwe y'ijambo ry'ibanga ryiza,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
+msgid "however if your password is too easy to guess,"
+msgstr "ariko niba ijambo ry'ibanga ryawe ari ryoroshye cyane guhanura,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
+msgid "we will tell you how to make a better one."
+msgstr "tuzakumenyesha uko wakora iryiza kurushaho."
