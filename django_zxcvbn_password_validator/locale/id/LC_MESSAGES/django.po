@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Indonesian\n"
+"PO-Revision-Date: 2026-03-24 14:17+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -46,7 +48,9 @@ msgstr "Pengulangan seperti \"aaa\" mudah ditebak"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "Pengulangan seperti \"abcabcabc\" hanya sedikit lebih sulit ditebak daripada \"abc\""
+msgstr ""
+"Pengulangan seperti \"abcabcabc\" hanya sedikit lebih sulit ditebak daripada "
+"\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -114,7 +118,8 @@ msgstr "Kapitalisasi tidak terlalu membantu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Semua huruf kapital hampir sama mudahnya ditebak dengan semua huruf kecil"
+msgstr ""
+"Semua huruf kapital hampir sama mudahnya ditebak dengan semua huruf kecil"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -122,7 +127,9 @@ msgstr "Kata yang dibalik tidak lebih sulit ditebak"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "Penggantian yang dapat diprediksi seperti '@' mengganti 'a' tidak terlalu membantu"
+msgstr ""
+"Penggantian yang dapat diprediksi seperti '@' mengganti 'a' tidak terlalu "
+"membantu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -179,7 +186,8 @@ msgstr "Kata sandi Anda terlalu mudah ditebak:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr "Akan membutuhkan waktu %(time)s bagi penyerang offline untuk menebaknya."
+msgstr ""
+"Akan membutuhkan waktu %(time)s bagi penyerang offline untuk menebaknya."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
@@ -191,7 +199,9 @@ msgstr "Saran:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Kami tidak mengharapkan apa-apa: Anda dapat menggunakan kata sandi apa pun yang Anda inginkan."
+msgstr ""
+"Kami tidak mengharapkan apa-apa: Anda dapat menggunakan kata sandi apa pun "
+"yang Anda inginkan."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
