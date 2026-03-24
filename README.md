@@ -63,6 +63,12 @@ zxcvbn that are in english only) :
 
 ![Translated example](doc/french_example.png "Translated example")
 
+## Compatibility
+
+Requires Django 2+ and Python 3.6+. Note that Python 3.6 and 3.7 are not tested in CI
+anymore (GitHub Actions no longer provides runners for them), so while they should work,
+there is no guarantee.
+
 ## How to use
 
 Add `django-zxcvbn-password-validator` to your requirements and get it with pip. Then

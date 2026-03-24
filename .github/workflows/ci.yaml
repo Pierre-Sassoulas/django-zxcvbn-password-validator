@@ -13,12 +13,11 @@ env:
 
 jobs:
   test-django-2:
-    # Django 2.x: Python 3.6-3.9
-    # Python 3.6-3.7 require Ubuntu 20.04
-    runs-on: ubuntu-20.04
+    # Django 2.x: Python 3.8-3.9 only because ubuntu 24.04 has no support for 3.6/3.7
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.6", "3.7", "3.8", "3.9"]
+        python-version: ["3.8", "3.9"]
     steps:
       - uses: actions/checkout@v6
       - name: Python-${{ matrix.python-version }}-django2
@@ -40,12 +39,11 @@ jobs:
           coveralls debug --service=github
 
   test-django-3:
-    # Django 3.x: Python 3.6-3.10
-    # Python 3.6-3.7 require Ubuntu 20.04
-    runs-on: ubuntu-20.04
+    # Django 3.x: Python 3.8-3.10
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
+        python-version: ["3.8", "3.9", "3.10"]
     steps:
       - uses: actions/checkout@v6
       - name: Python-${{ matrix.python-version }}-django3
