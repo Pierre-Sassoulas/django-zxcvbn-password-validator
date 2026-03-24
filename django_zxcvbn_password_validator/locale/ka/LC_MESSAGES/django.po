@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Georgian\n"
+"PO-Revision-Date: 2026-03-24 14:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -48,8 +50,8 @@ msgstr "გამეორებები, როგორიცაა \"aaa\", 
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"გამეორებები, როგორიცაა \"abcabcabc\", მხოლოდ ოდნავ უფრო რთული "
-"გამოსაცნობია, ვიდრე \"abc\""
+"გამეორებები, როგორიცაა \"abcabcabc\", მხოლოდ ოდნავ უფრო რთული გამოსაცნობია, "
+"ვიდრე \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -117,7 +119,9 @@ msgstr "დიდი ასოების გამოყენება დი
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "მთლიანად დიდი ასოებით თითქმის ისეთივე ადვილი გამოსაცნობია, როგორც მთლიანად პატარა ასოებით"
+msgstr ""
+"მთლიანად დიდი ასოებით თითქმის ისეთივე ადვილი გამოსაცნობია, როგორც მთლიანად "
+"პატარა ასოებით"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -126,8 +130,7 @@ msgstr "შებრუნებული სიტყვები ბევრ�
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
 msgstr ""
-"პროგნოზირებადი ჩანაცვლებები, როგორიცაა '@' ნაცვლად 'a'-სი, დიდად არ "
-"ეხმარება"
+"პროგნოზირებადი ჩანაცვლებები, როგორიცაა '@' ნაცვლად 'a'-სი, დიდად არ ეხმარება"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
