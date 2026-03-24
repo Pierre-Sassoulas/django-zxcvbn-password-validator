@@ -1,0 +1,236 @@
+# django_zxcvbn_password_validator's Tongan translation
+# This file is distributed under the MIT license.
+# Claude AI, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2026-03-24 00:00+0000\n"
+"Last-Translator: Claude AI\n"
+"Language-Team: Tongan\n"
+"Language: to\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+msgid "Use a few words, avoid common phrases"
+msgstr "Ngaue'aki ha ngaahi lea si'isi'i, faka'ehi'ehi mei he ngaahi lea angamaheni"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "'Ikai fiema'u ha ngaahi faka'ilonga, fika, pe mata'itohi lalahi"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+msgid "Add another word or two. Uncommon words are better."
+msgstr "Tānaki ha lea 'e taha pe ua. 'Oku lelei ange 'a e ngaahi lea ta'eangamaheni."
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+msgid "Straight rows of keys are easy to guess"
+msgstr "Ko e ngaahi laine totonu 'o e ngaahi ki 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Ko e ngaahi fa'ahinga nounou 'o e keyboard 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Ngaue'aki ha fa'ahinga keyboard loloa ange mo e ngaahi liliu lahi ange"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "Ko e ngaahi toe fai hange ko e \"aaa\" 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
+msgid ""
+"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+"Ko e ngaahi toe fai hange ko e \"abcabcabc\" 'oku si'isi'i pe 'ene "
+"faingata'a ange 'i he \"abc\""
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Avoid repeated words and characters"
+msgstr "Faka'ehi'ehi mei he ngaahi lea mo e mata'itohi 'oku toe fai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "Ko e ngaahi hokohoko hange ko e \"abc\" pe \"6543\" 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+msgid "Avoid sequences"
+msgstr "Faka'ehi'ehi mei he ngaahi hokohoko"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Recent years are easy to guess"
+msgstr "Ko e ngaahi ta'u ofi mai 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+msgid "Avoid recent years"
+msgstr "Faka'ehi'ehi mei he ngaahi ta'u ofi mai"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+msgid "Avoid years that are associated with you"
+msgstr "Faka'ehi'ehi mei he ngaahi ta'u 'oku fekau'aki mo koe"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "Dates are often easy to guess"
+msgstr "Ko e ngaahi 'aho 'oku fa'a faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+msgid "Avoid dates and years that are associated with you"
+msgstr "Faka'ehi'ehi mei he ngaahi 'aho mo e ta'u 'oku fekau'aki mo koe"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+msgid "This is a top-10 common password"
+msgstr "Ko e lea fufuu angamaheni eni 'i he 10 tu'unga ki 'olunga"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "This is a top-100 common password"
+msgstr "Ko e lea fufuu angamaheni eni 'i he 100 tu'unga ki 'olunga"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+msgid "This is a very common password"
+msgstr "Ko e lea fufuu angamaheni 'aupito eni"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+msgid "This is similar to a commonly used password"
+msgstr "'Oku tatau eni mo ha lea fufuu 'oku angamaheni hono ngaue'aki"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "A word by itself is easy to guess"
+msgstr "Ko e lea pe 'e taha 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Ko e ngaahi hingoa mo e hingoa fakafamili 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+msgid "Common names and surnames are easy to guess"
+msgstr "Ko e ngaahi hingoa mo e hingoa fakafamili angamaheni 'oku faingofua ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+msgid "Capitalization doesn't help very much"
+msgstr "'Oku 'ikai tokoni lahi 'a e ngaue'aki 'o e mata'itohi lalahi"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr "Ko e mata'itohi lalahi kotoa 'oku meimei tatau pe 'a e faingofua mo e mata'itohi iiki kotoa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+msgid "Reversed words aren't much harder to guess"
+msgstr "Ko e ngaahi lea faka-hake-holo 'oku 'ikai faingata'a ange ke fakafuofua"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr "Ko e ngaahi fetongi 'e lava ke 'ilo'i hange ko e '@' ko e fetongi 'o e 'a' 'oku 'ikai tokoni lahi"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "less than a second"
+msgstr "si'isi'i hifo 'i he sekoni 'e taha"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekoni"
+msgstr[1] "%d sekoni"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d miniti"
+msgstr[1] "%d miniti"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d houa"
+msgstr[1] "%d houa"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 'aho"
+msgstr[1] "%d 'aho"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mahina"
+msgstr[1] "%d mahina"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#, python-format
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "%d ta'u"
+msgstr[1] "%d ta'u"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+msgid "centuries"
+msgstr "ngaahi senituli"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
+msgid "Your password exceeds the maximal length of 72 characters."
+msgstr "Kuo lahi hake ho'o lea fufuu 'i he loloa lahi taha ko e mata'itohi 'e 72."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Your password is too guessable:"
+msgstr "'Oku fu'u faingofua ke fakafuofua ho'o lea fufuu:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "'E fiema'u 'e ha taha fakafe'atungi'a %(time)s ke fakafuofua ia."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
+msgid "Warning:"
+msgstr "Fakatokanga:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
+msgid "Advice:"
+msgstr "Akonaki:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "We expect nothing: you can use any password you want."
+msgstr "'Oku 'ikai ke mau 'amanaki ki ha me'a: 'e lava ke ke ngaue'aki ha lea fufuu pe te ke loto ki ai."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+#, python-format
+msgid "We expect a password that cannot be guessed %s"
+msgstr "'Oku mau 'amanaki ki ha lea fufuu 'oku 'ikai lava ke fakafuofua %s"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
+msgid "by your familly or friends."
+msgstr "'e ho'o famili pe kaungame'a."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
+msgid "by attackers online."
+msgstr "'e he kau fakafe'atungi'a 'i he 'initaneti."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
+msgid "without access to our database."
+msgstr "ta'ehuu ki he'emau tafa'aki fakamatala."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
+msgid "without a dedicated team and an access to our database."
+msgstr "ta'e 'i ai ha kau ngaue makehe mo e huu ki he'emau tafa'aki fakamatala."
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
+msgid "There is no specific rule for a great password,"
+msgstr "'Oku 'ikai ha tu'utu'uni makehe ki ha lea fufuu lelei,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
+msgid "however if your password is too easy to guess,"
+msgstr "ka neongo ia kapau 'oku fu'u faingofua ke fakafuofua ho'o lea fufuu,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
+msgid "we will tell you how to make a better one."
+msgstr "te mau tala atu 'a e founga ke fai'aki ha taha 'oku lelei ange."
