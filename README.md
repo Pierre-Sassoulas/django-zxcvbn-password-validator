@@ -34,12 +34,15 @@ The software is developed in English. Other available languages are:
       Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Ukrainian, Vietnamese,
       Yoruba
 - [x] Claude Code: Afrikaans, Albanian, Amharic, Assamese, Azerbaijani, Basque,
-      Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Chinese Traditional,
-      Croatian, Danish, Estonian, Filipino, Finnish, Galician, Georgian, Greek,
-      Gujarati, Hebrew, Icelandic, Irish, Kannada, Kazakh, Khmer, Kurdish, Lao, Latvian,
-      Lithuanian, Macedonian, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian
-      Bokmål, Odia, Pashto, Persian, Punjabi, Romanian, Serbian, Sinhala, Slovak,
-      Slovenian, Somali, Swedish, Tamil, Telugu, Urdu, Uzbek, Welsh, Zulu
+      Belarusian, Bengali, Bosnian, Breton, Bulgarian, Burmese, Catalan, Cebuano,
+      Chinese Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Filipino,
+      Finnish, Fulah, Galician, Georgian, Greek, Gujarati, Hebrew, Icelandic, Igbo,
+      Irish, Javanese, Kannada, Kazakh, Khmer, Kurdish, Kyrgyz, Lao, Latvian, Lingala,
+      Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese,
+      Marathi, Mongolian, Nepali, Norwegian Bokmål, Occitan, Odia, Pashto, Persian,
+      Punjabi, Romanian, Scottish Gaelic, Serbian, Shona, Sindhi, Sinhala, Slovak,
+      Slovenian, Somali, Sundanese, Swedish, Tamil, Telugu, Tigrinya, Tajik, Tswana,
+      Turkmen, Urdu, Uzbek, Welsh, Western Frisian, Wolof, Xhosa, Zulu
 - [x] English
 
 ## Creating a user with django-zxcvbn-password-validator
