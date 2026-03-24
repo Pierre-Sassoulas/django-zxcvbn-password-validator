@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Hausa\n"
+"PO-Revision-Date: 2026-03-24 14:18+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Hausa <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ha/>\n"
 "Language: ha\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -46,7 +48,8 @@ msgstr "Maimaitawa kamar \"aaa\" suna da sauƙi a tsinke"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "Maimaitawa kamar \"abcabcabc\" sun fi \"abc\" wahala kaɗan kawai wajen tsinke"
+msgstr ""
+"Maimaitawa kamar \"abcabcabc\" sun fi \"abc\" wahala kaɗan kawai wajen tsinke"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -114,7 +117,9 @@ msgstr "Yin amfani da manyan haruffa ba ya taimaka sosai"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Manyan haruffa duka sun kusan kasance masu sauƙi a tsinke kamar ƙananan haruffa"
+msgstr ""
+"Manyan haruffa duka sun kusan kasance masu sauƙi a tsinke kamar ƙananan "
+"haruffa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -197,7 +202,8 @@ msgstr "Shawara:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Ba mu tsammanin komai: za ka iya amfani da kowace kalmar sirri da kake so."
+msgstr ""
+"Ba mu tsammanin komai: za ka iya amfani da kowace kalmar sirri da kake so."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
