@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2026-03-24 00:00+0000\n"
-"Last-Translator: Claude AI\n"
-"Language-Team: Ewe\n"
+"PO-Revision-Date: 2026-03-24 14:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Ewe <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ee/>\n"
 "Language: ee\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -26,7 +28,9 @@ msgstr "Mehia dzesiwo, xexleme, alo nuqoqo gaqewo o"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Tsoe nya bubu aqeka alo eve kpe eqe. Nya siwo amewo mezana zi geqe o la enyo wu."
+msgstr ""
+"Tsoe nya bubu aqeka alo eve kpe eqe. Nya siwo amewo mezana zi geqe o la enyo "
+"wu."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -124,7 +128,9 @@ msgstr "Nya siwo wotrqe megbqe la mesea kpuie hafi wobobi wo o"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "Tsotsoe siwo woate nu akpq qe hafi ava abe '@' le 'a' teqe ene la mekpea qe akpa o"
+msgstr ""
+"Tsotsoe siwo woate nu akpq qe hafi ava abe '@' le 'a' teqe ene la mekpea qe "
+"akpa o"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
