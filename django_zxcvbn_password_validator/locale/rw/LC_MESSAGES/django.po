@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2026-03-24 00:00+0000\n"
-"Last-Translator: Claude AI\n"
-"Language-Team: Kinyarwanda\n"
+"PO-Revision-Date: 2026-03-24 14:18+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Kinyarwanda <https://hosted.weblate.org/projects/django-"
+"zxcvbn-password-validator/translations/rw/>\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -26,7 +28,9 @@ msgstr "Nta mpamvu yo gukoresha ibimenyetso, imibare, cyangwa inyuguti nkuru"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Ongeraho ijambo rimwe cyangwa abiri. Amagambo atakunze gukoreshwa ni meza kurushaho."
+msgstr ""
+"Ongeraho ijambo rimwe cyangwa abiri. Amagambo atakunze gukoreshwa ni meza "
+"kurushaho."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -187,7 +191,8 @@ msgstr "Ijambo ry'ibanga ryawe ni ryoroshye cyane guhanura:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr "Umuntu utarimo gukoresha interineti yamara %(time)s kugira ngo arihanure."
+msgstr ""
+"Umuntu utarimo gukoresha interineti yamara %(time)s kugira ngo arihanure."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
@@ -199,7 +204,9 @@ msgstr "Inama:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Nta cyo dusaba: ushobora gukoresha ijambo ry'ibanga iryo ari ryo ryose ushaka."
+msgstr ""
+"Nta cyo dusaba: ushobora gukoresha ijambo ry'ibanga iryo ari ryo ryose "
+"ushaka."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
@@ -220,7 +227,8 @@ msgstr "utabonye uburyo bwo kwinjira mu bubiko bw'amakuru yacu."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr "utabonye itsinda ryihariye n'uburyo bwo kwinjira mu bubiko bw'amakuru yacu."
+msgstr ""
+"utabonye itsinda ryihariye n'uburyo bwo kwinjira mu bubiko bw'amakuru yacu."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
