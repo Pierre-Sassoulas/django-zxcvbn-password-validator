@@ -45,13 +45,13 @@ msgstr "Použijte delší klávesnicové vzory s více otočkami"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
 msgid "Repeats like \"aaa\" are easy to guess"
-msgstr "Opakování jako např. „aaa“ jsou snadno uhodnutelné"
+msgstr "Opakování jako např. \"aaa\" jsou snadno uhodnutelné"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Opakování jako např. „abcabcabc“ jsou jen o málo méně uhodnutelné než „abc“"
+"Opakování jako např. \"abcabcabc\" jsou jen o málo méně uhodnutelné než \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -59,7 +59,7 @@ msgstr "Vyhněte se opakování slov a znaků"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
-msgstr "Posloupnosti, jako třeba „abc“ nebo „6543“, jsou snadno uhodnutelné"
+msgstr "Posloupnosti, jako třeba \"abc\" nebo \"6543\", jsou snadno uhodnutelné"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "Avoid sequences"
@@ -128,7 +128,7 @@ msgstr "Slova pozpátku nejsou moc těžká na uhodnutí"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "Předvídatelná nahrazení jako „@“ místo „a“ moc nepomohou"
+msgstr "Předvídatelná nahrazení jako \"@\" místo \"a\" moc nepomohou"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
