@@ -1,20 +1,22 @@
-# django_zxcvbn_password_validator's Basque translation
+# django_zxcvbn_password_validator's french traduction
 # This file is distributed under the MIT license.
-# Claude AI Assistant, 2025.
+# Pierre SASSOULAS <pierre.sassoulas@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Basque\n"
+"PO-Revision-Date: 2025-04-09 10:03+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -48,7 +50,8 @@ msgstr "\"aaa\" bezalako errepikapeneak erraz asmatzen dira"
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"\"abcabcabc\" bezalako errepikapeneak \"abc\" baino pixka bat zailagoak dira asmatzeko"
+"\"abcabcabc\" bezalako errepikapeneak \"abc\" baino pixka bat zailagoak dira "
+"asmatzeko"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -124,7 +127,8 @@ msgstr "Alderantzizko hitzak ez dira askoz zailagoak asmatzeko"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "'a' ordez '@' bezalako ordezkatze aurreikusgarriek ez dute asko laguntzen"
+msgstr ""
+"'a' ordez '@' bezalako ordezkatze aurreikusgarriek ez dute asko laguntzen"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -233,3 +237,27 @@ msgstr "hala ere, zure pasahitza asmatzeko erraza bada,"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
 msgstr "hobea nola egin esango dizugu."
+
+#~ msgid "We expect"
+#~ msgstr "Nous"
+
+#~ msgid "seconds"
+#~ msgstr "secondes"
+
+#~ msgid "minutes"
+#~ msgstr "minutes"
+
+#~ msgid "hours"
+#~ msgstr "heures"
+
+#~ msgid "days"
+#~ msgstr "jours"
+
+#~ msgid "months"
+#~ msgstr "mois"
+
+#~ msgid "years"
+#~ msgstr "années"
+
+#~ msgid "day"
+#~ msgstr "jour"
