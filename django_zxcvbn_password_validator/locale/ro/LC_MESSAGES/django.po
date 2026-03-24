@@ -7,14 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Romanian\n"
+"PO-Revision-Date: 2026-03-24 14:20+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -39,7 +42,8 @@ msgstr "Modelele scurte de tastatură sunt ușor de ghicit"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
 msgid "Use a longer keyboard pattern with more turns"
-msgstr "Folosește un model de tastatură mai lung cu mai multe schimbări de direcție"
+msgstr ""
+"Folosește un model de tastatură mai lung cu mai multe schimbări de direcție"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
 msgid "Repeats like \"aaa\" are easy to guess"
@@ -118,7 +122,9 @@ msgstr "Utilizarea majusculelor nu ajută foarte mult"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Totul cu majuscule este aproape la fel de ușor de ghicit ca totul cu minuscule"
+msgstr ""
+"Totul cu majuscule este aproape la fel de ușor de ghicit ca totul cu "
+"minuscule"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -126,8 +132,7 @@ msgstr "Cuvintele inversate nu sunt mult mai greu de ghicit"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"Substituțiile previzibile precum '@' în loc de 'a' nu ajută foarte mult"
+msgstr "Substituțiile previzibile precum '@' în loc de 'a' nu ajută foarte mult"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
