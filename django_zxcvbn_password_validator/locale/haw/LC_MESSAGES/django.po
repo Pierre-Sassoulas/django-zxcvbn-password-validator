@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2026-03-24 00:00+0000\n"
-"Last-Translator: Claude AI\n"
-"Language-Team: Hawaiian\n"
+"PO-Revision-Date: 2026-03-24 14:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Hawaiian <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/haw/>\n"
 "Language: haw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -26,7 +28,9 @@ msgstr "'A'ohe pono no na ho'ailona, helu, a i 'ole na hua palapala nui"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "E ho'ohui i kekahi hua'olelo 'ekahi a 'elua paha. 'Oi aku ka maika'i o na hua'olelo ma'amau 'ole."
+msgstr ""
+"E ho'ohui i kekahi hua'olelo 'ekahi a 'elua paha. 'Oi aku ka maika'i o na "
+"hua'olelo ma'amau 'ole."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -48,8 +52,8 @@ msgstr "He ma'alahi ka koho 'ana i na ha'ina hou e like me \"aaa\""
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"He 'iki wale no ka pa'akiki aku o na ha'ina hou e like me \"abcabcabc\" "
-"ma mua o \"abc\""
+"He 'iki wale no ka pa'akiki aku o na ha'ina hou e like me \"abcabcabc\" ma "
+"mua o \"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -57,7 +61,8 @@ msgstr "E 'alo i na hua'olelo a me na hua palapala i ha'ina hou 'ia"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
-msgstr "He ma'alahi ka koho 'ana i na ka'ina e like me \"abc\" a i 'ole \"6543\""
+msgstr ""
+"He ma'alahi ka koho 'ana i na ka'ina e like me \"abc\" a i 'ole \"6543\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "Avoid sequences"
@@ -117,7 +122,9 @@ msgstr "'A'ole kokua nui ka ho'ohana 'ana i na hua palapala nui"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "He aneane like ka ma'alahi o na hua palapala nui a pau me na hua palapala li'ili'i a pau"
+msgstr ""
+"He aneane like ka ma'alahi o na hua palapala nui a pau me na hua palapala "
+"li'ili'i a pau"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -179,7 +186,8 @@ msgstr "mau kenekulia"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
 msgid "Your password exceeds the maximal length of 72 characters."
-msgstr "Ua 'oi aku kou hua'olelo huna ma mua o ka lo'ihi nui loa he 72 hua palapala."
+msgstr ""
+"Ua 'oi aku kou hua'olelo huna ma mua o ka lo'ihi nui loa he 72 hua palapala."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
 msgid "Your password is too guessable:"
@@ -200,7 +208,9 @@ msgstr "'Olelo a'o:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "'A'ohe mea a makou e makemake ai: hiki ia 'oe ke ho'ohana i kekahi hua'olelo huna au e makemake ai."
+msgstr ""
+"'A'ohe mea a makou e makemake ai: hiki ia 'oe ke ho'ohana i kekahi hua'olelo "
+"huna au e makemake ai."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
@@ -221,7 +231,9 @@ msgstr "me ka 'ole o ke komo 'ana i ka makou waihona 'ikepili."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr "me ka 'ole o kekahi hui ku'ikahi a me ke komo 'ana i ka makou waihona 'ikepili."
+msgstr ""
+"me ka 'ole o kekahi hui ku'ikahi a me ke komo 'ana i ka makou waihona "
+"'ikepili."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
