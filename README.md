@@ -23,34 +23,26 @@ The software is developed in English. Other available languages are:
 
 [![Translation status](https://hosted.weblate.org/widget/django-zxcvbn-password-validator/multi-auto.svg)](https://hosted.weblate.org/engage/django-zxcvbn-password-validator/)
 
-- [x] Arabic thanks to Claude AI Assistant
-- [x] Armenian thanks to Claude AI Assistant
-- [x] Brazilian Portuguese thanks to [Andrés Martano](https://github.com/andresmrm/) and
-      Claude AI Assistant (corrections)
-- [x] Chinese Simplified thanks to Claude AI Assistant
-- [x] Czech thanks to [Michal Čihař](https://github.com/nijel/)
-- [x] Dutch thanks to [Thom Wiggers](https://github.com/thomwiggers/)
+- [x] [Andrés Martano](https://github.com/andresmrm/): Brazilian Portuguese
+- [x] [Lionel Sausin](https://github.com/ls-initiatives): French
+- [x] [Michal Čihař](https://github.com/nijel/): Czech
+- [x] [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
+- [x] [RViktor](https://github.com/rviktor/): Hungarian
+- [x] [Thom Wiggers](https://github.com/thomwiggers/): Dutch
+- [x] Claude AI: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani,
+      Basque, Belarusian, Bengali, Bosnian, Brazilian Portuguese (corrections), Breton,
+      Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chinese Simplified, Chinese
+      Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Filipino, Finnish,
+      Fulah, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi,
+      Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh,
+      Khmer, Korean, Kurdish, Kyrgyz, Lao, Latin, Latvian, Lingala, Lithuanian,
+      Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Marathi,
+      Mongolian, Nepali, Norwegian Bokmål, Occitan, Odia, Pashto, Persian, Polish,
+      Portuguese, Punjabi, Romanian, Russian, Scottish Gaelic, Serbian, Shona, Sindhi,
+      Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik,
+      Tamil, Telugu, Thai, Tibetan, Tigrinya, Tswana, Turkish, Turkmen, Ukrainian, Urdu,
+      Uzbek, Vietnamese, Welsh, Western Frisian, Wolof, Xhosa, Yiddish, Yoruba, Zulu
 - [x] English
-- [x] French thanks to [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/) and
-      [Lionel Sausin](https://github.com/ls-initiatives)
-- [x] German thanks to Claude AI Assistant
-- [x] Hausa thanks to Claude AI Assistant
-- [x] Hindi thanks to Claude AI Assistant
-- [x] Hungarian thanks to [RViktor](https://github.com/rviktor/)
-- [x] Indonesian thanks to Claude AI Assistant
-- [x] Italian thanks to Claude AI Assistant
-- [x] Japanese thanks to Claude AI Assistant
-- [x] Korean thanks to Claude AI Assistant
-- [x] Polish thanks to Claude AI Assistant
-- [x] Portuguese thanks to Claude AI Assistant
-- [x] Russian thanks to Claude AI Assistant
-- [x] Spanish thanks to Claude AI Assistant
-- [x] Swahili thanks to Claude AI Assistant
-- [x] Thai thanks to Claude AI Assistant
-- [x] Turkish thanks to Claude AI Assistant
-- [x] Ukrainian thanks to Claude AI Assistant
-- [x] Vietnamese thanks to Claude AI Assistant
-- [x] Yoruba thanks to Claude AI Assistant
 
 ## Creating a user with django-zxcvbn-password-validator
 
