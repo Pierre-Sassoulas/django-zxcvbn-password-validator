@@ -16,7 +16,7 @@ keywords = [
   "password-validator",
   "zxcvbn",
 ]
-license = "MIT"
+license = { text = "MIT" }
 authors = [
   { email = "pierre.sassoulas@gmail.com", name = "Pierre SASSOULAS" },
 ]
@@ -30,6 +30,7 @@ classifiers = [
   "Framework :: Django :: 5.2",
   "Framework :: Django :: 6.0",
   "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
   "Natural Language :: Arabic",
   "Natural Language :: Armenian",
   "Natural Language :: Chinese (Simplified)",
