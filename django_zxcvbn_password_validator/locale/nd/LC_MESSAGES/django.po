@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2026-03-24 00:00+0000\n"
-"Last-Translator: Claude AI\n"
-"Language-Team: Northern Ndebele\n"
+"PO-Revision-Date: 2026-03-24 14:18+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Ndebele (Northern) <https://hosted.weblate.org/projects/"
+"django-zxcvbn-password-validator/translations/nd/>\n"
 "Language: nd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -48,7 +50,8 @@ msgstr "Ukuphindaphinda okufana le \"aaa\" kulula ukuqagela"
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Ukuphindaphinda okufana le \"abcabcabc\" kunzima kancane ukuqagela kule \"abc\""
+"Ukuphindaphinda okufana le \"abcabcabc\" kunzima kancane ukuqagela kule "
+"\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -124,7 +127,9 @@ msgstr "Amabala aphendulweyo kawalanzima kakhulu ukuqagela"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "Ukuntshintsha okuqagelekayo okufana le '@' esikhundleni se 'a' akuncedi kakhulu"
+msgstr ""
+"Ukuntshintsha okuqagelekayo okufana le '@' esikhundleni se 'a' akuncedi "
+"kakhulu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -187,7 +192,8 @@ msgstr "Iphasiwedi yakho iqageleka kalula kakhulu:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr "Kungathatha umhlaseli ongaxhunyiswanga isikhathi esingu-%(time)s ukuyiqagela."
+msgstr ""
+"Kungathatha umhlaseli ongaxhunyiswanga isikhathi esingu-%(time)s ukuyiqagela."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
@@ -220,7 +226,8 @@ msgstr "ngaphandle kokufinyelela kwisizinda sethu sedatha."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr "ngaphandle kweqembu elizimiseleyo lokufinyelela kwisizinda sethu sedatha."
+msgstr ""
+"ngaphandle kweqembu elizimiseleyo lokufinyelela kwisizinda sethu sedatha."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
