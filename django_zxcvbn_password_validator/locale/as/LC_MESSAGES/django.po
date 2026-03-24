@@ -1,0 +1,236 @@
+# django_zxcvbn_password_validator's Assamese translation
+# This file is distributed under the MIT license.
+# Claude AI Assistant, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"PO-Revision-Date: 2025-08-26 00:00+0000\n"
+"Last-Translator: Claude AI Assistant\n"
+"Language-Team: Assamese\n"
+"Language: as\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+msgid "Use a few words, avoid common phrases"
+msgstr "কেইটামান শব্দ ব্যৱহাৰ কৰক, সাধাৰণ বাক্যাংশ পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr "চিহ্ন, সংখ্যা, বা ডাঙৰ আখৰৰ প্ৰয়োজন নাই"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+msgid "Add another word or two. Uncommon words are better."
+msgstr "আৰু এটা বা দুটা শব্দ যোগ কৰক। অসাধাৰণ শব্দ ভাল।"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+msgid "Straight rows of keys are easy to guess"
+msgstr "কি'ৰ পোন শাৰী অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+msgid "Short keyboard patterns are easy to guess"
+msgstr "চুটি কিবৰ্ড আৰ্হি অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "অধিক বাঁক থকা দীঘলীয়া কিবৰ্ড আৰ্হি ব্যৱহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr "\"aaa\" ৰ দৰে পুনৰাবৃত্তি অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
+msgid ""
+"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+"\"abcabcabc\" ৰ দৰে পুনৰাবৃত্তি \"abc\" তকৈ অলপহে কঠিন অনুমান কৰিবলৈ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+msgid "Avoid repeated words and characters"
+msgstr "পুনৰাবৃত্তি হোৱা শব্দ আৰু আখৰ পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
+msgstr "\"abc\" বা \"6543\" ৰ দৰে ক্ৰম অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+msgid "Avoid sequences"
+msgstr "ক্ৰম পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+msgid "Recent years are easy to guess"
+msgstr "শেহতীয়া বছৰবোৰ অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+msgid "Avoid recent years"
+msgstr "শেহতীয়া বছৰবোৰ পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+msgid "Avoid years that are associated with you"
+msgstr "আপোনাৰ সৈতে সম্পৰ্কিত বছৰবোৰ পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+msgid "Dates are often easy to guess"
+msgstr "তাৰিখবোৰ প্ৰায়ে অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+msgid "Avoid dates and years that are associated with you"
+msgstr "আপোনাৰ সৈতে সম্পৰ্কিত তাৰিখ আৰু বছৰবোৰ পৰিহাৰ কৰক"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+msgid "This is a top-10 common password"
+msgstr "এইটো শীৰ্ষ ১০ টা সাধাৰণ পাছৱৰ্ডৰ ভিতৰত"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+msgid "This is a top-100 common password"
+msgstr "এইটো শীৰ্ষ ১০০ টা সাধাৰণ পাছৱৰ্ডৰ ভিতৰত"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+msgid "This is a very common password"
+msgstr "এইটো এটা অতি সাধাৰণ পাছৱৰ্ড"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+msgid "This is similar to a commonly used password"
+msgstr "এইটো সাধাৰণতে ব্যৱহৃত পাছৱৰ্ডৰ সৈতে মিল আছে"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "A word by itself is easy to guess"
+msgstr "এটা শব্দ অকলে অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "নাম আৰু উপাধি অকলে অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+msgid "Common names and surnames are easy to guess"
+msgstr "সাধাৰণ নাম আৰু উপাধি অনুমান কৰা সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+msgid "Capitalization doesn't help very much"
+msgstr "ডাঙৰ আখৰ ব্যৱহাৰে বেছি সহায় নকৰে"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr "সকলো-ডাঙৰ-আখৰ সকলো-সৰু-আখৰৰ দৰেই অনুমান কৰা প্ৰায় সহজ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+msgid "Reversed words aren't much harder to guess"
+msgstr "ওলোটা শব্দ অনুমান কৰা বেছি কঠিন নহয়"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr ""
+"'a' ৰ সলনি '@' ৰ দৰে অনুমানযোগ্য সলনিয়ে বেছি সহায় নকৰে"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+msgid "less than a second"
+msgstr "এক ছেকেণ্ডতকৈ কম"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d ছেকেণ্ড"
+msgstr[1] "%d ছেকেণ্ড"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d মিনিট"
+msgstr[1] "%d মিনিট"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ঘণ্টা"
+msgstr[1] "%d ঘণ্টা"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d দিন"
+msgstr[1] "%d দিন"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d মাহ"
+msgstr[1] "%d মাহ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#, python-format
+msgid "%d year"
+msgid_plural "%d year"
+msgstr[0] "%d বছৰ"
+msgstr[1] "%d বছৰ"
+
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+msgid "centuries"
+msgstr "শতিকা"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
+msgid "Your password exceeds the maximal length of 72 characters."
+msgstr "আপোনাৰ পাছৱৰ্ডে সৰ্বাধিক ৭২ আখৰৰ সীমা অতিক্ৰম কৰিছে।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
+msgid "Your password is too guessable:"
+msgstr "আপোনাৰ পাছৱৰ্ড অতি সহজে অনুমানযোগ্য:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
+#, python-format
+msgid "It would take an offline attacker %(time)s to guess it."
+msgstr "এজন অফলাইন আক্ৰমণকাৰীয়ে ইয়াক অনুমান কৰিবলৈ %(time)s লাগিব।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
+msgid "Warning:"
+msgstr "সতৰ্কবাণী:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
+msgid "Advice:"
+msgstr "পৰামৰ্শ:"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
+msgid "We expect nothing: you can use any password you want."
+msgstr "আমি একো নিবিচাৰোঁ: আপুনি যিকোনো পাছৱৰ্ড ব্যৱহাৰ কৰিব পাৰে।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
+#, python-format
+msgid "We expect a password that cannot be guessed %s"
+msgstr "আমি এনে এটা পাছৱৰ্ড বিচাৰোঁ যিটো অনুমান কৰিব নোৱাৰি %s"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
+msgid "by your familly or friends."
+msgstr "আপোনাৰ পৰিয়াল বা বন্ধুসকলে।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
+msgid "by attackers online."
+msgstr "অনলাইন আক্ৰমণকাৰীসকলে।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
+msgid "without access to our database."
+msgstr "আমাৰ ডাটাবেছত প্ৰৱেশ নোহোৱাকৈ।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
+msgid "without a dedicated team and an access to our database."
+msgstr "এটা নিৰ্দিষ্ট দল আৰু আমাৰ ডাটাবেছত প্ৰৱেশ নোহোৱাকৈ।"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
+msgid "There is no specific rule for a great password,"
+msgstr "এটা উৎকৃষ্ট পাছৱৰ্ডৰ বাবে কোনো নিৰ্দিষ্ট নিয়ম নাই,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
+msgid "however if your password is too easy to guess,"
+msgstr "কিন্তু যদি আপোনাৰ পাছৱৰ্ড অনুমান কৰা অতি সহজ হয়,"
+
+#: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
+msgid "we will tell you how to make a better one."
+msgstr "আমি আপোনাক এটা ভাল পাছৱৰ্ড কেনেকৈ বনাব পাৰি কম।"
