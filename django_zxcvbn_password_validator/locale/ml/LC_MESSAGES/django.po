@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Malayalam\n"
+"PO-Revision-Date: 2026-03-24 14:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Malayalam <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -116,7 +118,8 @@ msgstr "വലിയ അക്ഷരങ്ങള്‍ വലിയ സഹായ
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "എല്ലാ വലിയ അക്ഷരങ്ങളും എല്ലാ ചെറിയ അക്ഷരങ്ങളെപ്പോലെ ഊഹിക്കാന്‍ എളുപ്പമാണ്"
+msgstr ""
+"എല്ലാ വലിയ അക്ഷരങ്ങളും എല്ലാ ചെറിയ അക്ഷരങ്ങളെപ്പോലെ ഊഹിക്കാന്‍ എളുപ്പമാണ്"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -200,7 +203,8 @@ msgstr "ഉപദേശം:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "ഞങ്ങള്‍ ഒന്നും പ്രതീക്ഷിക്കുന്നില്ല: നിങ്ങള്‍ക്ക് ഇഷ്ടമുള്ള ഏത് പാസ്‌വേഡും ഉപയോഗിക്കാം."
+msgstr ""
+"ഞങ്ങള്‍ ഒന്നും പ്രതീക്ഷിക്കുന്നില്ല: നിങ്ങള്‍ക്ക് ഇഷ്ടമുള്ള ഏത് പാസ്‌വേഡും ഉപയോഗിക്കാം."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
