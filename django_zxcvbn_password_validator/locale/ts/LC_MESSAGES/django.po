@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2026-03-24 00:00+0000\n"
-"Last-Translator: Claude AI\n"
-"Language-Team: Tsonga\n"
+"PO-Revision-Date: 2026-03-24 14:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Tsonga <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ts/>\n"
 "Language: ts\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
@@ -26,7 +28,9 @@ msgstr "A ku laveki swikombiso, tinomboro, kumbe maletere lamakulu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Engetela rito rin'wana kumbe mambirhi. Marito lama nga tolovelekangiki ma antswa."
+msgstr ""
+"Engetela rito rin'wana kumbe mambirhi. Marito lama nga tolovelekangiki ma "
+"antswa."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
@@ -48,8 +52,8 @@ msgstr "Ku phindha ku fana na \"aaa\" swi olova ku xiya"
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Ku phindha ku fana na \"abcabcabc\" swi tika hi xitsanana ntsena ku "
-"tlula \"abc\""
+"Ku phindha ku fana na \"abcabcabc\" swi tika hi xitsanana ntsena ku tlula "
+"\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
@@ -117,7 +121,8 @@ msgstr "Ku tirhisa maletere lamakulu a ku pfuni ngopfu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Maletere hinkwawu lamakulu swi olova ku fana na maletere hinkwawu lamatsongo"
+msgstr ""
+"Maletere hinkwawu lamakulu swi olova ku fana na maletere hinkwawu lamatsongo"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
@@ -125,7 +130,9 @@ msgstr "Marito lama hundzuriweke a ma tiki ngopfu ku xiya"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr "Ku sivela loku languteriweke ku fana na '@' ematshan'wini ya 'a' a ku pfuni ngopfu"
+msgstr ""
+"Ku sivela loku languteriweke ku fana na '@' ematshan'wini ya 'a' a ku pfuni "
+"ngopfu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
@@ -200,7 +207,8 @@ msgstr "Ndzayo:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "A hi languteri nchumu: u nga tirhisa phasiwedi yihi na yihi leyi u yi lavaka."
+msgstr ""
+"A hi languteri nchumu: u nga tirhisa phasiwedi yihi na yihi leyi u yi lavaka."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
@@ -221,7 +229,8 @@ msgstr "handle ko fikelela dathabheyisi ya hina."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr "handle ka ntlawa lowu tinyiketeleke na ku fikelela dathabheyisi ya hina."
+msgstr ""
+"handle ka ntlawa lowu tinyiketeleke na ku fikelela dathabheyisi ya hina."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
