@@ -29,21 +29,19 @@ The software is developed in English. Other available languages are:
 - [x] [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
 - [x] [RViktor](https://github.com/rviktor/): Hungarian
 - [x] [Thom Wiggers](https://github.com/thomwiggers/): Dutch
-- [x] Claude AI Assistant: Arabic, Armenian, Brazilian Portuguese (corrections), Chinese
-      Simplified, German, Hausa, Hindi, Indonesian, Italian, Japanese, Korean, Polish,
-      Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Ukrainian, Vietnamese,
-      Yoruba
-- [x] Claude Code: Afrikaans, Albanian, Amharic, Assamese, Azerbaijani, Basque,
-      Belarusian, Bengali, Bosnian, Breton, Bulgarian, Burmese, Cantonese, Catalan,
-      Cebuano, Chinese Traditional, Corsican, Croatian, Danish, Esperanto, Estonian,
-      Filipino, Finnish, Fulah, Galician, Georgian, Greek, Gujarati, Hebrew, Icelandic,
-      Igbo, Irish, Javanese, Kannada, Kazakh, Khmer, Kurdish, Kyrgyz, Lao, Latin,
-      Latvian, Lingala, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay,
-      Malayalam, Maltese, Marathi, Mongolian, Nepali, Norwegian Bokmål, Occitan, Odia,
-      Pashto, Persian, Punjabi, Romanian, Scottish Gaelic, Serbian, Shona, Sindhi,
-      Sinhala, Slovak, Slovenian, Somali, Sundanese, Swedish, Tajik, Tamil, Telugu,
-      Tibetan, Tigrinya, Tswana, Turkmen, Urdu, Uzbek, Welsh, Western Frisian, Wolof,
-      Xhosa, Yiddish, Zulu
+- [x] Claude AI: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani,
+      Basque, Belarusian, Bengali, Bosnian, Brazilian Portuguese (corrections), Breton,
+      Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chinese Simplified, Chinese
+      Traditional, Corsican, Croatian, Danish, Esperanto, Estonian, Filipino, Finnish,
+      Fulah, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi,
+      Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh,
+      Khmer, Korean, Kurdish, Kyrgyz, Lao, Latin, Latvian, Lingala, Lithuanian,
+      Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Marathi,
+      Mongolian, Nepali, Norwegian Bokmål, Occitan, Odia, Pashto, Persian, Polish,
+      Portuguese, Punjabi, Romanian, Russian, Scottish Gaelic, Serbian, Shona, Sindhi,
+      Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik,
+      Tamil, Telugu, Thai, Tibetan, Tigrinya, Tswana, Turkish, Turkmen, Ukrainian, Urdu,
+      Uzbek, Vietnamese, Welsh, Western Frisian, Wolof, Xhosa, Yiddish, Yoruba, Zulu
 - [x] English
 
 ## Creating a user with django-zxcvbn-password-validator
