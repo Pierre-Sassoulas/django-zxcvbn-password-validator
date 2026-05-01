@@ -93,6 +93,8 @@ translation (especially AI-generated ones). See [how to contribute](CONTRIBUTING
 <summary>Translators</summary>
 
 - [Andrés Martano](https://github.com/andresmrm/): Brazilian Portuguese
+- [eruedin](https://github.com/eruedin): Lingala
+- [itsmechinmoy](https://github.com/itsmechinmoy): Assamese
 - [Lionel Sausin](https://github.com/ls-initiatives): French
 - [Michal Čihař](https://github.com/nijel/): Czech
 - [Pierre Sassoulas](https://github.com/Pierre-Sassoulas/): French
