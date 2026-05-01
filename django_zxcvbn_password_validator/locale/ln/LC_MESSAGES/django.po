@@ -7,57 +7,60 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 05:53+0000\n"
-"PO-Revision-Date: 2025-08-26 00:00+0000\n"
-"Last-Translator: Claude AI Assistant\n"
-"Language-Team: Lingala\n"
+"PO-Revision-Date: 2026-05-01 09:09+0000\n"
+"Last-Translator: Ruedin <ruedin@gmx.net>\n"
+"Language-Team: Lingala <https://hosted.weblate.org/projects/django-zxcvbn-"
+"password-validator/translations/ln/>\n"
 "Language: ln\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
 msgid "Use a few words, avoid common phrases"
-msgstr "Salelá maloba moke, bokwá bilobelo oyo esalelamaka mingi"
+msgstr "Salelá maloba mɔkɛ, bɔkwá bilobelo óyo esálelamaka míngi"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
 msgid "No need for symbols, digits, or uppercase letters"
-msgstr "Esengeli bilembo te, banimero te, to bakonsonánte ya minene te"
+msgstr "Esengeli bilembo tɛ́, banimero tɛ́, tǒ bakonsonánte ya minɛ́nɛ tɛ́"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
 msgid "Add another word or two. Uncommon words are better."
-msgstr "Bakisá liloba mosusu moko to mibale. Maloba oyo esalelamaka te ezali malamu."
+msgstr ""
+"Bakisá liloba mosúsu mɔ́kɔ́ tǒ míbalé. Maloba óyo esálelamaka tɛ́ ezalí malámu."
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
 msgid "Straight rows of keys are easy to guess"
-msgstr "Milɔngɔ ya alima oyo etɛlɛmi ezali pɛtɛ mpo na kokanisa"
+msgstr "Milɔngɔ ya alimá óyo etɛlɛmi ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
 msgid "Short keyboard patterns are easy to guess"
-msgstr "Bilongi ya mokuse ya klaviye ezali pɛtɛ mpo na kokanisa"
+msgstr "Bilongi ya mokúsé ya ekomelo ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
 msgid "Use a longer keyboard pattern with more turns"
-msgstr "Salelá elongi ya klaviye oyo eleki molai na ba-tourne mingi"
+msgstr "Salelá elongi ya ekomelo óyo elekí molai na turne míngi"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
 msgid "Repeats like \"aaa\" are easy to guess"
-msgstr "Kozongisa lokola \"aaa\" ezali pɛtɛ mpo na kokanisa"
+msgstr "Kozóngisa lokola \"aaa\" ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
 msgid ""
 "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
 msgstr ""
-"Kozongisa lokola \"abcabcabc\" eleki kaka moke mpasi mpo na kokanisa koleka "
+"Kozóngisa lokola \"abcabcabc\" elekí káka mɔkɛ mpási mpó na kokanisa koleka "
 "\"abc\""
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
 msgid "Avoid repeated words and characters"
-msgstr "Bokwá maloba na bilembo oyo ezongisami"
+msgstr "Bokwá maloba na bilembo óyo ezóngísámí"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
-msgstr "Molɔngɔ lokola \"abc\" to \"6543\" ezali pɛtɛ mpo na kokanisa"
+msgstr "Molɔngɔ lokola \"abc\" tǒ \"6543\" ezali pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "Avoid sequences"
@@ -65,7 +68,7 @@ msgstr "Bokwá molɔngɔ"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
 msgid "Recent years are easy to guess"
-msgstr "Bambula ya sika ezali pɛtɛ mpo na kokanisa"
+msgstr "Bambula ya sika ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
 msgid "Avoid recent years"
@@ -73,127 +76,127 @@ msgstr "Bokwá bambula ya sika"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
 msgid "Avoid years that are associated with you"
-msgstr "Bokwá bambula oyo ekangami na yo"
+msgstr "Bokwá bambula óyo ekangámí na yɔ̌"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Dates are often easy to guess"
-msgstr "Mikolo ezalaka mbala mingi pɛtɛ mpo na kokanisa"
+msgstr "Mikolo ezalaka mbala míngi pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
 msgid "Avoid dates and years that are associated with you"
-msgstr "Bokwá mikolo na bambula oyo ekangami na yo"
+msgstr "Bokwá mikolo na bambula óyo ekangámí na yɔ̌"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
 msgid "This is a top-10 common password"
-msgstr "Oyo ezali na kati ya ba-mot de passe 10 oyo esalelamaka mingi"
+msgstr "Óyo ezalí na káti ya banda 10 óyo esálélámáká míngi"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
 msgid "This is a top-100 common password"
-msgstr "Oyo ezali na kati ya ba-mot de passe 100 oyo esalelamaka mingi"
+msgstr "Óyo ezali na káti ya banda 100 óyo esálélámáká míngi"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
 msgid "This is a very common password"
-msgstr "Oyo ezali mot de passe oyo esalelamaka mingi mpenza"
+msgstr "Óyo ezalí banda óyo esálélámáká míngi mpenzá"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
 msgid "This is similar to a commonly used password"
-msgstr "Oyo ekokani na mot de passe oyo esalelamaka mingi"
+msgstr "Óyo ekokání na banda óyo esálélámáká míngi"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
 msgid "A word by itself is easy to guess"
-msgstr "Liloba moko kaka ezali pɛtɛ mpo na kokanisa"
+msgstr "Liloba mɔ́kɔ́ káka ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
 msgid "Names and surnames by themselves are easy to guess"
-msgstr "Bankombo na bankúmbo yango moko ezali pɛtɛ mpo na kokanisa"
+msgstr "Nkómbó na nkúmbo yangó mɔ́kɔ́ ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
 msgid "Common names and surnames are easy to guess"
-msgstr "Bankombo na bankúmbo oyo eyebani ezali pɛtɛ mpo na kokanisa"
+msgstr "Nkómbó na nkúmbo óyo eyébani ezalí pɛtɛ mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
 msgid "Capitalization doesn't help very much"
-msgstr "Kosalela bakonsonánte ya minene esalisaka mingi te"
+msgstr "Kosálela bofúngi esálisaka míngi tɛ́"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr "Nyonso ya minene ekokani na pɛtɛ mpo na kokanisa lokola nyonso ya mike"
+msgstr ""
+"Nyɔ́nsɔ ya minɛ́nɛ ekokání na pɛtɛ mpó na kokanisa lokola nyɔ́nsɔ ya mike"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Reversed words aren't much harder to guess"
-msgstr "Maloba oyo ebalukisami ezali mpasi mingi te mpo na kokanisa"
+msgstr "Maloba óyo ebalukisami ezalí mpási míngi te mpó na kokanisa"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"Bobongoli oyo ekanisami lokola '@' na esika ya 'a' esalisaka mingi te"
+msgstr "Bobongólí óyo ekanisami lokola '@' na esíká ya 'a' esálisaka míngi tɛ́"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
 msgid "less than a second"
-msgstr "na nse ya segɔndɛ moko"
+msgstr "na nsé ya segɔndɛ mɔ̌kɔ́"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d segɔndɛ"
-msgstr[1] "%d basegɔndɛ"
+msgstr[1] "%d segɔndɛ"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d moniti"
-msgstr[1] "%d bamoniti"
+msgstr[0] "%d monúti"
+msgstr[1] "%d minúti"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ngonga"
-msgstr[1] "%d bangonga"
+msgstr[1] "%d ngonga"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d mokolo"
-msgstr[1] "%d mikolo"
+msgstr[0] "%d mokɔlɔ"
+msgstr[1] "%d mikɔlɔ"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d sanza"
-msgstr[1] "%d basanza"
+msgstr[0] "%d sánzá"
+msgstr[1] "%d sánzá"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
 #, python-format
 msgid "%d year"
 msgid_plural "%d year"
 msgstr[0] "%d mbula"
-msgstr[1] "%d bambula"
+msgstr[1] "%d mbula"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
 msgid "centuries"
-msgstr "bankama ya bambula"
+msgstr "nkama ya bambula"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:71
 msgid "Your password exceeds the maximal length of 72 characters."
-msgstr "Mot de passe na yo eleki bolai ya 72 bilembo."
+msgstr "Banda na yɔ̌ elekí boléi bwa 72 bilembo."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:80
 msgid "Your password is too guessable:"
-msgstr "Mot de passe na yo ezali pɛtɛ mingi mpo na kokanisa:"
+msgstr "Banda na yɔ̌ ezalí pɛtɛ míngi mpó na kokanisa:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr "Ekozwa mobɛti offline %(time)s mpo na kokanisa yango."
+msgstr "Ekozwa mobeti embémbóí %(time)s mpó na kokanisa yangó."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
-msgstr "Likebisi:"
+msgstr "Likébisi:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:89
 msgid "Advice:"
@@ -201,37 +204,37 @@ msgstr "Toli:"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:95
 msgid "We expect nothing: you can use any password you want."
-msgstr "Tozali kosɛnga eloko te: okoki kosalela mot de passe nyonso oyo olingi."
+msgstr "Tozalí kosenga elokó tɛ́: okokí kosálela banda nyɔ́nsɔ óyo olingí."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:96
 #, python-format
 msgid "We expect a password that cannot be guessed %s"
-msgstr "Tozali kosɛnga mot de passe oyo ekoki kokanisama te %s"
+msgstr "Tozalí kosenga banda óyo ekokí kokanisama tɛ́ %s"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:98
 msgid "by your familly or friends."
-msgstr "na libota na yo to baninga na yo."
+msgstr "na libota na yɔ̌ tǒ baninga na yɔ̌."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:99
 msgid "by attackers online."
-msgstr "na babɛti na internet."
+msgstr "na babeti na ɛntɛrnɛ́tɛ."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:100
 msgid "without access to our database."
-msgstr "kozanga kokɔta na esika ya bapɔsɔ na biso."
+msgstr "kozánga kokota na esíká ya pɔ́sɔ na bísó."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:101
 msgid "without a dedicated team and an access to our database."
-msgstr "kozanga ekipi oyo etyami mpe kokɔta na esika ya bapɔsɔ na biso."
+msgstr "kozánga ekipí óyo etíyámí mpé kokɔ́ta na esíká ya pɔ́sɔ na bísó."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:105
 msgid "There is no specific rule for a great password,"
-msgstr "Ezali na mobeko moko te mpo na mot de passe malamu,"
+msgstr "Ezalí na mobéko mɔ́kɔ́ tɛ́ mpó na banda malámu,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:106
 msgid "however if your password is too easy to guess,"
-msgstr "kasi soki mot de passe na yo ezali pɛtɛ mingi mpo na kokanisa,"
+msgstr "kási sɔ́kí banda na yɔ̌ ezalí pɛtɛ míngi mpó na kokanisa,"
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
-msgstr "tokolakisa yo ndenge ya kosala oyo eleki malamu."
+msgstr "tokolakisa yɔ̌ ndéngé ya kosála óyo elekí malámu."
