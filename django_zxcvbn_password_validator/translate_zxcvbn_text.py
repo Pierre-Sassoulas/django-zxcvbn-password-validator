@@ -147,5 +147,5 @@ def translate_zxcvbn_time_estimate(seconds: Decimal) -> str:  # noqa: PLR0911 # 
         return ngettext("%d month", "%d months", base) % base
     if seconds < century:
         base = round(seconds / year)
-        return ngettext("%d year", "%d year", base) % base
+        return ngettext("%d year", "%d years", base) % base
     return _("centuries")

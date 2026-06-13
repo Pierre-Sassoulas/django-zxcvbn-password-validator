@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-13 07:14+0000\n"
+"POT-Creation-Date: 2026-06-13 07:23+0000\n"
 "PO-Revision-Date: 2026-05-01 09:09+0000\n"
 "Last-Translator: Itsmechinmoy <167056923+itsmechinmoy@users.noreply.github.com>\n"
 "Language-Team: Assamese <https://hosted.weblate.org/projects/django-zxcvbn-password-validator/translations/as/>\n"
@@ -167,7 +167,7 @@ msgstr[1] "%d মাহ"
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:152
 #, python-format
 msgid "%d year"
-msgid_plural "%d year"
+msgid_plural "%d years"
 msgstr[0] "%d বছৰ"
 msgstr[1] "%d বছৰ"
 
