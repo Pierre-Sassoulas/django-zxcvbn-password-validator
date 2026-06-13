@@ -6,11 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"POT-Creation-Date: 2026-06-13 07:14+0000\n"
 "PO-Revision-Date: 2025-04-27 18:59+0000\n"
 "Last-Translator: RViktor <rviktor@ivankapal.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
-"django-zxcvbn-password-validator/translations/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/django-zxcvbn-password-validator/translations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,169 +18,161 @@ msgstr ""
 "X-Generator: Weblate 5.12-dev\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Use a few words, avoid common phrases"
 msgstr "Használjon néhány szót, kerülve a gyakori kifejezéseket"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Ne használjon szimbólumokat, számokat vagy nagybetűket"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
 msgid "Add another word or two. Uncommon words are better."
 msgstr "Egészítse ki egy-két további, kevésbé hétköznapi szóval."
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"
 msgstr "Az egymás melletti billentyűk egyenes sorai könnyen kitalálhatók"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:60
 msgid "Short keyboard patterns are easy to guess"
 msgstr "A rövid billentyűzetminták könnyen megfejthetők"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
 msgid "Use a longer keyboard pattern with more turns"
 msgstr "Használjon hosszabb, több irányváltást tartalmazó billentyűzetmintát"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
 msgid "Repeats like \"aaa\" are easy to guess"
 msgstr "Az ismétlődések, mint például az \"aaa\", könnyen feltörhetők"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
-msgid ""
-"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
-"Az ismétlődő sorozatok, mint az \"abcabcabc\", alig nehezebben megfejthetők, "
-"mint maga az \"abc\""
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr "Az ismétlődő sorozatok, mint az \"abcabcabc\", alig nehezebben megfejthetők, mint maga az \"abc\""
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
 msgid "Avoid repeated words and characters"
 msgstr "Kerülje az ismétlődő szavakat és karaktereket"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:71
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
-msgstr ""
-"Az egymást követő sorozatok, például az \"abc\" vagy a \"6543\", könnyen "
-"kitalálhatók"
+msgstr "Az egymást követő sorozatok, például az \"abc\" vagy a \"6543\", könnyen kitalálhatók"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:73
 msgid "Avoid sequences"
 msgstr "Kerülje az ilyen sorozatokat"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:74
 msgid "Recent years are easy to guess"
 msgstr "A közelmúlt évei könnyen kitalálhatók"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
 msgid "Avoid recent years"
 msgstr "Kerülje a közelmúlt éveinek használatát"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:77
 msgid "Avoid years that are associated with you"
 msgstr "Kerülje az Önnel kapcsolatba hozható éveket"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
 msgid "Dates are often easy to guess"
 msgstr "A dátumok gyakran könnyen kitalálhatók"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Avoid dates and years that are associated with you"
 msgstr "Kerülje az Önnel összefüggő dátumok és évek használatát"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:83
 msgid "This is a top-10 common password"
 msgstr "Ez egy tíz leggyakoribb jelszó közé tartozó kifejezés"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "This is a top-100 common password"
 msgstr "Ez egy száz leggyakoribb jelszó közé tartozó kifejezés"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:85
 msgid "This is a very common password"
 msgstr "Ez egy rendkívül elterjedt jelszó"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:87
 msgid "This is similar to a commonly used password"
 msgstr "Ez hasonlít egy gyakran használt jelszóra"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:89
 msgid "A word by itself is easy to guess"
 msgstr "Egyetlen szó önmagában könnyen kitalálható"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:91
 msgid "Names and surnames by themselves are easy to guess"
 msgstr "A nevek és vezetéknevek önmagukban könnyen kitalálhatók"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:94
 msgid "Common names and surnames are easy to guess"
 msgstr "A gyakori nevek és vezetéknevek könnyen megfejthetők"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:96
 msgid "Capitalization doesn't help very much"
 msgstr "A nagybetűs írásmód nem jelent jelentős védelmet"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:98
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr ""
-"A teljesen nagybetűs írás majdnem olyan könnyen feltörhető, mint a kisbetűs"
+msgstr "A teljesen nagybetűs írás majdnem olyan könnyen feltörhető, mint a kisbetűs"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:101
 msgid "Reversed words aren't much harder to guess"
 msgstr "A visszafelé írt szavak sem sokkal nehezebbek"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:104
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
-msgstr ""
-"Az előre látható helyettesítések, például az '@' az 'a' helyett, alig "
-"növelik a biztonságot"
+msgstr "Az előre látható helyettesítések, például az '@' az 'a' helyett, alig növelik a biztonságot"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:134
 msgid "less than a second"
 msgstr "kevesebb mint egy másodperc"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:137
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d másodperc"
 msgstr[1] "%d másodperc"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:140
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d perc"
 msgstr[1] "%d perc"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:143
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d óra"
 msgstr[1] "%d óra"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:146
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d nap"
 msgstr[1] "%d nap"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:149
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d hónap"
 msgstr[1] "%d hónap"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:152
 #, python-format
 msgid "%d year"
 msgid_plural "%d year"
 msgstr[0] "%d év"
 msgstr[1] "%d év"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:153
 msgid "centuries"
 msgstr "századok"
 
@@ -196,9 +187,7 @@ msgstr "A jelszava túl könnyen kitalálható:"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:81
 #, python-format
 msgid "It would take an offline attacker %(time)s to guess it."
-msgstr ""
-"Egy offline támadónak ennyi időre lenne szüksége a feltöréséhez: körülbelül "
-"%(time)s."
+msgstr "Egy offline támadónak ennyi időre lenne szüksége a feltöréséhez: körülbelül %(time)s."
 
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:86
 msgid "Warning:"
@@ -244,27 +233,3 @@ msgstr "azonban ha a jelszava túl könnyen kitalálható,"
 #: django_zxcvbn_password_validator/zxcvbn_password_validator.py:107
 msgid "we will tell you how to make a better one."
 msgstr "jelezni fogjuk, és tanácsot adunk, hogyan készíthet jobbat."
-
-#~ msgid "We expect"
-#~ msgstr "Nous"
-
-#~ msgid "seconds"
-#~ msgstr "secondes"
-
-#~ msgid "minutes"
-#~ msgstr "minutes"
-
-#~ msgid "hours"
-#~ msgstr "heures"
-
-#~ msgid "days"
-#~ msgstr "jours"
-
-#~ msgid "months"
-#~ msgstr "mois"
-
-#~ msgid "years"
-#~ msgstr "années"
-
-#~ msgid "day"
-#~ msgstr "jour"
