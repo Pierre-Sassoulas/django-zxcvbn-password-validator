@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Symbola, numeri, aut litterae maiusculae non necessariae sunt"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Adde unum vel duo verba alia. Verba rariora meliora sunt."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Adde unum vel duo verba alia. Verba rariora meliora sunt"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"

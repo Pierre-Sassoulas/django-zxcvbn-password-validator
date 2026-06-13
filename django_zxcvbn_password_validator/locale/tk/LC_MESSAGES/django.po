@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Nyşanlar, sanlar ýa-da baş harplar gerek däl"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Ýene bir ýa-da iki söz goşuň. Seýrek sözler has gowy."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Ýene bir ýa-da iki söz goşuň. Seýrek sözler has gowy"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"

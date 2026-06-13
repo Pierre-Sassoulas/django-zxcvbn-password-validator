@@ -48,8 +48,8 @@ ZXCVBN_I18N = {
     "No need for symbols, digits, or uppercase letters": _(
         "No need for symbols, digits, or uppercase letters"
     ),
-    "Add another word or two. Uncommon words are better.": _(
-        "Add another word or two. Uncommon words are better."
+    "Add another word or two. Uncommon words are better": _(
+        "Add another word or two. Uncommon words are better"
     ),
     "Straight rows of keys are easy to guess": _(
         "Straight rows of keys are easy to guess"

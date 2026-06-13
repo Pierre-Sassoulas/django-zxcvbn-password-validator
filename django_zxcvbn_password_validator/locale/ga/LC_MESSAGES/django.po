@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Níl gá le siombailí, digití, ná litreacha móra"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Cuir focal nó dhó eile leis. Is fearr focail neamhchoitianta."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Cuir focal nó dhó eile leis. Is fearr focail neamhchoitianta"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"
