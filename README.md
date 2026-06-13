@@ -75,6 +75,32 @@ zxcvbn that are in English only):
 
 ![Translated example](doc/french_example.png "Translated example")
 
+## Checking strength without raising
+
+`validate()` raises a `ValidationError` when a password is too weak, which is what
+Django's auth machinery expects. If you instead want to _inspect_ a password's strength
+— for example to power a live strength meter — use `get_strength()`, which never raises
+for a weak password:
+
+```python
+from django_zxcvbn_password_validator import ZxcvbnPasswordValidator
+
+strength = ZxcvbnPasswordValidator().get_strength("p@sswOrd1", user=request.user)
+# {
+#     "score": 1,                  # zxcvbn score, 0 (worst) to 4 (best)
+#     "minimal_strength": 4,       # your PASSWORD_MINIMAL_STRENGTH
+#     "acceptable": False,         # score >= minimal_strength
+#     "crack_time_seconds": 2.0,   # estimated offline crack time
+#     "crack_time_display": "2 seconds",          # the same, translated
+#     "warning": "This is similar to a commonly used password",  # translated
+#     "suggestions": ["Add another word or two. Uncommon words are better"],  # translated
+# }
+```
+
+The `warning`, `suggestions` and `crack_time_display` fields are translated to the
+active language, just like the validation errors. `get_strength()` still raises
+`ValidationError` if the password exceeds zxcvbn's maximal length.
+
 ## Compatibility
 
 Requires Django 2+ and Python 3.6+. Note that Python 3.6 and 3.7 are not tested in CI

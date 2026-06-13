@@ -111,6 +111,42 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         self.assertNotIn(user.password, user_inputs)
         self.assertTrue(all(isinstance(value, str) for value in user_inputs))
 
+    @override_settings(LANGUAGE_CODE="en-us")
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
+    def test_get_strength_weak(self):
+        validator = ZxcvbnPasswordValidator()
+        strength = validator.get_strength("password")
+        self.assertEqual(strength["score"], 0)
+        self.assertEqual(strength["minimal_strength"], 2)
+        self.assertFalse(strength["acceptable"])
+        self.assertEqual(strength["crack_time_display"], "less than a second")
+        self.assertTrue(strength["suggestions"])
+
+    @override_settings(LANGUAGE_CODE="en-us")
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
+    def test_get_strength_strong(self):
+        validator = ZxcvbnPasswordValidator()
+        strength = validator.get_strength("A God, an alpha predator, Godzilla.")
+        self.assertGreaterEqual(strength["score"], 2)
+        self.assertTrue(strength["acceptable"])
+        self.assertEqual(strength["warning"], "")
+        self.assertEqual(strength["suggestions"], [])
+
+    @override_settings(LANGUAGE_CODE="fr")
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
+    def test_get_strength_is_translated(self):
+        validator = ZxcvbnPasswordValidator()
+        strength = validator.get_strength("g0dz1ll@")
+        self.assertIn("seconde", strength["crack_time_display"])
+        self.assertIn(
+            "C'est proche d'un mot de passe très courant", strength["warning"]
+        )
+
+    def test_get_strength_too_long(self):
+        validator = ZxcvbnPasswordValidator()
+        with self.assertRaises(ValidationError):
+            validator.get_strength("x" * 80)
+
     @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
     def test_low_strength(self):
         self.validator = ZxcvbnPasswordValidator()
