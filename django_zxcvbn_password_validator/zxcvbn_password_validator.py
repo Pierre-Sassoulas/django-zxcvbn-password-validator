@@ -61,8 +61,15 @@ class ZxcvbnPasswordValidator:
 
         user_inputs = []
         if user:
-            for value in user.__dict__.values():
-                user_inputs.append(value)
+            for key, value in user.__dict__.items():
+                # Only feed zxcvbn meaningful string attributes. Skip private
+                # attributes (e.g. Django's '_state'), the hashed password, and
+                # any non-string value, none of which are useful as a
+                # dictionary of terms the password should not resemble.
+                if key.startswith("_") or key == "password":
+                    continue
+                if isinstance(value, str) and value:
+                    user_inputs.append(value)
         try:
             results = self.zxcvbn_implementation(password, user_inputs=user_inputs)
         except ValueError as error:
