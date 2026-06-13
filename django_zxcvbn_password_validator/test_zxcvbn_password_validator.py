@@ -147,6 +147,41 @@ class ZxcvbnPasswordValidatorTest(TestCase):
         with self.assertRaises(ValidationError):
             validator.get_strength("x" * 80)
 
+    @override_settings(PASSWORD_EXTRA_DICTIONARY=["AcmeCorp", "RocketWidget"])
+    def test_extra_dictionary_is_fed_to_zxcvbn(self):
+        captured = {}
+
+        def fake_zxcvbn(_password, user_inputs=None):
+            captured["user_inputs"] = user_inputs
+            return {
+                "score": 4,
+                "crack_times_seconds": {"offline_slow_hashing_1e4_per_second": 0},
+                "feedback": {"warning": "", "suggestions": []},
+            }
+
+        validator = ZxcvbnPasswordValidator(zxcvbn_implementation=fake_zxcvbn)
+        validator.validate("some-password")
+        self.assertIn("AcmeCorp", captured["user_inputs"])
+        self.assertIn("RocketWidget", captured["user_inputs"])
+
+    @override_settings(PASSWORD_EXTRA_DICTIONARY=["AcmeCorp"])
+    @override_settings(PASSWORD_MINIMAL_STRENGTH=2)
+    def test_extra_dictionary_weakens_matching_password(self):
+        validator = ZxcvbnPasswordValidator()
+        # A brand term from the extra dictionary must be treated as guessable.
+        self.assertFalse(validator.get_strength("AcmeCorp")["acceptable"])
+
+    @override_settings(PASSWORD_EXTRA_DICTIONARY="not-a-list")
+    def test_extra_dictionary_must_be_list(self):
+        with self.assertRaises(ImproperlyConfigured) as error:
+            ZxcvbnPasswordValidator()
+        self.assertIn("PASSWORD_EXTRA_DICTIONARY must be a list", str(error.exception))
+
+    @override_settings(PASSWORD_EXTRA_DICTIONARY=[123])
+    def test_extra_dictionary_must_be_strings(self):
+        with self.assertRaises(ImproperlyConfigured):
+            ZxcvbnPasswordValidator()
+
     @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
     def test_low_strength(self):
         self.validator = ZxcvbnPasswordValidator()

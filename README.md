@@ -66,6 +66,14 @@ every password scoring lower than this number will be rejected:
 PASSWORD_MINIMAL_STRENGTH = 0 if DEBUG else 4
 ```
 
+You can also provide a project-specific list of terms a password should not resemble
+(your company name, product name, etc.) with `PASSWORD_EXTRA_DICTIONARY`. These are fed
+to zxcvbn on every check, in addition to the user's own attributes:
+
+```python
+PASSWORD_EXTRA_DICTIONARY = ["AcmeCorp", "RocketWidget"]
+```
+
 If the password is not strong enough, we provide errors explaining what you need to do:
 
 ![English example](doc/english_example.png "English example")
