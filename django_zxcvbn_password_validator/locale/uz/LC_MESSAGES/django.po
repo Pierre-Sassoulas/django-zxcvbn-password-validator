@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Belgilar, raqamlar yoki katta harflar kerak emas"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Yana bir-ikki so'z qo'shing. Kam uchraydigan so'zlar yaxshiroq."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Yana bir-ikki so'z qo'shing. Kam uchraydigan so'zlar yaxshiroq"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"

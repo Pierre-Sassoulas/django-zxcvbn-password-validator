@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Palibe chifukwa chogwiritsa ntchito zizindikiro, manambala, kapena zilembo zazikulu"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Onjezani mawu ena amodzi kapena awiri. Mawu osadziwika ndi abwino."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Onjezani mawu ena amodzi kapena awiri. Mawu osadziwika ndi abwino"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"

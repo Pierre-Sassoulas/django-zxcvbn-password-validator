@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "სიმბოლოები, ციფრები ან დიდი ასოები საჭირო არ არის"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "დაამატეთ კიდევ ერთი ან ორი სიტყვა. იშვიათი სიტყვები უკეთესია."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "დაამატეთ კიდევ ერთი ან ორი სიტყვა. იშვიათი სიტყვები უკეთესია"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"

@@ -25,8 +25,8 @@ msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Няма нужда от символи, цифри или главни букви"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
-msgid "Add another word or two. Uncommon words are better."
-msgstr "Добавете още една или две думи. Необичайните думи са по-добри."
+msgid "Add another word or two. Uncommon words are better"
+msgstr "Добавете още една или две думи. Необичайните думи са по-добри"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"
