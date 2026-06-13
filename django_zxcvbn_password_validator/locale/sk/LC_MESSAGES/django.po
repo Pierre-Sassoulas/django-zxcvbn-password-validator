@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 05:53+0000\n"
+"POT-Creation-Date: 2026-06-13 07:14+0000\n"
 "PO-Revision-Date: 2025-08-26 00:00+0000\n"
 "Last-Translator: Claude AI Assistant\n"
 "Language-Team: Slovak\n"
@@ -16,122 +16,119 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:24
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
 msgid "Use a few words, avoid common phrases"
 msgstr "Použite niekoľko slov, vyhnite sa bežným frázam"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:27
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
 msgid "No need for symbols, digits, or uppercase letters"
 msgstr "Nie je potrebné používať symboly, číslice alebo veľké písmená"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:30
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:54
 msgid "Add another word or two. Uncommon words are better."
 msgstr "Pridajte ešte jedno alebo dve slová. Menej bežné slová sú lepšie."
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:33
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
 msgid "Straight rows of keys are easy to guess"
 msgstr "Priame rady klávesov sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:36
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:60
 msgid "Short keyboard patterns are easy to guess"
 msgstr "Krátke vzory na klávesnici sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:39
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
 msgid "Use a longer keyboard pattern with more turns"
 msgstr "Použite dlhší vzor na klávesnici s viacerými zmenami smeru"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:42
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
 msgid "Repeats like \"aaa\" are easy to guess"
 msgstr "Opakovania ako \"aaa\" sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:45
-msgid ""
-"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr ""
-"Opakovania ako \"abcabcabc\" sa uhádnu len o niečo ťažšie ako \"abc\""
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr "Opakovania ako \"abcabcabc\" sa uhádnu len o niečo ťažšie ako \"abc\""
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:47
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
 msgid "Avoid repeated words and characters"
 msgstr "Vyhnite sa opakovaným slovám a znakom"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:49
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:71
 msgid "Sequences like \"abc\" or \"6543\" are easy to guess"
 msgstr "Postupnosti ako \"abc\" alebo \"6543\" sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:51
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:73
 msgid "Avoid sequences"
 msgstr "Vyhnite sa postupnostiam"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:52
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:74
 msgid "Recent years are easy to guess"
 msgstr "Nedávne roky sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:53
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
 msgid "Avoid recent years"
 msgstr "Vyhnite sa nedávnym rokom"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:55
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:77
 msgid "Avoid years that are associated with you"
 msgstr "Vyhnite sa rokom, ktoré sú s vami spojené"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:57
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:79
 msgid "Dates are often easy to guess"
 msgstr "Dátumy sa často ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:59
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
 msgid "Avoid dates and years that are associated with you"
 msgstr "Vyhnite sa dátumom a rokom, ktoré sú s vami spojené"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:61
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:83
 msgid "This is a top-10 common password"
 msgstr "Toto je jedno z 10 najčastejších hesiel"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:62
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
 msgid "This is a top-100 common password"
 msgstr "Toto je jedno zo 100 najčastejších hesiel"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:63
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:85
 msgid "This is a very common password"
 msgstr "Toto je veľmi bežné heslo"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:65
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:87
 msgid "This is similar to a commonly used password"
 msgstr "Toto je podobné bežne používanému heslu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:67
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:89
 msgid "A word by itself is easy to guess"
 msgstr "Samotné slovo sa ľahko uhádne"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:69
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:91
 msgid "Names and surnames by themselves are easy to guess"
 msgstr "Samotné mená a priezviská sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:72
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:94
 msgid "Common names and surnames are easy to guess"
 msgstr "Bežné mená a priezviská sa ľahko uhádnu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:75
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:96
 msgid "Capitalization doesn't help very much"
 msgstr "Veľké písmená príliš nepomáhajú"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:78
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:98
 msgid "All-uppercase is almost as easy to guess as all-lowercase"
-msgstr ""
-"Všetky veľké písmená sa uhádnu takmer rovnako ľahko ako všetky malé"
+msgstr "Všetky veľké písmená sa uhádnu takmer rovnako ľahko ako všetky malé"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:81
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:101
 msgid "Reversed words aren't much harder to guess"
 msgstr "Slová pozpätku nie sú o veľa ťažšie na uhádnutie"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:84
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:104
 msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
 msgstr "Predvídateľné náhrady ako \"@\" namiesto \"a\" veľmi nepomáhajú"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:110
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:134
 msgid "less than a second"
 msgstr "menej ako sekundu"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:113
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:137
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -139,7 +136,7 @@ msgstr[0] "%d sekundu"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekúnd"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:116
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:140
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -147,7 +144,7 @@ msgstr[0] "%d minútu"
 msgstr[1] "%d minúty"
 msgstr[2] "%d minút"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:119
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:143
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
@@ -155,7 +152,7 @@ msgstr[0] "%d hodinu"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodín"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:122
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:146
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
@@ -163,7 +160,7 @@ msgstr[0] "%d deň"
 msgstr[1] "%d dni"
 msgstr[2] "%d dní"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:125
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:149
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
@@ -171,7 +168,7 @@ msgstr[0] "%d mesiac"
 msgstr[1] "%d mesiace"
 msgstr[2] "%d mesiacov"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:128
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:152
 #, python-format
 msgid "%d year"
 msgid_plural "%d year"
@@ -179,7 +176,7 @@ msgstr[0] "%d rok"
 msgstr[1] "%d roky"
 msgstr[2] "%d rokov"
 
-#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:129
+#: django_zxcvbn_password_validator/translate_zxcvbn_text.py:153
 msgid "centuries"
 msgstr "storočia"
 

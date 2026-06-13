@@ -1,7 +1,11 @@
 # mypy: ignore-errors
 
+import ast
+import inspect
 import logging
 from decimal import Decimal
+
+import zxcvbn.feedback
 
 try:
     from django.utils.translation import gettext_lazy as _
@@ -13,81 +17,99 @@ except ImportError:
 LOGGER = logging.getLogger(__file__)
 
 
-def translate_zxcvbn_text(text):
-    """Translate text using our own i18n dict.
+def zxcvbn_feedback_strings():
+    """Statically extract every gettext-marked string from ``zxcvbn.feedback``.
 
-    https://github.com/dropbox/zxcvbn/pull/124#issuecomment-430081232 would have
-    made this cleaner.
+    These are the warning and suggestion messages zxcvbn can emit. We parse the
+    source instead of running every code path so a new zxcvbn release that adds
+    or changes a message is found even if no test password triggers it. Used by
+    both the ``generatei18ndict`` command and the drift test.
     """
-    i18n = {
-        "Use a few words, avoid common phrases": _(
-            "Use a few words, avoid common phrases"
-        ),
-        "No need for symbols, digits, or uppercase letters": _(
-            "No need for symbols, digits, or uppercase letters"
-        ),
-        "Add another word or two. Uncommon words are better.": _(
-            "Add another word or two. Uncommon words are better."
-        ),
-        "Straight rows of keys are easy to guess": _(
-            "Straight rows of keys are easy to guess"
-        ),
-        "Short keyboard patterns are easy to guess": _(
-            "Short keyboard patterns are easy to guess"
-        ),
-        "Use a longer keyboard pattern with more turns": _(
-            "Use a longer keyboard pattern with more turns"
-        ),
-        'Repeats like "aaa" are easy to guess': _(
-            'Repeats like "aaa" are easy to guess'
-        ),
-        'Repeats like "abcabcabc" are only slightly harder to guess than "abc"': _(
-            'Repeats like "abcabcabc" are only slightly harder to guess than "abc"'
-        ),
-        "Avoid repeated words and characters": _("Avoid repeated words and characters"),
-        'Sequences like "abc" or "6543" are easy to guess': _(
-            'Sequences like "abc" or "6543" are easy to guess'
-        ),
-        "Avoid sequences": _("Avoid sequences"),
-        "Recent years are easy to guess": _("Recent years are easy to guess"),
-        "Avoid recent years": _("Avoid recent years"),
-        "Avoid years that are associated with you": _(
-            "Avoid years that are associated with you"
-        ),
-        "Dates are often easy to guess": _("Dates are often easy to guess"),
-        "Avoid dates and years that are associated with you": _(
-            "Avoid dates and years that are associated with you"
-        ),
-        "This is a top-10 common password": _("This is a top-10 common password"),
-        "This is a top-100 common password": _("This is a top-100 common password"),
-        "This is a very common password": _("This is a very common password"),
-        "This is similar to a commonly used password": _(
-            "This is similar to a commonly used password"
-        ),
-        "A word by itself is easy to guess": _("A word by itself is easy to guess"),
-        "Names and surnames by themselves are easy to guess": _(
-            "Names and surnames by themselves are easy to guess"
-        ),
-        "Common names and surnames are easy to guess": _(
-            "Common names and surnames are easy to guess"
-        ),
-        "Capitalization doesn't help very much": _(
-            "Capitalization doesn't help very much"
-        ),
-        "All-uppercase is almost as easy to guess as all-lowercase": _(
-            "All-uppercase is almost as easy to guess as all-lowercase"
-        ),
-        "Reversed words aren't much harder to guess": _(
-            "Reversed words aren't much harder to guess"
-        ),
-        "Predictable substitutions like '@' instead of 'a' don't help very much": _(
-            "Predictable substitutions like '@' instead of 'a' don't help very much"
-        ),
-    }
-    translated_text = i18n.get(text)
+    tree = ast.parse(inspect.getsource(zxcvbn.feedback))
+    strings = set()
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Call) or not isinstance(node.func, ast.Name):
+            continue
+        if node.func.id != "_" or not node.args:
+            continue
+        arg = node.args[0]
+        if isinstance(arg, ast.Constant) and isinstance(arg.value, str):
+            strings.add(arg.value)
+    return strings
+
+
+# Our own i18n dict for zxcvbn feedback strings.
+# https://github.com/dropbox/zxcvbn/pull/124#issuecomment-430081232 would have
+# made this cleaner.
+# Keys must stay in sync with the strings in ``zxcvbn.feedback``; the
+# ``test_dict_covers_all_zxcvbn_feedback`` test asserts this in CI.
+ZXCVBN_I18N = {
+    "Use a few words, avoid common phrases": _("Use a few words, avoid common phrases"),
+    "No need for symbols, digits, or uppercase letters": _(
+        "No need for symbols, digits, or uppercase letters"
+    ),
+    "Add another word or two. Uncommon words are better.": _(
+        "Add another word or two. Uncommon words are better."
+    ),
+    "Straight rows of keys are easy to guess": _(
+        "Straight rows of keys are easy to guess"
+    ),
+    "Short keyboard patterns are easy to guess": _(
+        "Short keyboard patterns are easy to guess"
+    ),
+    "Use a longer keyboard pattern with more turns": _(
+        "Use a longer keyboard pattern with more turns"
+    ),
+    'Repeats like "aaa" are easy to guess': _('Repeats like "aaa" are easy to guess'),
+    'Repeats like "abcabcabc" are only slightly harder to guess than "abc"': _(
+        'Repeats like "abcabcabc" are only slightly harder to guess than "abc"'
+    ),
+    "Avoid repeated words and characters": _("Avoid repeated words and characters"),
+    'Sequences like "abc" or "6543" are easy to guess': _(
+        'Sequences like "abc" or "6543" are easy to guess'
+    ),
+    "Avoid sequences": _("Avoid sequences"),
+    "Recent years are easy to guess": _("Recent years are easy to guess"),
+    "Avoid recent years": _("Avoid recent years"),
+    "Avoid years that are associated with you": _(
+        "Avoid years that are associated with you"
+    ),
+    "Dates are often easy to guess": _("Dates are often easy to guess"),
+    "Avoid dates and years that are associated with you": _(
+        "Avoid dates and years that are associated with you"
+    ),
+    "This is a top-10 common password": _("This is a top-10 common password"),
+    "This is a top-100 common password": _("This is a top-100 common password"),
+    "This is a very common password": _("This is a very common password"),
+    "This is similar to a commonly used password": _(
+        "This is similar to a commonly used password"
+    ),
+    "A word by itself is easy to guess": _("A word by itself is easy to guess"),
+    "Names and surnames by themselves are easy to guess": _(
+        "Names and surnames by themselves are easy to guess"
+    ),
+    "Common names and surnames are easy to guess": _(
+        "Common names and surnames are easy to guess"
+    ),
+    "Capitalization doesn't help very much": _("Capitalization doesn't help very much"),
+    "All-uppercase is almost as easy to guess as all-lowercase": _(
+        "All-uppercase is almost as easy to guess as all-lowercase"
+    ),
+    "Reversed words aren't much harder to guess": _(
+        "Reversed words aren't much harder to guess"
+    ),
+    "Predictable substitutions like '@' instead of 'a' don't help very much": _(
+        "Predictable substitutions like '@' instead of 'a' don't help very much"
+    ),
+}
+
+
+def translate_zxcvbn_text(text):
+    """Translate text using our own i18n dict."""
+    translated_text = ZXCVBN_I18N.get(text)
     if translated_text is None:
         # zxcvbn is inconsistent, sometime there is a dot, sometime not
-        translated_text = i18n.get(text[:-1])
+        translated_text = ZXCVBN_I18N.get(text[:-1])
     if translated_text is None:
         LOGGER.warning(
             "No translation for '%s' or '%s', update the generatei18ndict command.",
