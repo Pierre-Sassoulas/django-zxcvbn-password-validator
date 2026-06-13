@@ -1,10 +1,6 @@
 [build-system]
 build-backend = "setuptools.build_meta"
-requires = [
-  "setuptools>=67.5.1",
-  "setuptools-scm>=8",
-  "wheel",
-]
+requires = [ "setuptools>=67.5.1", "setuptools-scm>=8" ]
 
 [project]
 name = "django-zxcvbn-password-validator"
@@ -166,12 +162,12 @@ lint.ignore = [
 ]
 
 [tool.pylint]
-main.load-plugins = "pylint_django"
-main.django-settings-module = "django_zxcvbn_password_validator.settings"
 main.disable = [
   # I0011 Warning locally suppressed using disable-msg
   "I0011",
-  "missing-docstring",  # We don't want docstring everywhere
   "imported-auth-user", # harmful according to django's dev
+  "missing-docstring",  # We don't want docstring everywhere
 ]
+main.django-settings-module = "django_zxcvbn_password_validator.settings"
+main.load-plugins = "pylint_django"
 main.max-line-length = 88
