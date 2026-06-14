@@ -80,6 +80,37 @@ class ZxcvbnPasswordValidatorTest(TestCase):
             self.validator.validate("testclient@example.com", user=user)
         self.assertIn("Your password is too guessable", error.exception.messages[0])
 
+    def test_user_inputs_only_meaningful_strings(self):
+        """Only string user attributes are fed to zxcvbn.
+
+        The hashed password, Django's private '_state', and non-string values
+        (ids, booleans, datetimes) must never be passed as user_inputs.
+        """
+        captured = {}
+
+        def fake_zxcvbn(_password, user_inputs=None):
+            captured["user_inputs"] = user_inputs
+            return {
+                "score": 4,
+                "crack_times_seconds": {"offline_slow_hashing_1e4_per_second": 0},
+                "feedback": {"warning": "", "suggestions": []},
+            }
+
+        validator = ZxcvbnPasswordValidator(zxcvbn_implementation=fake_zxcvbn)
+        user = User.objects.create(
+            username="testclient",
+            first_name="Test",
+            last_name="Client",
+            email="testclient@example.com",
+            password="sha1$6efc0$f93efe9fd7542f25a7be94871ea45aa95de57161",
+        )
+        validator.validate("a-strong-enough-password", user=user)
+        user_inputs = captured["user_inputs"]
+        self.assertIn("testclient", user_inputs)
+        self.assertIn("testclient@example.com", user_inputs)
+        self.assertNotIn(user.password, user_inputs)
+        self.assertTrue(all(isinstance(value, str) for value in user_inputs))
+
     @override_settings(PASSWORD_MINIMAL_STRENGTH=0)
     def test_low_strength(self):
         self.validator = ZxcvbnPasswordValidator()
