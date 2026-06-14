@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-13 07:14+0000\n"
+"POT-Creation-Date: 2026-06-13 07:23+0000\n"
 "PO-Revision-Date: 2025-08-26 00:00+0000\n"
 "Last-Translator: Claude AI Assistant\n"
 "Language-Team: Yoruba\n"
@@ -161,7 +161,7 @@ msgstr[0] "osù %d"
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:152
 #, python-format
 msgid "%d year"
-msgid_plural "%d year"
+msgid_plural "%d years"
 msgstr[0] "ọdún %d"
 
 #: django_zxcvbn_password_validator/translate_zxcvbn_text.py:153
