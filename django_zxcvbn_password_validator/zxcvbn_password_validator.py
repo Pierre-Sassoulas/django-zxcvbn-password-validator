@@ -31,6 +31,20 @@ class ZxcvbnPasswordValidator:
             password_minimal_strength = DEFAULT_MINIMAL_STRENGTH
         self.password_minimal_strength = password_minimal_strength
         self.__check_password_minimal_strength()
+        self.extra_dictionary = self.__get_extra_dictionary()
+
+    @staticmethod
+    def __get_extra_dictionary():
+        extra_dictionary = getattr(settings, "PASSWORD_EXTRA_DICTIONARY", None) or []
+        if not isinstance(extra_dictionary, (list, tuple)) or not all(
+            isinstance(term, str) for term in extra_dictionary
+        ):
+            raise ImproperlyConfigured(
+                "PASSWORD_EXTRA_DICTIONARY must be a list of strings (terms a "
+                "password should not resemble, e.g. your company or product "
+                f"name), not {extra_dictionary!r}."
+            )
+        return list(extra_dictionary)
 
     def __check_password_minimal_strength(self):
         error_msg = "ZxcvbnPasswordValidator need an integer between 0 and 4 "
@@ -49,13 +63,13 @@ class ZxcvbnPasswordValidator:
             error_msg += f" ({self.password_minimal_strength} is not in [0,4])"
             raise ImproperlyConfigured(error_msg)
 
-    @staticmethod
-    def _get_user_inputs(user):
-        # Only feed zxcvbn meaningful string attributes. Skip private
-        # attributes (e.g. Django's '_state'), the hashed password, and any
-        # non-string value, none of which are useful as a dictionary of terms
-        # the password should not resemble.
-        user_inputs = []
+    def _get_user_inputs(self, user):
+        # Start from the project-wide extra dictionary (e.g. company or product
+        # names), then add the user's meaningful string attributes. Skip
+        # private attributes (e.g. Django's '_state'), the hashed password, and
+        # any non-string value, none of which are useful as a dictionary of
+        # terms the password should not resemble.
+        user_inputs = list(self.extra_dictionary)
         if user:
             for key, value in user.__dict__.items():
                 if key.startswith("_") or key == "password":
